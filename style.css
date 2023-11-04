@@ -15,6 +15,9 @@ header {
     background-color: #3a3a3a; /* Adjust the background color as needed */
     color: #fff; /* Adjust the text color as needed */
     padding: 10px 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 /* Style the h1 */
@@ -58,6 +61,7 @@ main {
     height: 500px;
     background-color: blue;
     margin: 0 auto;
+    display: block;
 }
 
 /* Footer */ 
