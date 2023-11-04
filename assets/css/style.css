@@ -51,6 +51,21 @@ header, h1, ul {
   font-weight: bold; /* Adjust font-weight as needed */ 
   }   
 
+  div.scroll-container { 
+    overflow: auto; 
+    white-space: nowrap; 
+    padding: 10px;
+  } 
+  
+  div.scroll-container img { 
+    padding: 10px; 
+    margin: 0;  
+  } 
+
+  #about-us {
+    margin-top: 250px;
+  }
+
     /* Media query: tablets and larger (768px and up) */ 
     @media screen and (min-width: 768px) { 
       /* Header */ 
@@ -70,13 +85,6 @@ header, h1, ul {
         border-top: 1px solid #444444
       }
       } 
-  
-  /* Restaurant image - placed under header and nav element */ 
-  #restaurant { 
-  width: 100%; 
-  height: auto; 
-  background-image: url("../images/restaurant-image.jpg"); 
-  } 
 
   h2 { 
     text-transform: uppercase; 
@@ -91,8 +99,17 @@ header, h1, ul {
   }
 
   /* Meet the chefs section */
-  #culinary-masters img {
-    width: 100%;
+  .container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    left: 0;
+  }
+
+  #chefs {
+    max-width: 100%;
   }
   
   /* Footer */  
