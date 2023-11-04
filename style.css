@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* Adjust the background color as needed */
+    background-color: #3a3a3a; /* Adjust the background color as needed */
     color: #fff; /* Adjust the text color as needed */
     padding: 10px 20px; /* Adjust padding as needed */
 }
@@ -23,12 +23,12 @@ header a {
     text-decoration: none;
     color: #fff; /* Adjust the link color as needed */
     font-weight: bold; /* Adjust font-weight as needed */
-    list-style: none;
+    list-style-type: none;
 }
 
 /* Style the navigation menu */
 nav ul {
-    list-style: none;
+    list-style-type: none;
 }
 
 nav ul li {
