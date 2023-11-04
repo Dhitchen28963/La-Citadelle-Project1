@@ -1,0 +1,43 @@
+/* Reset default margin and padding for the header, h1, and ul */
+header, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header to create a horizontal flex container */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Style the h1 */
+h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+header a {
+    text-decoration: none;
+    color: #fff; /* Adjust the link color as needed */
+    font-weight: bold; /* Adjust font-weight as needed */
+    list-style: none;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust the margin as needed to separate menu items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Adjust the link color as needed */
+    font-weight: bold; /* Adjust font-weight as needed */
+}
