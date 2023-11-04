@@ -1,80 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">  
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <!-- Meta tags for search engines -->  
-    <meta name="description" content="Fine dining. Restaurant in London, London fine dining, La Citadelle fine dining">  
-    <meta name="keywords" content="Fine dining. Restaurant in London, London fine dining, food">  
-    <title>La Citadelle</title>  
-    <!-- Link to style.css folder -->  
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-   <header>
-        <a href="index.html">
-        <h1 id="home">La Citadelle</h1>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="bookings.html">Book now</a></li>
-                <li><a href="menu.html">Menu</a></li>
-              </ul>
-        </nav>
-    </header>
-    <!-- Main content --> 
-    <main> 
-    <!-- Main image -->
-    <section id="restaurant"></section>
+<!DOCTYPE html>  
+<html lang="en-US">  
+<head>  
+<meta charset="UTF-8">  
+<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<!-- Meta tags for search engines -->  
+<meta name="description" content="Fine dining. Restaurant in London, London fine dining, La Citadelle fine dining">  
+<meta name="keywords" content="Fine dining. Restaurant in London, London fine dining, food">  
+<title>La Citadelle</title>  
+<!-- Link to style.css folder -->  
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">  
+</head>  
+<body>  
+<!-- Header -->  
+<header> 
+    <a href="index.html">
+    <h1 id="home">La Citadelle</h1> 
+    </a> 
+</header>
+<nav id="nav-menu"> 
+    <ul> 
+    <li><a href="index.html" aria-label="Go to the top of the page">Home</a></li> 
+    <li><a href="#about" aria-label="Go to the about us section">About</a></li> 
+    <li><a href="#" aria-label="Go to the contact us section">Contact</a></li> 
+    <li><a href="bookings.html" aria-label="Make a reservation">Bookings</a></li> 
+    <li><a href="menu.html" aria-label="View our menu including our wine selection">Menu</a></li>
+    <li><a href="#meet-the-team" aria-label="Go to the meet our team section">Chefs</a></li>
+    </ul> 
+    </nav>
+<!-- Main content -->
+<main>
+<!-- About us section -->  
+<section id="">  
+    <div id="#about">  
+    <h2>About us</h2>  
+    <hr>  
+    <h3>Exquisite Elegance in the Heart of London</h3>  
+    <p>Welcome to La Citadelle, where we redefine the art of fine dining in the heart of London.  
+    Nestled in one of the city's most iconic locations, our restaurant stands as a beacon of culinary excellence, offering an unforgettable journey for all who enter.  
+    Step inside our restaurant, and you will find yourself immersed in an ambiance of luxury and sophistication.  
+    With elegant décor, soft lighting, and an attentive service team, we set the stage for an unforgettable dining experience.  
+    Our intimate dining spaces are perfect for romantic evenings, celebrations, or simply savouring the pleasure of refined cuisine.</p>  
+    
+    <h3>An Ambiance of Luxury</h3>  
+    <p>Our culinary team is dedicated to crafting a symphony of flavours that reflect both tradition and innovation.  
+    Led by our renowned Executive Chef, Antoine Delaunay, our kitchen is a hub of creativity and passion.  
+    Every dish that leaves our kitchen is a masterpiece that showcases the finest local and seasonal ingredients.</p>  
+    </main> 
 
-    <!-- About us section --> 
-    <section id=""> 
-    
-    <div id="about"> 
-    
-    <h2>About us</h2> 
+    <!-- Meet the team section -->  
+    <section id="#">  
+    <h2>Our team</h2> 
     <hr> 
-    
-    <h3>Exquisite Elegance in the Heart of London</h3> 
-    
-    <p>Welcome to La Citadelle, where we redefine the art of fine dining in the heart of London. 
-        Nestled in one of the city's most iconic locations, our restaurant stands as a beacon of culinary excellence, offering an unforgettable journey for all who enter. 
-        Step inside our restaurant, and you will find yourself immersed in an ambiance of luxury and sophistication. 
-        With elegant décor, soft lighting, and an attentive service team, we set the stage for an unforgettable dining experience. 
-        Our intimate dining spaces are perfect for romantic evenings, celebrations, or simply savouring the pleasure of refined cuisine.</p> 
-    
-    <h3>An Ambiance of Luxury</h3> 
-    
-    <p>Our culinary team is dedicated to crafting a symphony of flavours that reflect both tradition and innovation. 
-        Led by our renowned Executive Chef, Antoine Delaunay, our kitchen is a hub of creativity and passion. 
-        Every dish that leaves our kitchen is a masterpiece that showcases the finest local and seasonal ingredients.</p> 
-    </main>
+    <div class="scroll-container">
+        <img src="assets/images/head-chef-image.webp" alt="head chef”>   
+        <img src="assets/images/sous-chef-image.webp" alt="sous chef”>  
+        <img src="assets/images/commis-chef-image.webp" alt="commis chef”>  
+        <img src="assets/images/chef-de-partie-image.webp" alt="chef de partie”> 
+        <img src="assets/images/prep-cook-image.webp" alt="prep cook”>
+        <img src="assets/images/relief-cook-image.webp" alt="relief cook”>
+        <img src="assets/images/executive-chef-image.webp" alt="executive chef”>
+    </div>   
+    </section>  
+</main>  
 
-    <!-- Footer -->  
+<!-- Footer -->  
 <footer>  
 
-    <!-- Social media links -->
-    <!-- This section of code is adapted from Codeinstitutes Love Running code--> 
-    <!-- Original code course: https://learn.codeinstitute.net/ (Acknowlegdement also found in README.md) -->
-    <ul id="social-media">  
-    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>  
-    
-    <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a></li>  
-    
-    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a></li>  
-    
-    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li></ul>  
-    </footer>  
-    
-    <!-- Add opening times & map -->  
-    <!-- Add vacanies -->  
-    <!-- Font Awesome kit -->  
-    
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>  
+<!-- Social media links -->  
+<ul id="social-media">  
+<li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>  
 
-</body>
-</html>
+<li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a></li>  
+
+<li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a></li>  
+
+<li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li></ul>  
+</footer>  
+
+<!-- Add opening times & map -->  
+<!-- Add vacanies -->  
+<!-- Font Awesome kit -->  
+
+<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>  
+</body>  
+</html> 

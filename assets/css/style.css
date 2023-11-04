@@ -1,53 +1,163 @@
-/* Reset default margin and padding for the header, h1, and ul */
-header, h1, ul {
-    margin: 0;
-    padding: 0;
+/* Google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,300;1,300&display=swap'); 
+
+/* Add media queries to ensure site functions with mobile, tablet, laptop and desktop */ 
+
+* { 
+  margin: 0; 
+  padding: 0; 
 }
 
-/* Style the header to create a horizontal flex container */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3a3a3a; /* Adjust the background color as needed */
-    color: #fff; /* Adjust the text color as needed */
-    padding: 10px 20px; /* Adjust padding as needed */
+html { 
+  height: 100%; 
+  width: 100%; 
+} 
+
+h1 { 
+  text-align: center; 
+  color: #ffffff; 
+  font-family: 'Italianno'; 
+  font-size: 75px; 
+  letter-spacing: 2px; 
+  margin: 0; 
+  padding: 0; 
 }
 
-/* Style the h1 */
-h1 {
-    font-size: 24px; /* Adjust the font size as needed */
+header { 
+  background-image: url('../assets/images/header-image1.jpg'); 
+  position: relative; 
+  height: 35vh; 
+} 
+
+#nav-menu { 
+  text-align: center; 
+  border-radius: 5px; 
+  color: #ffffff; 
+  text-decoration: none; 
+  display: inline; 
+  letter-spacing: 4px; 
+  margin-right: 5px; 
+  list-style-type: none; 
+  word-spacing: 10px; 
+  margin-top: 20px; 
+  padding: 20px; 
+  background-color: #999999; 
+  margin: 0; 
+} 
+
+#nav-menu a { 
+  text-decoration: none; 
+  padding: 1rem; 
+  margin-top: 20px; 
+  margin-bottom: 30px; 
+  list-style-type: none;
+} 
+
+ul {
+    list-style: none;
 }
 
-header a {
-    text-decoration: none;
-    color: #fff; /* Adjust the link color as needed */
-    font-weight: bold; /* Adjust font-weight as needed */
-    list-style-type: none;
+h2 { 
+  text-transform: uppercase; 
+  text-align: center; 
+  margin-top: 20px; 
+} 
+
+main p {
+  margin: 6px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  
 }
 
-/* Style the navigation menu */
-nav ul {
-    list-style-type: none;
-}
+#about h2, h3 { 
+  font-family: 'Lato'; 
+  font-size: 20px; 
+  letter-spacing: 1px; 
+  margin-top: 15px;
+  margin: 5px;
+  padding: 0; 
+} 
 
-nav ul li {
-    display: inline;
-    margin-right: 20px; /* Adjust the margin as needed to separate menu items */
-}
+#about p { 
+  font-family: 'Lato'; 
+  font-size: 11px; 
+  letter-spacing: 1px; 
+  margin-top: 15px; 
+  padding: 0; 
+} 
 
-nav a {
-    text-decoration: none;
-    color: #fff; /* Adjust the link color as needed */
-    font-weight: bold; /* Adjust font-weight as needed */
-}
+#book-now h2 { 
+  font-family: 'Lato'; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  margin-top: 15px; 
+  padding: 0; 
+} 
 
-/* Restaurant image - placed under header and nav element */
-#restaurant {
-    width: 100%;
-    height: auto;
-    background-image: url("../images/restaurant-image.jpg");
-}
+#book-now p { 
+  font-family: 'Lato'; 
+  font-size: 11px; 
+  letter-spacing: 1px; 
+  margin-top: 15px; 
+  padding: 0; 
+} 
+
+#events h2, h3 { 
+  font-family: 'Lato'; 
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  margin-top: 15px; 
+  padding: 0; 
+} 
+
+h4 { 
+  font-family: 'Lato'; 
+  font-size: 15px; 
+  letter-spacing: 2px; 
+  margin-top: 15px; 
+  padding: 0; 
+} 
+
+#events li { 
+  font-family: 'Lato'; 
+  font-size: 11px; 
+  letter-spacing: 1px; 
+  margin-top: 15px; 
+  padding: 0; 
+} 
+
+/* Events section */ 
+
+#event { 
+  background-image: url('assets/images/fine-dining-image.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  width: 100%; 
+  height: auto; 
+  }  
+
+#events p { 
+  font-family: 'Lato'; 
+  font-size: 11px; 
+  letter-spacing: 1px; 
+  margin-top: 15px; 
+  padding: 0; 
+} 
+
+/* Gallery section scrolling photos */ 
+
+div.scroll-container { 
+  overflow: auto; 
+  white-space: nowrap; 
+  padding: 10px;
+} 
+
+div.scroll-container img { 
+  padding: 10px; 
+  margin: 0;  
+} 
 
 /* Footer */ 
 #social-media { 
@@ -63,31 +173,4 @@ nav a {
     padding: 5%; 
     color: #ffffff; 
     display: inline-block; 
-}
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    nav {
-        display: flex;
-    }
-    }
-
-@media screen and (min-width: 1200px) {    
-        /* Reasons section */
-        #benefits {
-            display: flex;
-            flex-direction: row;
-        }
-    }
+} 
