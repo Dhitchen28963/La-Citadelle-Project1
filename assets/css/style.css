@@ -89,6 +89,11 @@ header, h1, ul {
     text-align: center;
     margin-top: 20px;
   }
+
+  /* Meet the chefs section */
+  #culinary-masters img {
+    width: 100%;
+  }
   
   /* Footer */  
   #social-media {  
