@@ -96,17 +96,17 @@ header, h1, ul {
   }
 
   /* Meet the chefs section */
-  .container {
-    position: absolute;
+  .image-collage {
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    left: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
   }
 
-  #chefs {
+  .image-collage img {
     max-width: 100%;
+    height: auto;
+    margin: 10px;
   }
   
   /* Footer */  
