@@ -35,14 +35,14 @@ header, h1, ul {
     padding: 0;
     margin: 0;
     text-align: right;
+    word-spacing: 6px;
   }
   
   nav li { 
   display: inline; 
   margin-right: 10px; /* Adjust the margin as needed to separate menu items */ 
   list-style-type: none; 
-  word-spacing: 2px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   } 
   
   nav a { 
@@ -77,6 +77,18 @@ header, h1, ul {
   height: auto; 
   background-image: url("../images/restaurant-image.jpg"); 
   } 
+
+  h2 { 
+    text-transform: uppercase; 
+    text-align: center; 
+    margin-top: 20px; 
+  } 
+
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+  }
   
   /* Footer */  
   #social-media {  
