@@ -41,3 +41,19 @@ nav a {
     color: #fff; /* Adjust the link color as needed */
     font-weight: bold; /* Adjust font-weight as needed */
 }
+
+/* Footer */ 
+#social-media { 
+    text-align: center; 
+    padding: 20px 0; 
+    display: flex; 
+    justify-content: space-evenly; 
+    list-style-type: none; 
+} 
+
+#social-media li { 
+    font-size: 160%; 
+    padding: 5%; 
+    color: #ffffff; 
+    display: inline-block; 
+}
