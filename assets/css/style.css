@@ -1,176 +1,138 @@
 /* Google fonts */ 
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,300;1,300&display=swap'); 
 
-/* Add media queries to ensure site functions with mobile, tablet, laptop and desktop */ 
+/* Reset default margin and padding for the header, h1, and ul */ 
 
-* { 
+header, h1, ul { 
   margin: 0; 
   padding: 0; 
-}
-
-html { 
-  height: 100%; 
-  width: 100%; 
-} 
-
-h1 { 
-  text-align: center; 
-  color: #ffffff; 
-  font-family: 'Italianno'; 
-  font-size: 75px; 
-  letter-spacing: 2px; 
-  margin: 0; 
-  padding: 0; 
-}
-
-header { 
-  background-image: url('../assets/images/header-image1.jpg'); 
-  position: relative; 
-  height: 35vh; 
-} 
-
-#nav-menu { 
-  text-align: center; 
-  border-radius: 5px; 
-  color: #ffffff; 
+  } 
+    
+  /* Style the header to create a horizontal flex container */ 
+  header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #3a3a3a; /* Adjust the background color as needed */ 
+  color: #fff; /* Adjust the text color as needed */ 
+  padding: 10px 20px; /* Adjust padding as needed */ 
+  } 
+   
+  /* Style the h1 */ 
+  h1 { 
+  font-size: 24px; /* Adjust the font size as needed */ 
+  } 
+    
+  header a { 
   text-decoration: none; 
-  display: inline; 
-  letter-spacing: 4px; 
-  margin-right: 5px; 
+  color: #fff; /* Adjust the link color as needed */ 
+  font-weight: bold; /* Adjust font-weight as needed */ 
   list-style-type: none; 
-  word-spacing: 10px; 
-  margin-top: 20px; 
-  padding: 20px; 
-  background-color: #999999; 
-  margin: 0; 
-} 
+  } 
 
-#nav-menu a { 
-  text-decoration: none; 
-  padding: 1rem; 
-  margin-top: 20px; 
-  margin-bottom: 30px; 
-  list-style-type: none;
-} 
-
-ul {
+  nav ul {
     list-style: none;
-}
-
-h2 { 
-  text-transform: uppercase; 
-  text-align: center; 
-  margin-top: 20px; 
-} 
-
-main p {
-  margin: 6px;
-  letter-spacing: 2px;
-  word-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+  }
   
-}
+  nav li { 
+  display: inline; 
+  margin-right: 10px; /* Adjust the margin as needed to separate menu items */ 
+  list-style-type: none; 
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  } 
+  
+  nav a { 
+  text-decoration: none; 
+  color: #fff; /* Adjust the link color as needed */ 
+  font-weight: bold; /* Adjust font-weight as needed */ 
+  }   
 
-#about h2, h3 { 
-  font-family: 'Lato'; 
-  font-size: 20px; 
-  letter-spacing: 1px; 
-  margin-top: 15px;
-  margin: 5px;
-  padding: 0; 
-} 
-
-#about p { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#book-now h2 { 
-  font-family: 'Lato'; 
-  font-size: 20px; 
-  letter-spacing: 2px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#book-now p { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#events h2, h3 { 
-  font-family: 'Lato'; 
-  font-size: 20px; 
-  letter-spacing: 2px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-h4 { 
-  font-family: 'Lato'; 
-  font-size: 15px; 
-  letter-spacing: 2px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#events li { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-/* Events section */ 
-
-#event { 
-  background-image: url('assets/images/fine-dining-image.jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center center; 
+    /* Media query: tablets and larger (768px and up) */ 
+    @media screen and (min-width: 768px) { 
+      /* Header */ 
+      nav { 
+      display: inline; 
+      position: relative; 
+      box-shadow: none; 
+      width: fit-content; 
+      padding-right: 1rem; 
+      flex-direction: column;
+      } 
+      
+      nav li {
+        display: inline;
+        margin: 0;
+        padding: 10px 0;
+        border-top: 1px solid #444444
+      }
+      } 
+  
+  /* Restaurant image - placed under header and nav element */ 
+  #restaurant { 
   width: 100%; 
   height: auto; 
+  background-image: url("../images/restaurant-image.jpg"); 
+  } 
+  
+  /* Footer */  
+  #social-media {  
+  text-align: center;  
+  padding: 20px 0;  
+  display: flex;  
+  justify-content: space-evenly;  
+  list-style-type: none;  
   }  
+     
+  #social-media li {  
+  font-size: 160%;  
+  padding: 5%;  
+  color: #ffffff;  
+  display: inline-block;  
+  } 
 
-#events p { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
+  /* Large devices (laptops and desktops, 992px and up) */ 
+  @media screen and (min-width: 992px) { 
+  /* Header */ 
+      nav { 
+      display: inline; 
+      position: relative; 
+      box-shadow: none; 
+      width: fit-content; 
+      padding-right: 1rem; 
+      flex-direction: column;
+      } 
+      
+      nav li {
+        display: inline;
+        margin: 0;
+        padding: 10px 0;
+        border-top: 1px solid #444444
+      }
+      } 
 
-/* Gallery section scrolling photos */ 
+  @media screen and (min-width: 1200px) {  
+  /* Reasons section */ 
+      /* Header */ 
+      nav { 
+      display: inline; 
+      position: relative; 
+      box-shadow: none; 
+      width: fit-content; 
+      padding-right: 1rem; 
+      flex-direction: column;
+      } 
+      
+      nav li {
+        display: inline;
+        margin: 0;
+        padding: 10px 0;
+        border-top: 1px solid #444444
 
-div.scroll-container { 
-  overflow: auto; 
-  white-space: nowrap; 
-  padding: 10px;
-} 
-
-div.scroll-container img { 
-  padding: 10px; 
-  margin: 0;  
-} 
-
-/* Footer */ 
-#social-media { 
-    text-align: center; 
-    padding: 20px 0; 
-    display: flex; 
-    justify-content: space-evenly; 
-    list-style-type: none; 
-} 
-
-#social-media li { 
-    font-size: 160%; 
-    padding: 5%; 
-    color: #ffffff; 
-    display: inline-block; 
-} 
+  } 
+  } 
+  
+   
