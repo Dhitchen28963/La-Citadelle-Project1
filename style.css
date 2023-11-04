@@ -35,6 +35,7 @@ header a {
 /* Style the navigation menu */
 nav ul {
     list-style-type: none;
+    margin-right: 450px;
 }
 
 nav ul li {
