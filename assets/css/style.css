@@ -7,7 +7,10 @@ header, h1, ul {
   margin: 0; 
   padding: 0; 
   } 
-    
+  
+  body {
+    background-color: #E1DED9;
+  }
   /* Style the header to create a horizontal flex container */ 
   header { 
   display: flex; 
@@ -19,8 +22,8 @@ header, h1, ul {
    
   /* Style the h1 */ 
   h1 { 
-  font-size: 3.0rem; /* Adjust the font size as needed */ 
-  font-family: 'Itallianno', sans-serif;
+  font-size: 600%; /* Adjust the font size as needed */ 
+  font-family: 'Italianno', sans-serif;
   } 
     
   header a { 
@@ -51,6 +54,29 @@ header, h1, ul {
   font-weight: bold; /* Adjust font-weight as needed */ 
   }
 
+  h2 {
+    background-color: #3a3a3a;
+    color: #ffffff;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #7E7B78;
+    text-align: center;
+    padding: 8px;
+    }
+
+    th, td {
+      border: 1px solid #7E7B78;
+      text-align: center;
+      padding: 8px;
+    }
+  
+  th {
+    background-color: #E1DED9;
+  }
+  
   div.scroll-container { 
     overflow: auto; 
     white-space: nowrap; 
@@ -62,7 +88,7 @@ header, h1, ul {
     margin: 0;  
     max-height: 200px;
   } 
-  
+
     /* Media query: Phones - landscape and portrait (375px and up) */ 
     @media screen and (max-width: 540px) { 
       /* Header */
@@ -107,7 +133,7 @@ header, h1, ul {
         padding: 10px 0;
         border-top: 1px solid #444444
       }
-      } 
+      }
 
        /* Media query: Galaxy fold compatible - 280px */
   @media screen and (min-width: 539px) {
