@@ -1,5 +1,5 @@
 /* Google fonts */ 
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,300;1,300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
 
 /* Reset default margin and padding for the header, h1, and ul */ 
 
@@ -12,7 +12,6 @@ header, h1, ul {
   header { 
   display: flex; 
   justify-content: space-between; 
-  align-items: center; 
   background-color: #3a3a3a; /* Adjust the background color as needed */ 
   color: #fff; /* Adjust the text color as needed */ 
   padding: 10px 20px; /* Adjust padding as needed */ 
@@ -20,7 +19,8 @@ header, h1, ul {
    
   /* Style the h1 */ 
   h1 { 
-  font-size: 24px; /* Adjust the font size as needed */ 
+  font-size: 3.0rem; /* Adjust the font size as needed */ 
+  font-family: 'Itallianno', sans-serif;
   } 
     
   header a { 
@@ -49,7 +49,7 @@ header, h1, ul {
   text-decoration: none; 
   color: #fff; /* Adjust the link color as needed */ 
   font-weight: bold; /* Adjust font-weight as needed */ 
-  }   
+  }
 
   div.scroll-container { 
     overflow: auto; 
@@ -63,8 +63,30 @@ header, h1, ul {
     max-height: 200px;
   } 
 
-    /* Media query: tablets and larger (768px and up) */ 
-    @media screen and (min-width: 768px) { 
+  /* Media query: Galaxy fold compatible - 280px */
+  @media screen and (max-with: 280px) {
+    header {
+      flex-direction: column;
+    }
+
+    h1, nav {
+      width: 100%;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+  
+    /* Media query: Phones - landscape and portrait (375px and up) */ 
+    @media screen and (max-width: 425px) { 
       /* Header */ 
       nav { 
       display: inline; 
@@ -73,6 +95,7 @@ header, h1, ul {
       width: fit-content; 
       padding-right: 1rem; 
       flex-direction: column;
+      width: 100%;
       } 
       
       nav li {
@@ -86,13 +109,23 @@ header, h1, ul {
   h2 { 
     text-transform: uppercase; 
     text-align: center; 
-    margin-top: 20px; 
+    margin-top: 20px;
+    font-size: 200%; 
   } 
 
   h3 {
     text-transform: uppercase;
     text-align: center;
     margin-top: 20px;
+    font-size: 200%;
+  }
+
+  p {
+    font-size: 130%;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    padding: 0;
+    font-family: 'lato', sans-serif;
   }
 
   /* Meet the chefs section */
@@ -125,8 +158,8 @@ header, h1, ul {
   display: inline-block;  
   } 
 
-  /* Large devices (laptops and desktops, 992px and up) */ 
-  @media screen and (min-width: 992px) { 
+  /* Tablets and larger handheld devices */ 
+  @media screen and (max-width: 768px) { 
   /* Header */ 
       nav { 
       display: inline; 
@@ -144,7 +177,7 @@ header, h1, ul {
         border-top: 1px solid #444444
       }
       } 
-
+     /* (laptops and desktops, 992px and up) */
   @media screen and (min-width: 1200px) {  
   /* Reasons section */ 
       /* Header */ 
