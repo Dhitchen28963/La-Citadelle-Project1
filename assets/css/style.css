@@ -89,8 +89,56 @@ header, h1, ul {
     max-height: 200px;
   } 
 
-    /* Media query: Phones - landscape and portrait (375px and up) */ 
-    @media screen and (max-width: 540px) { 
+   /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
+   @media screen and (min-width: 280px) { 
+    /* Header */
+    
+    header {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1, nav {
+      text-align: center;
+      align-items: center
+    }
+
+    nav { 
+    display: inline; 
+    position: relative; 
+    box-shadow: none; 
+    width: fit-content; 
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    } 
+
+    nav ul {
+      list-style: none;
+      padding: 25px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav li {
+      display: inline;
+      margin: 0;
+      padding: 10px 0;
+      border-top: 1px solid #444444
+    }
+
+    strong {
+      font-size: 80%;
+    }
+    }
+
+    /* Media query: Phones - landscape and portrait (540px and up) */ 
+    @media screen and (min-width: 540px) { 
       /* Header */
       
       header {
@@ -102,7 +150,6 @@ header, h1, ul {
       }
 
       h1, nav {
-        width: 100%;
         text-align: center;
         align-items: center
       }
@@ -114,7 +161,6 @@ header, h1, ul {
       width: fit-content; 
       padding: 25px;
       flex-direction: column;
-      width: 100%;
       justify-content: center;
       } 
 
@@ -134,32 +180,6 @@ header, h1, ul {
         border-top: 1px solid #444444
       }
       }
-
-       /* Media query: Galaxy fold compatible - 280px */
-  @media screen and (min-width: 539px) {
-    header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    h1, nav {
-      width: 100%;
-      text-align: center;
-      align-items: center
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    nav li {
-      display: inline-block;
-      margin: 0 10px;
-    }
-  }
 
   h2 { 
     text-transform: uppercase; 
@@ -213,8 +233,8 @@ header, h1, ul {
   display: inline-block;  
   } 
 
-  /* Tablets and larger handheld devices */ 
-  @media screen and (max-width: 1200px) { 
+  /* Tablets and larger handheld devices 900px and up*/ 
+  @media screen and (min-width: 900px) { 
   /* Header */ 
 
       header {
@@ -241,7 +261,7 @@ header, h1, ul {
       }
       } 
 
-     /* (laptops and desktops, 992px and up) */
+     /* (laptops and desktops, 1200px and up) */
       @media screen and (min-width: 1200px) {  
       /* Header */ 
       nav { 
