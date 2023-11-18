@@ -25,6 +25,7 @@ header, h1, ul {
   h1 { 
   font-size: 600%; /* Adjust the font size as needed */ 
   font-family: 'Italianno', sans-serif;
+  text-transform: uppercase;
   } 
     
   header a { 
@@ -96,19 +97,21 @@ header, h1, ul {
     /* Header */
     
     header {
-      padding: 10px;
+      padding: 2px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-size: 28px;
+      font-size: 15px;
+      padding-left: 10px;
     }
 
     h1 {
-      padding-top: 20px;
+      padding-top: 10px;
       text-align: center;
       align-items: center;
-      padding-right: 5px;
+      padding-right: 0px;
+      font-size: 100px;
     }
 
     nav { 
@@ -141,6 +144,18 @@ header, h1, ul {
       padding: 5px 5px;
       border-top: 1px solid #444444;
       margin-right: 0;
+    }
+
+    .menu-list li {
+      width: 50%;
+      box-sizing: border-box;
+    }
+
+    .menu-list li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
     }
 
     strong {
@@ -228,6 +243,20 @@ header, h1, ul {
         padding: 10px 0;
         border-top: 1px solid #444444
       }
+
+      .image-collage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 100%;
+      }
+    
+      .image-collage img {
+        max-width: 100%;
+        height: auto;
+        margin: 0px;
+      }
       } 
 
      /* (laptops and desktops, 1200px and up) */
@@ -248,8 +277,20 @@ header, h1, ul {
         margin: 0;
         padding: 10px 0;
         border-top: 1px solid #444444
-
   } 
+  .image-collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .image-collage img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+  }
   } 
   
    
