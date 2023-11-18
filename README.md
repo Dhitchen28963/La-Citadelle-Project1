@@ -1,4 +1,4 @@
-<h1>La Citadelle</h1> 
+#La Citadelle
 <p>Fine Dining Restaurant</p>
 
 <h2>Table of Contents</h2>
