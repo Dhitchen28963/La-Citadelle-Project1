@@ -145,7 +145,6 @@ header, h1, ul {
     strong {
       font-size: 16px;
     }
-    }
 
   h2 { 
     text-transform: uppercase; 
@@ -169,19 +168,81 @@ header, h1, ul {
     font-family: 'lato', sans-serif;
   }
 
-  /* Meet the chefs section */
-  .image-collage {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 100%;
+  /* Menu */
+  #lunch-menu {
+    border: 2px solid #7E7B78;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    #lunch-menu h3 {
+    color: #ffffff;
+    background-color: #3a3a3a;
+    }
+    
+    #dinner-menu {
+    border: 2px solid #7E7B78;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    #dinner-menu h3 {
+    color: #ffffff;
+    background-color: #3a3a3a;
+    }
+    
+    #dessert-menu {
+    border: 2px solid #7E7B78;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    #dessert-menu h3 {
+    color: #ffffff;
+    background-color: #3a3a3a;
+    }
+    
+    #drinks-menu {
+    border: 2px solid #7E7B78;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    #drinks-menu h3 {
+    color: #ffffff;
+    background-color: #3a3a3a;
+    }
+
+  /* Bookings */
+  .enquiry {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #7E7B78;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
   }
 
-  .image-collage img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px;
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
   }
+
+  input[type="dietary_requirements"],
+  input[type="special_requests"],
+  textarea {
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+}
   
   /* Footer */  
   #social-media {  
