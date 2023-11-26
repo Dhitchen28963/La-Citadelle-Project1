@@ -60,12 +60,26 @@ header, h1, ul {
     color: #ffffff;
   }
 
+  #about-us {
+    border: 2px solid #7E7B78; 
+    padding: 5px; 
+    margin: 10px; 
+    text-align: center; 
+  }
+
+  #contact-us {
+    border: 2px solid #7E7B78; 
+    padding: 5px; 
+    margin: 10px; 
+    text-align: center; 
+  }
+
   table {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #7E7B78;
     text-align: center;
-    padding: 8px;
+    padding: 2px;
     }
 
     th, td {
@@ -73,10 +87,6 @@ header, h1, ul {
       text-align: center;
       padding: 8px;
     }
-  
-  th {
-    background-color: #E1DED9;
-  }
   
   div.scroll-container { 
     overflow: auto; 
@@ -87,8 +97,8 @@ header, h1, ul {
   } 
   
   div.scroll-container img { 
-    max-width: 100%;
-    height: auto;
+    max-width: 375px;
+    height: 250px;
   } 
 
    /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
@@ -97,7 +107,6 @@ header, h1, ul {
     
     header {
       padding: 3px;
-      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -109,6 +118,7 @@ header, h1, ul {
       align-items: center;
       padding-right: 5px;
       font-size: 75px;
+      margin-bottom: 2px;
     }
 
     nav { 
@@ -135,7 +145,7 @@ header, h1, ul {
     }
     
     nav li {
-      display: inline-block;
+      display: grid;
       margin: 0;
       padding: 5px 5px;
       border-top: 1px solid #444444;
@@ -143,7 +153,7 @@ header, h1, ul {
     }
 
     strong {
-      font-size: 16px;
+      font-size: 15px;
     }
 
   h2 { 
@@ -166,6 +176,14 @@ header, h1, ul {
     margin-top: 15px;
     padding: 0;
     font-family: 'lato', sans-serif;
+  }
+
+  /* Opening times */
+  #opening-times {
+  border: 2px solid #7E7B78; 
+    padding: 5px; 
+    margin: 10px; 
+    text-align: center; 
   }
 
   /* Menu */
@@ -218,29 +236,59 @@ header, h1, ul {
     }
 
   /* Bookings */
+    #events {
+      border: 2px solid #7E7B78; 
+      padding: 5px; 
+      margin: 10px; 
+      text-align: center; 
+    }
+
+
+    #dining li {
+      text-align: center;
+    }
+
+    #dining h3 {
+      color: #ffffff;
+      background-color: #3a3a3a;
+    }
+
+    .occasion-list {
+      list-style-type: none;
+    }
+
   .enquiry {
-    display: inline-block;
-    vertical-align: top;
-    border: 2px solid #7E7B78;
+    display: block;
     text-align: center;
-    width: 100%;
-    margin-top: 10px;
+    margin-top: 10px auto;
+    padding: 5px;
+  }
+
+  .enquiry h3 {
+    color: #ffffff; 
+    background-color: #3a3a3a; 
   }
 
   label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    width: 100%;
   }
 
   input[type="dietary_requirements"],
   input[type="special_requests"],
   textarea {
-    width: 100%;
-    padding: 2px;
+    width: 80%;
+    padding: 5px;
     box-sizing: border-box;
-    margin-bottom: 5px;
+    margin: 10px;
+  }
+
+  #reservations-form {
+    border: 2px solid #7E7B78; 
+    padding: 5px; 
+    margin: 10px; 
+    text-align: center; 
   }
 }
   
@@ -288,6 +336,7 @@ header, h1, ul {
         padding: 10px 0;
         border-top: 1px solid #444444
       }
+
       } 
 
      /* (laptops and desktops, 1200px and up) */

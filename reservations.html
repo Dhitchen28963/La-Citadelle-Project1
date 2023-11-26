@@ -33,18 +33,27 @@
 <main>  
    <!-- Events & private dining section -->  
    <section id ="events">  
-    <div id="#dining">  
+    <div id="dining">  
     <h2>Events & Private Dining</h2>  
     <hr> 
-    <p>Our restaurant provides the perfect setting for your special events and celebrations.
-        Whether it's an intimate dinner for two or a grand celebration for a larger group, we offer exquisite private dining options that can be tailored to your needs.</p>  
-    
-    <h3>Private Dining Rooms:</h3>  
+      
     <h3>Elegant Intimacy - Capacity: Up to 10 guests</h3>  
-    <p>Description: Experience an intimate dining atmosphere with tailored service. Ideal for romantic dinners and small gatherings.   
+    <p>Indulge in our exclusive and intimate dining experience, where every detail is meticulously crafted to immerse you in an atmosphere of sophistication and warmth. 
+        Our secluded setting offers an oasis of tranquility, allowing you to savor each moment with your loved ones.
+        From the soft glow of ambient lighting to the personalized service tailored to your preferences, we strive to create a memorable and enchanting evening.<br><br>
+
+        Delight your senses with our curated menu featuring exquisite dishes, thoughtfully prepared by our talented chefs using the finest ingredients.
+        Whether it's an anniversary celebration, a romantic date, or an intimate gathering with close friends, 
+        our intimate dining experience promises to captivate your palate and leave you with cherished memories to treasure.</p>
     
     <h3>The Grand Banquet - Capacity: Up to 40 guests</h3>  
-    <p>For larger celebrations, our grand banquet room offers a spacious and opulent setting. Perfect for weddings, anniversaries, and corporate events.</p>  
+    <p>Step into a world of grandeur and opulence with our exquisite grand banquet experience, tailored for those seeking a lavish and memorable affair. 
+        Set amidst our elegant and spacious banquet hall, this experience promises to elevate your celebrations to unparalleled heights.
+        Our meticulously designed space accommodates up to 40 guests, providing the perfect backdrop for weddings, milestone anniversaries, corporate galas, and extravagant events.<br><br>
+
+        Adorned with sophistication, the grand hall boasts luxurious decor, creating an ambiance that exudes grandeur and refinement.
+        Allow our expert culinary team to indulge your palate with a bespoke menu, meticulously curated to suit the grandeur of the occasion. 
+        Perfect for weddings, anniversaries, and corporate events.</p>  
     
     <h3>Customized Menus:</h3>  
     <p>Our culinary team will craft a personalized menu for your event, featuring our chef's signature dishes and wine pairings to complement every course. 
@@ -52,7 +61,7 @@
     
     <h3>Special Occasions:</h3>  
     <p>Our private dining spaces are available for a variety of occasions, including:</p>  
-    <ul>  
+    <ul class="occasion-list">  
     <li>Anniversaries</li>  
     <li>Weddings and Receptions</li>  
     <li>Birthday Celebrations</li>  
@@ -64,7 +73,10 @@
     <p>Our dedicated events team will assist you in planning every detail of your event, from selecting the perfect menu to coordinating decorations and entertainment.</p>  
     </div> 
     </section> 
+
+    <section id="reservations-form">
     <div class="enquiry">
+        <h3>Reservations form</h3>
         <form action="https://formdump.codeinstitute.net" method="post"><br>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
@@ -82,13 +94,14 @@
             <input type="date" id="date" name="date" required><br><br>
         
             <label for="dietary_requirements">Dietary Requirements:</label>
-            <textarea id="dietary_requirements" name="dietary_requirements" rows="4" cols="50"></textarea><br><br>
+            <textarea id="dietary_requirements" name="dietary_requirements" rows="4" cols="30"></textarea><br><br>
         
             <label for="special_requests">Special Requests:</label>
-            <textarea id="special_requests" name="special_requests" rows="4" cols="50"></textarea><br>
+            <textarea id="special_requests" name="special_requests" rows="4" cols="30"></textarea><br>
             <input type="submit" value="Submit">
           </form>
         </div>
+    </section>
     </main>
 <!-- Footer -->  
 <footer>  
