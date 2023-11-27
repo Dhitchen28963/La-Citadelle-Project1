@@ -1,5 +1,5 @@
 /* Google fonts */ 
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
 /* Reset default margin and padding for the header, h1, and ul */ 
 
@@ -101,6 +101,11 @@ header, h1, ul {
     height: 250px;
   } 
 
+  footer p {
+    text-align: center;
+    font-weight: bold;
+  }
+
    /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
    @media screen and (min-width: 280px) { 
     /* Header */
@@ -153,7 +158,7 @@ header, h1, ul {
     }
 
     strong {
-      font-size: 15px;
+      font-size: 13px;
     }
 
   h2 { 
@@ -179,8 +184,8 @@ header, h1, ul {
   }
 
   /* Opening times */
-  #opening-times {
-  border: 2px solid #7E7B78; 
+    #opening-times {
+    border: 2px solid #7E7B78; 
     padding: 5px; 
     margin: 10px; 
     text-align: center; 
@@ -248,7 +253,8 @@ header, h1, ul {
     text-align: center;
     }
     
-    #wine-selection h3 {
+    #wine-selection h3,
+    #wine-selection h4 {
     color: #ffffff;
     background-color: #3a3a3a;
     }
@@ -278,7 +284,6 @@ header, h1, ul {
   .enquiry {
     display: block;
     text-align: center;
-    margin-top: 10px auto;
     padding: 5px;
   }
 
@@ -326,10 +331,27 @@ header, h1, ul {
   display: inline-block;  
   } 
 
+  /* Menu navigation adjustment for screen sizes up to width of 314px */
+  @media screen and (min-width: 280px) and (max-width: 314px) {
+    #menu a {
+    text-decoration: none;
+    word-spacing: 1px;
+    display: block;
+    border: 1px solid #7E7B78;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffffff;
+    }
+  }
 
-  /* Tablets and larger handheld devices 900px and up*/ 
-  @media screen and (min-width: 602px) { 
+  /* Tablets and larger handheld devices 603px and up*/ 
+  @media screen and (min-width: 603px) { 
   /* Header */ 
+
+      h1 {
+      margin-top: 20px;
+      font-size: 7.5em;
+      }
 
       header {
         display: flex;
@@ -338,45 +360,73 @@ header, h1, ul {
         align-items: center;
       }
 
-      nav { 
+      nav ul { 
       display: inline; 
       position: relative; 
       box-shadow: none; 
+      list-style: none;
       width: fit-content; 
-      padding-right: 1rem; 
+      padding: 0;
       flex-direction: column;
       font-size: 150%;
       } 
       
       nav li {
-        display: inline;
-        margin: 0;
+        display: inline-block;
+        margin-right: 30px;
         padding: 10px 0;
-        border-top: 1px solid #444444
+        border-top: 1px solid #444444;
+        word-spacing: 20px;
       }
+
+      nav li:last-child {
+        margin-right: 0;
+      }
+
+      /* Opening times */
+      #opening-times {
+      border: 2px solid #7E7B78; 
+      padding: 5px; 
+      margin: 10px; 
+      text-align: center; 
+    }
 
       } 
 
      /* (laptops and desktops, 1200px and up) */
-      @media screen and (min-width: 1200px) {  
-  
-      h1 nav { 
-      display: inline; 
-      position: relative; 
-      box-shadow: none; 
-      width: fit-content; 
-      padding-right: 1rem; 
-      flex-direction: column;
-      font-size: 170%;
-      } 
-      
-      nav li {
-        display: inline;
-        margin: 0;
-        padding: 10px 0;
-        border-top: 1px solid #444444
+      @media screen and (min-width: 892px) {  
 
-  } 
-  } 
+        h1 {
+          margin-top: 20px;
+        }
   
-   
+        header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        nav ul { 
+        display: inline; 
+        position: relative; 
+        box-shadow: none; 
+        list-style: none;
+        width: fit-content; 
+        padding: 0;
+        flex-direction: column;
+        font-size: 150%;
+        } 
+        
+        nav li {
+          display: inline-block;
+          margin-right: 30px;
+          padding: 10px 0;
+          border-top: 1px solid #444444;
+          word-spacing: 20px;
+        }
+  
+        nav li:last-child {
+          margin-right: 0;
+        }
+}
