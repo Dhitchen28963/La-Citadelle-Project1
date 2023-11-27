@@ -187,6 +187,24 @@ header, h1, ul {
   }
 
   /* Menu */
+
+  #menu {
+    text-align: center;
+    border: 2px solid #7E7B78; 
+    padding: 5px; 
+    margin: 10px; 
+  }
+
+  #menu a {
+    text-decoration: none;
+    word-spacing: 1px;
+    display: inline-block;
+    border: 1px solid #7E7B78;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffffff;
+  }
+
   #lunch-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
@@ -223,14 +241,14 @@ header, h1, ul {
     background-color: #3a3a3a;
     }
     
-    #drinks-menu {
+    #wine-selection {
     border: 2px solid #7E7B78;
     padding: 5px;
     margin: 10px;
     text-align: center;
     }
     
-    #drinks-menu h3 {
+    #wine-selection h3 {
     color: #ffffff;
     background-color: #3a3a3a;
     }
