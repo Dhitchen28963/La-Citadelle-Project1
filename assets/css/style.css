@@ -3,9 +3,9 @@
 
 /* Reset default margin and padding for the header, h1, and ul */ 
 
-header, h1, ul { 
-  margin: 0; 
-  padding: 0; 
+  header, h1, ul { 
+    margin: 0; 
+    padding: 0; 
   } 
   
   body {
@@ -14,24 +14,24 @@ header, h1, ul {
 
   /* Horizontal flex container */ 
   header { 
-  display: flex; 
-  justify-content: space-between; 
-  background-color: #3a3a3a;
-  color: #fff;
-  padding: 2px 5px;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 2px 5px;
   } 
    
   /* Main header style */ 
   h1 { 
-  font-size: 600%; /* Adjust the font size as needed */ 
-  font-family: 'Italianno', sans-serif;
+    font-size: 600%; /* Adjust the font size as needed */ 
+    font-family: 'Italianno', sans-serif;
   } 
     
   header a { 
-  text-decoration: none; 
-  color: #fff; /* Adjust the link color as needed */ 
-  font-weight: bold; /* Adjust font-weight as needed */ 
-  list-style-type: none; 
+    text-decoration: none; 
+    color: #fff; /* Adjust the link color as needed */ 
+    font-weight: bold; /* Adjust font-weight as needed */ 
+    list-style-type: none; 
   } 
 
   nav ul {
@@ -43,16 +43,16 @@ header, h1, ul {
   }
   
   nav li { 
-  display: inline; 
-  margin-right: 10px; /* Adjust the margin as needed to separate menu items */ 
-  list-style-type: none; 
-  letter-spacing: 4px;
+    display: inline; 
+    margin-right: 10px; /* Adjust the margin as needed to separate menu items */ 
+    list-style-type: none; 
+    letter-spacing: 4px;
   } 
   
   nav a { 
-  text-decoration: none; 
-  color: #fff; /* Adjust the link color as needed */ 
-  font-weight: bold; /* Adjust font-weight as needed */ 
+    text-decoration: none; 
+    color: #fff; /* Adjust the link color as needed */ 
+    font-weight: bold; /* Adjust font-weight as needed */ 
   }
 
   h2 {
@@ -184,7 +184,7 @@ header, h1, ul {
   }
 
   /* Opening times */
-    #opening-times {
+  #opening-times {
     border: 2px solid #7E7B78; 
     padding: 5px; 
     margin: 10px; 
@@ -217,64 +217,63 @@ header, h1, ul {
     text-align: center;
     }
     
-    #lunch-menu h3 {
+  #lunch-menu h3 {
     color: #ffffff;
     background-color: #3a3a3a;
     }
     
-    #dinner-menu {
+  #dinner-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
     margin: 10px;
     text-align: center;
     }
     
-    #dinner-menu h3 {
+  #dinner-menu h3 {
     color: #ffffff;
     background-color: #3a3a3a;
     }
     
-    #dessert-menu {
+  #dessert-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
     margin: 10px;
     text-align: center;
     }
     
-    #dessert-menu h3 {
+  #dessert-menu h3 {
     color: #ffffff;
     background-color: #3a3a3a;
     }
     
-    #wine-selection {
+  #wine-selection {
     border: 2px solid #7E7B78;
     padding: 5px;
     margin: 10px;
     text-align: center;
     }
     
-    #wine-selection h3,
-    #wine-selection h4 {
+  #wine-selection h3,
+  #wine-selection h4 {
     color: #ffffff;
     background-color: #3a3a3a;
     }
 
   /* Bookings */
-    #events {
-      border: 2px solid #7E7B78; 
-      padding: 5px; 
-      margin: 10px; 
-      text-align: center; 
+  #events {
+    border: 2px solid #7E7B78; 
+    padding: 5px; 
+    margin: 10px; 
+    text-align: center; 
     }
 
-
-    #dining li {
-      text-align: center;
+  #dining li {
+    text-align: center;
     }
 
-    #dining h3 {
-      color: #ffffff;
-      background-color: #3a3a3a;
+  #dining h3 {
+    color: #ffffff;
+    background-color: #3a3a3a;
     }
 
     .occasion-list {
@@ -317,18 +316,18 @@ header, h1, ul {
   
   /* Footer */  
   #social-media {  
-  text-align: center;  
-  padding: 20px 0;  
-  display: flex;  
-  justify-content: space-evenly;  
-  list-style-type: none;  
+    text-align: center;  
+    padding: 20px 0;  
+    display: flex;  
+    justify-content: space-evenly;  
+    list-style-type: none;  
   }  
      
   #social-media li {  
-  font-size: 160%;  
-  padding: 5%;  
-  color: #ffffff;  
-  display: inline-block;  
+    font-size: 160%;  
+    padding: 5%;  
+    color: #ffffff;  
+    display: inline-block;  
   } 
 
   /* Menu navigation adjustment for screen sizes up to width of 314px */
@@ -361,14 +360,14 @@ header, h1, ul {
       }
 
       nav ul { 
-      display: inline; 
-      position: relative; 
-      box-shadow: none; 
-      list-style: none;
-      width: fit-content; 
-      padding: 0;
-      flex-direction: column;
-      font-size: 150%;
+        display: inline; 
+        position: relative; 
+        box-shadow: none; 
+        list-style: none;
+        width: fit-content; 
+        padding: 0;
+        flex-direction: column;
+        font-size: 150%;
       } 
       
       nav li {
@@ -384,13 +383,12 @@ header, h1, ul {
       }
 
       /* Opening times */
-      #opening-times {
-      border: 2px solid #7E7B78; 
-      padding: 5px; 
-      margin: 10px; 
-      text-align: center; 
-    }
-
+        #opening-times {
+        border: 2px solid #7E7B78; 
+        padding: 5px; 
+        margin: 10px; 
+        text-align: center; 
+        }
       } 
 
      /* (laptops and desktops, 1200px and up) */
@@ -408,14 +406,14 @@ header, h1, ul {
         }
   
         nav ul { 
-        display: inline; 
-        position: relative; 
-        box-shadow: none; 
-        list-style: none;
-        width: fit-content; 
-        padding: 0;
-        flex-direction: column;
-        font-size: 150%;
+          display: inline; 
+          position: relative; 
+          box-shadow: none; 
+          list-style: none;
+          width: fit-content; 
+          padding: 0;
+          flex-direction: column;
+          font-size: 150%;
         } 
         
         nav li {
@@ -429,4 +427,4 @@ header, h1, ul {
         nav li:last-child {
           margin-right: 0;
         }
-}
+      }
