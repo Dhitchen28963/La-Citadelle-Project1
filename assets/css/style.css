@@ -8,7 +8,7 @@
   } 
   
   body {
-    background-color: #E1DED9;
+    background-color: #f5f1eb;
   }
 
   /* Horizontal flex container */ 
@@ -22,38 +22,27 @@
    
   /* Main header style */ 
   h1 { 
-    font-size: 600%; /* Adjust the font size as needed */ 
     font-family: 'Italianno', sans-serif;
   } 
-    
+  
+  /* Style for the h1 element that allows to refresh or go back to main page */
   header a { 
     text-decoration: none; 
-    color: #fff; /* Adjust the link color as needed */ 
-    font-weight: bold; /* Adjust font-weight as needed */ 
-    list-style-type: none; 
+    color: #fff;
   } 
-
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    word-spacing: 6px;
-  }
   
+  /* Style for navigation menu below h1 */
   nav li { 
     display: inline; 
-    margin-right: 10px; /* Adjust the margin as needed to separate menu items */ 
+    margin-right: 10px;
     list-style-type: none; 
     letter-spacing: 4px;
-  } 
-  
-  nav a { 
     text-decoration: none; 
-    color: #fff; /* Adjust the link color as needed */ 
-    font-weight: bold; /* Adjust font-weight as needed */ 
+    color: #fff;
+    font-weight: bold;
   }
 
+  /* Color of all h2 elements in addition to background */
   h2 {
     background-color: #3a3a3a;
     color: #ffffff;
@@ -90,7 +79,7 @@
       padding: 8px;
     }
   
-    /* Image/gallery scroller below the header element */
+  /* Image/gallery scroller below the header element */
   div.scroll-container { 
     overflow: auto; 
     white-space: nowrap; 
@@ -111,10 +100,9 @@
   }
 
     /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
-   @media screen and (min-width: 280px) { 
+   @media screen and (min-width: 280px) {
     /* Header */
-    
-  header {
+    header {
     padding: 3px;
     flex-direction: column;
     justify-content: center;
@@ -122,6 +110,7 @@
   }
 
   h1 {
+   margin-top: 10px;
    padding-top: 2px;
    text-align: center;
    align-items: center;
@@ -130,29 +119,18 @@
    margin-bottom: 2px;
   }
 
+  /* Navigation positioning when changing screen sizes */
   nav { 
     display: inline; 
     position: relative; 
-    box-shadow: none; 
     width: fit-content; 
     padding: 5px;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
   } 
 
-  nav ul {
-    list-style: none;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    align-items: center;
-    word-spacing: 10px;
-  }
-    
+  /* Navigation menu will alter to vertical list when screen size is reduced */  
   nav li {
     display: grid;
     margin: 0;
@@ -166,13 +144,15 @@
     font-size: 13px;
   }
 
+  /* Text size for all h2 elements on pages */
   h2 { 
     text-transform: uppercase; 
     text-align: center; 
-    margin-top: 20px;
-    font-size: 20px; 
+    margin-top: 10px;
+    font-size: 24px; 
   } 
 
+  /* Text size for all h3 elements on pages */
   h3 {
     text-transform: uppercase;
     text-align: center;
@@ -180,6 +160,7 @@
     font-size: 18px;
   }
 
+  /* Text size for all p elements on pages */
   p {
     font-size: 16px;
     letter-spacing: 1px;
@@ -293,7 +274,7 @@
     list-style-type: none;
     }
 
-   /* Reservation form layout */ 
+  /* Reservation form layout */ 
   .enquiry {
     display: block;
     text-align: center;
@@ -328,7 +309,7 @@
   }
 }
   
-/* Footer */  
+  /* Footer including social media links */  
   #social-media {  
     text-align: center;  
     padding: 20px 0;  
@@ -358,9 +339,9 @@
   }
 
   /* Tablets and larger handheld devices 603px and larger screen sizes*/ 
-  @media screen and (min-width: 603px) { 
-  /* Header */ 
+  @media screen and (min-width: 603px) {
 
+  /* Header */ 
   h1 {
     margin-top: 20px;
     font-size: 7.5em;
@@ -372,31 +353,24 @@
       justify-content: center;
       align-items: center;
     }
-
-  nav ul { 
-      display: inline; 
-      position: relative; 
-      box-shadow: none; 
-      list-style: none;
-      width: fit-content; 
-      padding: 0;
-      flex-direction: column;
-      font-size: 150%;
-    } 
-      
+  
+  /* Navigation menu spacing to increase depending on the size of the screen */
   nav li {
       display: inline-block;
       margin-right: 30px;
       padding: 10px 0;
       border-top: 1px solid #444444;
       word-spacing: 20px;
+      font-size: 150%;
+      list-style: none;
     }
 
+  /* to ensure last nav item "contact" was not affected by margin right element above */
   nav li:last-child {
       margin-right: 0;
     }
 
-    /* Opening times */
+  /* Opening times */
   #opening-times {
       border: 2px solid #7E7B78; 
       padding: 5px; 
