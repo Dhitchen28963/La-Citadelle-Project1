@@ -1,5 +1,61 @@
 # La Citadelle
-<p> Fine Dining Restaurant</p>
+---
+The website for La Citadelle was created to provide an online presence for a fine dining restaurant.
+Users will be able to view La Citadelles opening times, book a table or arrange a private dining/event specific to thier needs. Its tended purpose was to build on a brand and attract and engage customers. The website is compatible on all devices and is easy to navigate with a minimalist approach. In addition they can view the restaurants social media pages and the menus before they visit the restaurant.
+
+![Amiresponsive image which shows website on different screen sizes](assets/images/readme-images/amiresponsive.png)
+
+## Features
+
+### Index.html page
+
+* **Navigation**
+ * Featured underneath the main header and include:
+
+    * **Home**, Which will revert back to the main page (index.html).
+    * **About**, Which will allow the user to jump to the about us section of the homepage.
+    * **Bookings**, wWich will enable the user to go to the bookings page (bookings.html). Here the user can review the events we can offer in additon to making a reservation.
+    * **Menu**, Should the user which to view the lunch, dinner, dessert or wine menu they can do so.
+    * **Contact**, This will enable the user the view our contact informaton for making a reservation.
+
+* The navigation was small enough to not need a drop down menu and the text color makes it stand out from the background colour applied.
+* The navigation menu lists are easy to understand and allow the user to understand the different sections of the website which allows for a greater user experience.
+
+    ![Header screenshot showing main header and navigation menu](assets/images/readme-images/header.png)
+
+* **The Header**
+* Featured at the top of the page, the header contains the main header at the center of the page which allows the user to reverts back to the homepage if clicked. 
+
+* **The About Us Section
+* The About us section provides details regarding the fine dining restaurant including various events they can accommodate.
+
+* **Contact Us**
+* The Contact us section provides contact details including address, contact telephone and email address for reservations and highlights the reservations form found
+on the bookings page. It also makes reference to the opening times (I did not provide a separate link to this in the navigation bar as it was unnecessary and due to the testing with different screen sizes it shows when on the contact us page).
+
+* **Opening Times**
+* This provides opening and closing times should the user wish to book a table
+
+### Bookings.html page
+* **Events & Private Dining**
+* **Reservations Form**
+
+
+
+### Menu.html page
+* **Lunch Menu**
+* **Dinner Menu**
+* **Dessert Menu**
+* **Wine Selection**
+
+Retake screen shots for main nav menu
+reservations form
+Footer
+Contact us section
+Replace current images with new screen shots
+
+
+
 
 <h2>Table of Contents</h2>
 

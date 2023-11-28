@@ -137,6 +137,7 @@
     padding: 5px 5px;
     border-top: 1px solid #444444;
     margin-right: 0;
+    font-size: 1.0rem
   }
 
   /* Text size for contact information on main page under contact us title, to prevent from overlapping border */
@@ -312,7 +313,6 @@
   /* Footer including social media links */  
   #social-media {  
     text-align: center;  
-    padding: 20px 0;  
     display: flex;  
     justify-content: space-evenly;  
     list-style-type: none;  
@@ -360,8 +360,8 @@
       margin-right: 30px;
       padding: 10px 0;
       border-top: 1px solid #444444;
-      word-spacing: 20px;
-      font-size: 150%;
+      word-spacing: 10px;
+      font-size: 175%;
       list-style: none;
     }
 
