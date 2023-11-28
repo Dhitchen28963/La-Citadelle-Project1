@@ -1,8 +1,7 @@
 /* Google fonts */ 
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
-/* Reset default margin and padding for the header, h1, and ul */ 
-
+/* Default margin and padding for the header, h1, and ul */ 
   header, h1, ul { 
     margin: 0; 
     padding: 0; 
@@ -60,6 +59,7 @@
     color: #ffffff;
   }
 
+  /* About us section on the homepage */
   #about-us {
     border: 2px solid #7E7B78; 
     padding: 5px; 
@@ -67,6 +67,7 @@
     text-align: center; 
   }
 
+  /* Contact us regarding bookings and events on the home page */
   #contact-us {
     border: 2px solid #7E7B78; 
     padding: 5px; 
@@ -74,6 +75,7 @@
     text-align: center; 
   }
 
+  /* Opening and closing times table on the homepage */
   table {
     border-collapse: collapse;
     width: 100%;
@@ -88,6 +90,7 @@
       padding: 8px;
     }
   
+    /* Image/gallery scroller below the header element */
   div.scroll-container { 
     overflow: auto; 
     white-space: nowrap; 
@@ -101,32 +104,33 @@
     height: 250px;
   } 
 
+  /*footer copy right text*/
   footer p {
     text-align: center;
     font-weight: bold;
   }
 
-   /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
+    /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
    @media screen and (min-width: 280px) { 
     /* Header */
     
-    header {
-      padding: 3px;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  header {
+    padding: 3px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    h1 {
-      padding-top: 2px;
-      text-align: center;
-      align-items: center;
-      padding-right: 5px;
-      font-size: 75px;
-      margin-bottom: 2px;
-    }
+  h1 {
+   padding-top: 2px;
+   text-align: center;
+   align-items: center;
+   padding-right: 5px;
+   font-size: 75px;
+   margin-bottom: 2px;
+  }
 
-    nav { 
+  nav { 
     display: inline; 
     position: relative; 
     box-shadow: none; 
@@ -137,29 +141,30 @@
     text-align: center;
     align-items: center;
     font-size: 16px;
-    } 
+  } 
 
-    nav ul {
-      list-style: none;
-      padding: 5px;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      align-items: center;
-      word-spacing: 10px;
-    }
+  nav ul {
+    list-style: none;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    word-spacing: 10px;
+  }
     
-    nav li {
-      display: grid;
-      margin: 0;
-      padding: 5px 5px;
-      border-top: 1px solid #444444;
-      margin-right: 0;
-    }
+  nav li {
+    display: grid;
+    margin: 0;
+    padding: 5px 5px;
+    border-top: 1px solid #444444;
+    margin-right: 0;
+  }
 
-    strong {
-      font-size: 13px;
-    }
+  /* Text size for contact information on main page under contact us title, to prevent from overlapping border */
+  #contact strong {
+    font-size: 13px;
+  }
 
   h2 { 
     text-transform: uppercase; 
@@ -191,16 +196,15 @@
     text-align: center; 
   }
 
-  /* Menu */
-
-  #menu {
+  /* Lunch, dinner, dessert and wine menu navigation */
+  #menu-navigation {
     text-align: center;
     border: 2px solid #7E7B78; 
     padding: 5px; 
     margin: 10px; 
   }
 
-  #menu a {
+  #menu-navigation a {
     text-decoration: none;
     word-spacing: 1px;
     display: inline-block;
@@ -210,6 +214,12 @@
     background-color: #ffffff;
   }
 
+  /* All food headers in menu */
+  #menu h5 {
+    font-size: 105%;
+    }
+
+  /* Lunch menu border and header styling */
   #lunch-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
@@ -221,7 +231,8 @@
     color: #ffffff;
     background-color: #3a3a3a;
     }
-    
+  
+  /* Dinner menu border and header styling */
   #dinner-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
@@ -233,7 +244,8 @@
     color: #ffffff;
     background-color: #3a3a3a;
     }
-    
+  
+  /* Dessert menu border and header styling */
   #dessert-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
@@ -245,7 +257,8 @@
     color: #ffffff;
     background-color: #3a3a3a;
     }
-    
+  
+  /* Wine menu border and header styling */
   #wine-selection {
     border: 2px solid #7E7B78;
     padding: 5px;
@@ -259,7 +272,7 @@
     background-color: #3a3a3a;
     }
 
-  /* Bookings */
+  /* Bookings page */
   #events {
     border: 2px solid #7E7B78; 
     padding: 5px; 
@@ -276,10 +289,11 @@
     background-color: #3a3a3a;
     }
 
-    .occasion-list {
-      list-style-type: none;
+  .occasion-list {
+    list-style-type: none;
     }
 
+   /* Reservation form layout */ 
   .enquiry {
     display: block;
     text-align: center;
@@ -314,7 +328,7 @@
   }
 }
   
-  /* Footer */  
+/* Footer */  
   #social-media {  
     text-align: center;  
     padding: 20px 0;  
@@ -330,9 +344,9 @@
     display: inline-block;  
   } 
 
-  /* Menu navigation adjustment for screen sizes up to width of 314px */
+  /* Lunch, dinner, dessert and wine navigation menu so it appears as a vertical list when adjusting for screen sizes up to width of 314px */
   @media screen and (min-width: 280px) and (max-width: 314px) {
-    #menu a {
+  #menu-navigation a {
     text-decoration: none;
     word-spacing: 1px;
     display: block;
@@ -343,88 +357,52 @@
     }
   }
 
-  /* Tablets and larger handheld devices 603px and up*/ 
+  /* Tablets and larger handheld devices 603px and larger screen sizes*/ 
   @media screen and (min-width: 603px) { 
   /* Header */ 
 
-      h1 {
-      margin-top: 20px;
-      font-size: 7.5em;
+  h1 {
+    margin-top: 20px;
+    font-size: 7.5em;
       }
 
-      header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+  header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
-      nav ul { 
-        display: inline; 
-        position: relative; 
-        box-shadow: none; 
-        list-style: none;
-        width: fit-content; 
-        padding: 0;
-        flex-direction: column;
-        font-size: 150%;
-      } 
+  nav ul { 
+      display: inline; 
+      position: relative; 
+      box-shadow: none; 
+      list-style: none;
+      width: fit-content; 
+      padding: 0;
+      flex-direction: column;
+      font-size: 150%;
+    } 
       
-      nav li {
-        display: inline-block;
-        margin-right: 30px;
-        padding: 10px 0;
-        border-top: 1px solid #444444;
-        word-spacing: 20px;
-      }
+  nav li {
+      display: inline-block;
+      margin-right: 30px;
+      padding: 10px 0;
+      border-top: 1px solid #444444;
+      word-spacing: 20px;
+    }
 
-      nav li:last-child {
-        margin-right: 0;
-      }
+  nav li:last-child {
+      margin-right: 0;
+    }
 
-      /* Opening times */
-        #opening-times {
-        border: 2px solid #7E7B78; 
-        padding: 5px; 
-        margin: 10px; 
-        text-align: center; 
-        }
-      } 
+    /* Opening times */
+  #opening-times {
+      border: 2px solid #7E7B78; 
+      padding: 5px; 
+      margin: 10px; 
+      text-align: center; 
+    }
+  } 
 
-     /* (laptops and desktops, 1200px and up) */
-      @media screen and (min-width: 892px) {  
-
-        h1 {
-          margin-top: 20px;
-        }
-  
-        header {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-  
-        nav ul { 
-          display: inline; 
-          position: relative; 
-          box-shadow: none; 
-          list-style: none;
-          width: fit-content; 
-          padding: 0;
-          flex-direction: column;
-          font-size: 150%;
-        } 
-        
-        nav li {
-          display: inline-block;
-          margin-right: 30px;
-          padding: 10px 0;
-          border-top: 1px solid #444444;
-          word-spacing: 20px;
-        }
-  
-        nav li:last-child {
-          margin-right: 0;
-        }
-      }
+   
