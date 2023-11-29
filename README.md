@@ -10,7 +10,7 @@ Users will be able to view La Citadelles opening times, book a table or arrange 
 ### Index.html page
 
 * **Navigation**
- * Featured underneath the main header and include:
+ * Featured underneath the main header, the navigation menu includes the following links:
 
     * **Home**, Which will revert back to the main page (index.html).
     * **About**, Which will allow the user to jump to the about us section of the homepage.
@@ -53,6 +53,44 @@ reservations form
 Footer
 Contact us section
 Replace current images with new screen shots
+
+
+
+
+<!-- Images to add -->
+<!-- index.html hompage -->
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/image-scroller.png)
+![About Us section - which outlines what the restaurant offers](assets/images/readme-images/about-us.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/contact-us.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/opening-times.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/footer.png)
+
+<!-- bookings.html page -->
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/events-and-private-dining.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/reservations-form.png)
+
+<!-- menu.html page -->
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/menu-navigation.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/lunch-menu-starters.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/lunch-menu-mains.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/dinner-menu-starters.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/dinner-menu-mains.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/desserts-menu1.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/desserts-menu2.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-white-wines.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-red-wines.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-italian-wines.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-spanish-wines.png)
+
+<!-- testing -->
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/hform-submission.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/html-validator-index.html.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/html-validator-menu.html.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/html-validator-reservations.html.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/css-validator.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/lighthouse-desktop.png)
+![Header screenshot showing main header and navigation menu](assets/images/readme-images/lighthouse-mobile.png)
+
 
 
 
