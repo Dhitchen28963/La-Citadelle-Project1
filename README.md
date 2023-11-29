@@ -59,40 +59,37 @@ Replace current images with new screen shots
 
 <!-- Images to add -->
 <!-- index.html hompage -->
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/image-scroller.png)
+![Image scroller which allows user to scroll through various images of the chefs, dinner and interior of the restaurant](assets/images/readme-images/image-scroller.png)
 ![About Us section - which outlines what the restaurant offers](assets/images/readme-images/about-us.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/contact-us.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/opening-times.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/footer.png)
+![The Contact Us section which provides a brief overview of what the restaurant offers in addition to the contact methods](assets/images/readme-images/contact-us.png)
+![Opening times of the restaurant](assets/images/readme-images/opening-times.png)
+![Footer image which details address, contact information and links to social media pages](assets/images/readme-images/footer.png)
 
 <!-- bookings.html page -->
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/events-and-private-dining.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/reservations-form.png)
+![Events and private dining section which details various events that the restaurant can accommodate including customized menus and special occassions](assets/images/readme-images/events-and-private-dining.png)
+![The reservation form allows user to book a table or an event](assets/images/readme-images/reservations-form.png)
 
 <!-- menu.html page -->
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/menu-navigation.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/lunch-menu-starters.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/lunch-menu-mains.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/dinner-menu-starters.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/dinner-menu-mains.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/desserts-menu1.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/desserts-menu2.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-white-wines.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-red-wines.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-italian-wines.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/wine-selection-spanish-wines.png)
+![Lunch, dinner, desserts and wine menu](assets/images/readme-images/menu-navigation.png)
+![Lunch, starters menu](assets/images/readme-images/lunch-menu-starters.png)
+![lunch, mains menu](assets/images/readme-images/lunch-menu-mains.png)
+![Dinner, starters menu](assets/images/readme-images/dinner-menu-starters.png)
+![Dinner, mains menu](assets/images/readme-images/dinner-menu-mains.png)
+![Dessert menu (1 of 2)](assets/images/readme-images/desserts-menu1.png)
+![Dessert menu (2 of 2)](assets/images/readme-images/desserts-menu2.png)
+![Wine menu - White wines](assets/images/readme-images/wine-selection-white-wines.png)
+![Wine menu - Red wines](assets/images/readme-images/wine-selection-red-wines.png)
+![Wine menu - Italian wines](assets/images/readme-images/wine-selection-italian-wines.png)
+![Wine menu - Spanish wines](assets/images/readme-images/wine-selection-spanish-wines.png)
 
 <!-- testing -->
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/hform-submission.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/html-validator-index.html.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/html-validator-menu.html.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/html-validator-reservations.html.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/css-validator.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/lighthouse-desktop.png)
-![Header screenshot showing main header and navigation menu](assets/images/readme-images/lighthouse-mobile.png)
-
-
-
+![Screenshot to illustrate a successful reservations form submission](assets/images/readme-images/hform-submission.png)
+![Screenshot showing html validator for the index.html page - no errors found](assets/images/readme-images/html-validator-index.html.png)
+![Screenshot showing html validator for the menu.html page - no errors found](assets/images/readme-images/html-validator-menu.html.png)
+![Screenshot showing html validator for the bookings.html page - no errors found](assets/images/readme-images/html-validator-bookings.html.png)
+![Screenshot showing css validator for the style.css page - no errors found](assets/images/readme-images/css-validator.png)
+![Screenshot from lighthouse report using developer tools for desktop version of website](assets/images/readme-images/lighthouse-desktop.png)
+![Screenshot from lighthouse report using developer tools for mobile version of website](assets/images/readme-images/lighthouse-mobile.png)
 
 
 <h2>Table of Contents</h2>
