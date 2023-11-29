@@ -56,6 +56,8 @@ Replace current images with new screen shots
 
 
 ## Testing
+    Add 3 columns to show Action, Expected result and result
+    i.e. type URL - Home page should load - Home page loaded
 
 ## Bugs
 
@@ -73,6 +75,21 @@ Replace current images with new screen shots
 
 ### Media
     *
+
+## 5trategy Plane
+    Aiming to achieve and for whom?
+
+## Scope Plane
+    Features
+
+## Structure Plane
+How is the information structured and how is it loigcally grouped
+
+## Skeleton Plane
+    How will our information be presented and how will the information be featured
+
+## Surface Plane
+    What will the finished product look like
 
 
 <!-- Images to add -->
@@ -95,19 +112,25 @@ Replace current images with new screen shots
 ![Dinner, mains menu](assets/images/readme-images/dinner-menu-mains.png)
 ![Dessert menu (1 of 2)](assets/images/readme-images/desserts-menu1.png)
 ![Dessert menu (2 of 2)](assets/images/readme-images/desserts-menu2.png)
-![Wine menu - White wines](assets/images/readme-images/wine-selection-white-wines.png)
+![Wine menu - White wines](assets/images/readme-images/wine-selection-white-wine.png)
 ![Wine menu - Red wines](assets/images/readme-images/wine-selection-red-wines.png)
 ![Wine menu - Italian wines](assets/images/readme-images/wine-selection-italian-wines.png)
-![Wine menu - Spanish wines](assets/images/readme-images/wine-selection-spanish-wines.png)
+![Wine menu - Spanish wines](assets/images/readme-images/wine-selection-spanish-wines.png)  
 
 <!-- testing -->
-![Screenshot to illustrate a successful reservations form submission](assets/images/readme-images/hform-submission.png)
+![Screenshot to illustrate a successful reservations form submission](assets/images/readme-images/form-submission.png)
 ![Screenshot showing html validator for the index.html page - no errors found](assets/images/readme-images/html-validator-index.html.png)
 ![Screenshot showing html validator for the menu.html page - no errors found](assets/images/readme-images/html-validator-menu.html.png)
 ![Screenshot showing html validator for the bookings.html page - no errors found](assets/images/readme-images/html-validator-bookings.html.png)
 ![Screenshot showing css validator for the style.css page - no errors found](assets/images/readme-images/css-validator.png)
-![Screenshot from lighthouse report using developer tools for desktop version of website](assets/images/readme-images/lighthouse-desktop.png)
-![Screenshot from lighthouse report using developer tools for mobile version of website](assets/images/readme-images/lighthouse-mobile.png)
+![Screenshot from lighthouse report using developer tools for desktop version of index.html](assets/images/readme-images/lighthouse-desktop.png)
+![Screenshot from lighthouse report using developer tools for mobile version of index.html](assets/images/readme-images/lighthouse-mobile.png)
+
+![Screenshot from lighthouse report using developer tools for mobile version of menu.html](assets/images/readme-images/lighthouse-menu.html-mobile.png)
+![Screenshot from lighthouse report using developer tools for desktop version of menu.html](assets/images/readme-images/lighthouse-menu.html-desktop.png)
+
+![Screenshot from lighthouse report using developer tools for mobile version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-mobile.png)
+![Screenshot from lighthouse report using developer tools for desktop version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-desktop.png)
 
 
 <h2>Table of Contents</h2>
