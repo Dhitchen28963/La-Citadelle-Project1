@@ -80,21 +80,21 @@
     }
   
   /* Image/gallery scroller below the header element */
-  div.scroll-container { 
+  .scroll-container { 
     overflow: auto; 
     white-space: nowrap; 
     padding: 5px;
     margin: 0 auto;
-    box-sizing: border-box;
   } 
   
-  div.scroll-container img { 
+  .scroll-container img { 
     max-width: 375px;
     height: 250px;
   } 
 
   /*footer copy right text*/
   footer p {
+    font-size: 10px;
     text-align: center;
     font-weight: bold;
   }
@@ -115,7 +115,7 @@
    text-align: center;
    align-items: center;
    padding-right: 5px;
-   font-size: 75px;
+   font-size: 55px;
    margin-bottom: 2px;
   }
 
@@ -127,7 +127,7 @@
     padding: 5px;
     text-align: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 16px;
   } 
 
   /* Navigation menu will alter to vertical list when screen size is reduced */  
@@ -137,7 +137,6 @@
     padding: 5px 5px;
     border-top: 1px solid #444444;
     margin-right: 0;
-    font-size: 1.0rem
   }
 
   /* Text size for contact information on main page under contact us title, to prevent from overlapping border */
@@ -147,18 +146,30 @@
 
   /* Text size for all h2 elements on pages */
   h2 { 
-    text-transform: uppercase; 
     text-align: center; 
-    margin-top: 10px;
-    font-size: 24px; 
+    margin-top: 18px;
+    font-size: 18px; 
   } 
 
   /* Text size for all h3 elements on pages */
   h3 {
-    text-transform: uppercase;
     text-align: center;
     margin-top: 20px;
     font-size: 18px;
+  }
+
+  /* Text size for all h4 elements on pages */
+  h4 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+
+  /* Text size for all h5 elements on pages */
+  h5 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
   }
 
   /* Text size for all p elements on pages */
@@ -198,7 +209,7 @@
 
   /* All food headers in menu */
   #menu h5 {
-    font-size: 105%;
+    font-size: 90%;
     }
 
   /* Lunch menu border and header styling */
@@ -344,8 +355,24 @@
   /* Header */ 
   h1 {
     margin-top: 20px;
-    font-size: 7.5em;
+    font-size: 5.0em;
       }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+
+  h5 {
+    font-size: 1.0rem;
+  }
 
   header {
       display: flex;
@@ -379,4 +406,32 @@
     }
   } 
 
-   
+ /* Larger tablets, laptops and montors with a screen width of 779px and larger */ 
+ @media screen and (min-width: 779px) {
+  
+  .scroll-container img { 
+    max-width: 750px;
+    height: 500px;
+  } 
+
+  h1 {
+    margin-top: 20px;
+    font-size: 7.5em;
+      }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+
+  h5 {
+    font-size: 1.0rem;
+  }
+ }
