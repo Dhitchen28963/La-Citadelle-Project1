@@ -55,6 +55,24 @@ Contact us section
 Replace current images with new screen shots
 
 
+## Testing
+
+## Bugs
+
+## Unfixed Bugs
+
+## Validator Testing
+
+## Deployment
+
+## Credits
+    * Used the footer seagment from Code Institute from the Love Running project - credits provided here and within the pages.
+
+### Content
+    *
+
+### Media
+    *
 
 
 <!-- Images to add -->
