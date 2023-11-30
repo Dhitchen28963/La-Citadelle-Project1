@@ -43,57 +43,28 @@
         <div id="dining">  
             <h2>Events & Private Dining</h2>  
             <hr> 
-            <h3>Elegant Intimacy - Capacity: Up to 10 guests</h3>  
-            <p>
-                Indulge in our exclusive and intimate dining experience, where every detail is meticulously crafted to immerse you in an atmosphere of sophistication 
-                and warmth. Our secluded setting offers an oasis of tranquility, allowing you to savor each moment with your loved ones.
-                From the soft glow of ambient lighting to the personalized service tailored to your preferences, we strive to create a memorable and enchanting evening.
-                <br><br>
+            <h3>Elegant Intimacy</h3>  
+            <p>             
                 Delight your senses with our curated menu featuring exquisite dishes, thoughtfully prepared by our talented chefs using the finest ingredients.
                 Whether it's an anniversary celebration, a romantic date, or an intimate gathering with close friends, 
                 our intimate dining experience promises to captivate your palate and leave you with cherished memories to treasure.
+                <br><br>
             </p>
     
-            <h3>The Grand Banquet - Capacity: Up to 40 guests</h3>  
+            <h3>The Grand Banquet</h3>  
             <p>
                 Step into a world of grandeur and opulence with our exquisite grand banquet experience, tailored for those seeking a lavish and memorable affair. 
                 Set amidst our elegant and spacious banquet hall, this experience promises to elevate your celebrations to unparalleled heights.
-                Our meticulously designed space accommodates up to 40 guests, providing the perfect backdrop for weddings, 
+                Our meticulously designed space accommodates up to 150 guests, providing the perfect backdrop for weddings, 
                 milestone anniversaries, corporate galas, and extravagant events.
                 <br><br>
-                Adorned with sophistication, the grand hall boasts luxurious decor, creating an ambiance that exudes grandeur and refinement.
-                Allow our expert culinary team to indulge your palate with a bespoke menu, meticulously curated to suit the grandeur of the occasion. 
-                Perfect for weddings, anniversaries, and corporate events.
-            </p>  
-    
-            <h3>Customized Menus:</h3>  
-            <p>
-                Our culinary team will craft a personalized menu for your event, featuring our chef's signature dishes and wine pairings to complement every course. 
-                Dietary preferences and allergies are carefully accommodated.
-            </p>  
-    
-            <h3>Special Occasions:</h3>  
-            <p>
-                Our private dining spaces are available for a variety of occasions, including:
-            </p>  
-                <ul class="occasion-list">  
-                    <li>Anniversaries</li>  
-                    <li>Weddings and Receptions</li>  
-                    <li>Birthday Celebrations</li>  
-                    <li>Corporate Meetings and Events</li>  
-                    <li>Holiday Parties</li>  
-                </ul>  
-    
-            <h3>Events Planning:</h3>  
-            <p>
-                Our dedicated events team will assist you in planning every detail of your event, 
-                from selecting the perfect menu to coordinating decorations and entertainment.
             </p>  
         </div> 
     </section> 
 
     <!-- Reservations enquiry form -->
     <section id="reservations-form">
+       <div class="background-image">
         <div class="enquiry">
             <h3>Reservations form</h3>
                 <form action="https://formdump.codeinstitute.net" method="post"><br>
@@ -114,6 +85,17 @@
 
                     <label for="time">Time:</label>
                     <input type="time" id="time" name="time" required><br><br>
+
+                    <label for="event-type">Type of Event:</label>
+                    <select id="event-type" name="event-type">
+                    <option value="wedding">Wedding</option>
+                    <option value="corporate-event">Corporate Event</option>
+                    <option value="fundraiser">Fundraiser</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="private dinner">Private Dinner</option>
+                    <option value="fundraiser">Fundraiser</option>
+                    </select>
+                    <br><br>
         
                     <label for="dietary_requirements">Dietary Requirements:</label>
                     <textarea id="dietary_requirements" name="dietary_requirements" rows="4" cols="30"></textarea><br><br>
@@ -123,6 +105,7 @@
                     
                     <input type="submit" value="Submit">
                 </form>
+            </div>
         </div>
     </section>
     </main>
@@ -135,10 +118,10 @@
 <!-- Original code sourced from url: https://learn.codeinstitute.net/ (Acknowlegdement also found in README.md) --> 
 <footer>
 <ul id="social-media">  
-    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>  
-    <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a></li>  
-    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a></li>  
-    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>  
+    <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square" style="color: #ffffff;"></i></a></li>  
+    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube-square" style="color: #ffffff;"></i></a></li>  
+    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
 </ul>
 
 <!-- Copy right and designer signature including business contact details and address -->

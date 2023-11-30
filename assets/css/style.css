@@ -1,229 +1,261 @@
-/* Google fonts */ 
-  @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
+/* Default margin and padding for the header, h1, and ul */
+header, h1, ul {
+  margin: 0;
+  padding: 0;
+}
 
-/* Default margin and padding for the header, h1, and ul */ 
-  header, h1, ul { 
-    margin: 0; 
-    padding: 0; 
-  } 
+html {
+  scroll-behavior: smooth;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: #f5f1eb;
-  }
-   
-  /* Main header style */ 
-  h1 { 
-    font-family: 'Italianno', sans-serif;
-  }
+/* Main header style */
+h1 {
+  font-family: 'Italianno', sans-serif;
+}
 
-  .scroll-container { 
-    overflow: auto; 
-    white-space: nowrap; 
-    padding: 5px;
-    margin: 0 auto;
-    width: 98%;
-    border: 1px solid #ccc
-  } 
-  
-  .scroll-container img { 
-    max-width: 100%;
-    height: 250px;
-  } 
-  
-  /* Color of all h2 elements in addition to background */
-  h2 {
-    background-color: #3a3a3a;
-    color: #ffffff;
-  }
+.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px;
+  margin: 0 auto;
+  width: 98%;
+  border: 1px solid #ccc;
+}
 
-  /* About us section on the homepage */
-  .about-us {
-    border: 2px solid #7E7B78; 
-    padding: 5px; 
-    margin: 10px; 
-    text-align: center; 
-  }
+.scroll-container img {
+  max-width: 100%;
+  height: 250px;
+}
 
-  /* Contact us regarding bookings and events on the home page */
-  .contact-us {
-    border: 2px solid #7E7B78; 
-    padding: 5px; 
-    margin: 10px; 
-    text-align: center; 
-  }
+/* Color of all h2 elements in addition to background */
+h2 {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
 
-  /* Opening and closing times table on the homepage */
-  table {
-    border-collapse: collapse;
-    width: 100%;
+/* About us section on the homepage */
+.about-us {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Contact us regarding bookings and events on the home page */
+.contact-us {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Opening and closing times table on the homepage */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #7E7B78;
+  text-align: center;
+  padding: 2px;
+}
+
+th, td {
+  border: 1px solid #7E7B78;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Image/gallery scroller below the header element */
+.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.scroll-container img {
+  max-width: 375px;
+  height: 250px;
+}
+
+/* Footer copyright text */
+footer {
+  background-color: #36383F;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+/* Lunch, dinner, dessert, and wine navigation menu */
+@media screen and (min-width: 280px) and (max-width: 375px) {
+  #menu-navigation a {
+    text-decoration: none;
+    word-spacing: 1px;
+    display: block;
     border: 1px solid #7E7B78;
-    text-align: center;
-    padding: 2px;
-    }
+    color: #000000;
+    background-color: #ffffff;
+  }
 
-    th, td {
-      border: 1px solid #7E7B78;
-      text-align: center;
-      padding: 8px;
-    }
-  
-  /* Image/gallery scroller below the header element */
-  .scroll-container { 
-    overflow: auto; 
-    white-space: nowrap; 
-    padding: 5px;
-    margin: 0 auto;
-  } 
-  
-  .scroll-container img { 
+  /* Toggle menu icon */
+  .side-menu:checked ~ nav {
+    max-height: 85%;
+  }
+
+  .scroll-container img {
     max-width: 375px;
     height: 250px;
-  } 
-
-  /*footer copy right text*/
-  footer p {
-    font-size: 10px;
-    text-align: center;
-    font-weight: bold;
   }
+}
 
-
-
-  /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
+ /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px width - 773px) */
 @media screen and (max-width: 773px) {
   /* Theming */
-  
-  :root{
-      --white: #f9f9f9;
-      --black: #36383F;
-      --gray: #85888C;
-  } /* variables*/
-  
-  /* Reset */
-  *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  body{
-      background-color: var(--white);
+  :root {
+    --white: #f9f9f9;
+    --black: #36383F;
+    --gray: #85888C;
   }
 
-  a{
-      text-decoration: none;
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  ul{
-      list-style-type: none;
+
+  body {
+    background-color: var(--white);
   }
-  
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
   /* Header */
-  .header{
-      background-color: var(--black);
-      box-shadow: 1px 1px 5px 0px var(--gray);
-      position: sticky;
-      top: 0;
-      width: 100%;
+  .header {
+    background-color: var(--black);
+    box-shadow: 1px 1px 5px 0px var(--gray);
+    position: sticky;
+    top: 0;
+    width: 100%;
   }
+
   /* Logo */
-  .logo{
-      display: inline-block;
-      color: var(--white);
-      font-size: 60px;
-      margin-left: 10px;
-      margin-top: 7px;
+  .logo {
+    display: inline-block;
+    color: var(--white);
+    font-size: 60px;
+    margin-left: 10px;
+    margin-top: 7px;
   }
-  
+
   /* Nav menu */
-  .nav{
-      width: 100%;
-      height: 100%;
-      position: fixed;
-      background-color: var(--black);
-      overflow: hidden;
-  
+  .nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--black);
+    overflow: hidden;
   }
-  .menu a{
-      display: block;
-      padding: 30px;
-      color: var(--white);
+
+  .menu a {
+    display: block;
+    padding: 30px;
+    color: var(--white);
   }
-  .menu a:hover{
-      background-color: var(--gray);
+
+  .menu a:hover {
+    background-color: var(--gray);
   }
-  .nav{
-      max-height: 0;
-      transition: max-height .5s ease-out;
+
+  .nav {
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
   }
-  
+
   /* Menu Icon */
-  .hamb{
-      cursor: pointer;
-      float: right;
-      padding: 25px 20px;
-      z-index: 25;
-  }/* Style label tag */
-  
+  .hamb {
+    cursor: pointer;
+    float: right;
+    padding: 25px 20px;
+    z-index: 25;
+  }
+
+  /* Style label tag */
   .hamb-line {
-      background: var(--white);
-      display: block;
-      height: 2px;
-      position: relative;
-      width: 24px;
+    background: var(--white);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+  } 
   
-  } /* Style span tag */
-  
+  /* Style span tag */
   .hamb-line::before,
-  .hamb-line::after{
-      background: var(--white);
-      content: '';
-      display: block;
-      height: 100%;
-      position: absolute;
-      transition: all .2s ease-out;
-      width: 100%;
+  .hamb-line::after {
+    background: var(--white);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 100%;
   }
-  .hamb-line::before{
-      top: 5px;
+
+  .hamb-line::before {
+    top: 5px;
   }
-  .hamb-line::after{
-      top: -5px;
+
+  .hamb-line::after {
+    top: -5px;
   }
-  
+
   /* Hide checkbox */
   .side-menu {
-      display: none;
-  } 
-  
-  /* Toggle menu icon */
-  .side-menu:checked ~ nav{
-      max-height: 50%;
-  }
-  .side-menu:checked ~ .hamb .hamb-line {
-      background: transparent;
-  }
-  .side-menu:checked ~ .hamb .hamb-line::before {
-      transform: rotate(-45deg);
-      top:0;
-  }
-  .side-menu:checked ~ .hamb .hamb-line::after {
-      transform: rotate(45deg);
-      top:0;
+    display: none;
   }
 
-  .scroll-container img { 
+  /* Toggle menu icon */
+  .side-menu:checked ~ nav {
+    max-height: 50%;
+  }
+
+  .side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+  }
+
+  .side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  .side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .scroll-container img {
     max-width: 750px;
     height: 500px;
-  } 
+  }
 
   /* Anchor class that enables the user to jump to a specific section of a page without the navigation bar overlapping */
   .anchor {
@@ -232,229 +264,41 @@
     margin-top: -57px;
     visibility: hidden;
   }
-}
-  
-  h1 {
-    font-size: 40px;
-  }
 
-  /* Text size for contact information on main page under contact us title, to prevent from overlapping border */
-  #contact strong {
-    font-size: 14px;
-  }
-
-  /* Text size for all h2 elements on pages */
-  h2 { 
-    text-align: center; 
-    font-size: 18px; 
-  } 
-
-  /* Text size for all h3 elements on pages */
-  h3 {
-    text-align: center;
-    font-size: 18px;
-  }
-
-  /* Text size for all h4 elements on pages */
-  h4 {
-    text-align: center;
-    font-size: 17px;
-  }
-
-  /* Text size for all h5 elements on pages */
-  h5 {
-    text-align: center;
-    font-size: 17px;
-  }
-
-  /* Text size for all p elements on pages */
-  p {
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-top: 15px;
-    padding: 0;
-    font-family: 'lato', sans-serif;
-  }
-
-  /* Opening times */
-  #opening-times {
-    border: 2px solid #7E7B78; 
-    padding: 5px; 
-    margin: 10px; 
-    text-align: center; 
-  }
-
-  /* Lunch, dinner, dessert and wine menu navigation */
-  #menu-navigation {
-    text-align: center;
-    border: 2px solid #7E7B78; 
-    padding: 5px; 
-    margin: 10px; 
-  }
-
-  #menu-navigation a {
-    text-decoration: none;
-    word-spacing: 1px;
-    display: inline-block;
-    border: 1px solid #7E7B78;
-    padding: 5px 10px;
-    color: #000000;
-    background-color: #ffffff;
-  }
-
-  /* All food headers in menu */
-  #menu h5 {
-    font-size: 90%;
-    }
-
-  /* Lunch menu border and header styling */
   #lunch-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
-    margin: 10px;
+    margin: 0 20px;
     text-align: center;
-    }
-    
-  #lunch-menu h3 {
-    color: #ffffff;
-    background-color: #3a3a3a;
-    }
+  }
   
   /* Dinner menu border and header styling */
   #dinner-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
-    margin: 10px;
+    margin: 0 20px;
     text-align: center;
-    }
-    
-  #dinner-menu h3 {
-    color: #ffffff;
-    background-color: #3a3a3a;
-    }
+  }
   
   /* Dessert menu border and header styling */
   #dessert-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
-    margin: 10px;
+    margin: 0 20px;
     text-align: center;
-    }
-    
-  #dessert-menu h3 {
-    color: #ffffff;
-    background-color: #3a3a3a;
-    }
+  }
   
   /* Wine menu border and header styling */
-  #wine-selection {
+  #wine-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
-    margin: 10px;
+    margin: 0 10px;
     text-align: center;
-    }
-    
-  #wine-selection h3,
-  #wine-selection h4 {
-    color: #ffffff;
-    background-color: #3a3a3a;
-    }
-
-  /* Bookings page */
-  #events {
-    border: 2px solid #7E7B78; 
-    padding: 5px; 
-    margin: 10px; 
-    text-align: center; 
-    }
-
-  #dining li {
-    text-align: center;
-    }
-
-  #dining h3 {
-    color: #ffffff;
-    background-color: #3a3a3a;
-    }
-
-  .occasion-list {
-    list-style-type: none;
-    }
-
-  /* Reservation form layout */ 
-  .enquiry {
-    display: block;
-    text-align: center;
-    padding: 5px;
   }
+}
 
-  .enquiry h3 {
-    color: #ffffff; 
-    background-color: #3a3a3a; 
-  }
-
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-
-  input[type="dietary_requirements"],
-  input[type="special_requests"],
-  textarea {
-    width: 80%;
-    padding: 5px;
-    box-sizing: border-box;
-    margin: 10px;
-  }
-
-  #reservations-form {
-    border: 2px solid #7E7B78; 
-    padding: 5px; 
-    margin: 10px; 
-    text-align: center; 
-  }
-  
-  /* Footer including social media links */  
-  #social-media {  
-    text-align: center;  
-    display: flex;  
-    justify-content: space-evenly;  
-    list-style-type: none;  
-  }  
-     
-  #social-media li {  
-    font-size: 160%;  
-    padding: 5%;  
-    color: #ffffff;  
-    display: inline-block;  
-  } 
-
-  /* Lunch, dinner, dessert and wine navigation menu so it appears as a vertical list when adjusting for screen sizes up to width of 314px */
-  @media screen and (min-width: 280px) and (max-width: 375px) {
-  #menu-navigation a {
-    text-decoration: none;
-    word-spacing: 1px;
-    display: block;
-    border: 1px solid #7E7B78;
-    color: #000000;
-    background-color: #ffffff;
-  }
-
-  /* Toggle menu icon */
-  .side-menu:checked ~ nav{
-    max-height: 85%;
-  }
-
-  .scroll-container img { 
-    max-width: 375px;
-    height: 250px;
-  } 
-  }
-
-    /* Media query for screens over 660px */
+/* Media query for tablets and other devices with a screen width over 773px */
 @media (min-width: 773px) {
-  
   .side-menu {
     display: none; /* Hide the checkbox */
   }
@@ -480,14 +324,15 @@
     font-size: 24px;
     margin-top: 8px;
     padding: 10px;
-     /* Set the text color to white */
+    /* Set the text color to white */
     /* Additional styles */
   }
 
+  /* Ensures that the nav list has sufficient room in the header as screen size is reduced before nav reverts to drop down menu */
   .nav .menu li a:last-child {
     margin-right: 0;
   }
-  
+
   .nav .menu li a:hover {
     /* Optional: Styles for link hover state */
     background-color: #eee; /* Change background color on hover */
@@ -495,44 +340,41 @@
     /* Additional hover styles */
   }
 
-  
-
-
   a:hover {
     text-decoration: none;
   }
-  
+
   .logo h1 {
     margin: 0; /* Remove default margin */
   }
-  
+
   .nav {
     margin-left: auto; /* Pushes nav to the right */
   }
-  
+
   .menu {
     list-style: none;
     padding: 0;
     display: flex;
   }
-  
+
   .menu li {
     margin-right: 15px; /* Adjust spacing between menu items */
   }
-  
+
   .menu a {
     text-decoration: none;
     color: #333; /* Adjust color as needed */
   }
 
-    /* Horizontal flex container */ 
-    header { 
-      display: block; 
-      justify-content: space-between; 
-      background-color: #36383f;
-      top: 0;
-    } 
-  
+  /* Horizontal flex container */
+  header {
+    display: block;
+    justify-content: space-between;
+    background-color: #36383f;
+    top: 0;
+  }
+
   h1 {
     margin-top: 10px;
     padding-top: 2px;
@@ -541,38 +383,354 @@
     padding-right: 5px;
     font-size: 55px;
     margin-bottom: 2px;
-   }
- 
-   /* Navigation positioning when changing screen sizes */
-   nav { 
-     display: inline; 
-     position: relative; 
-     width: fit-content; 
-     padding: 5px;
-     text-align: center;
-     align-items: center;
-     font-size: 16px;
-   } 
+  }
 
-  /* to ensure last nav item "contact" was not affected by margin right element above */
-  nav li:last-child {
-      margin-right: 0;
-    }
+  /* Navigation positioning when changing screen sizes */
+  nav {
+    display: inline;
+    position: relative;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+  }
 
   /* Opening times */
   #opening-times {
-      border: 2px solid #7E7B78; 
-      padding: 5px; 
-      margin: 10px; 
-      text-align: center; 
-    }
-  } 
-
- /* Larger tablets, laptops and montors with a screen width of 779px and larger */ 
- @media screen and (min-width: 779px) {
+    border: 2px solid #7E7B78;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+  }
+}
   
-  .scroll-container img { 
+h1 {
+  font-size: 40px;
+}
+
+/* Text size for contact information on the main page under the contact us title, to prevent overlapping border */
+#contact strong {
+  font-size: 14px;
+}
+
+/* Text size for all h2 elements on pages */
+h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Text size for all h3 elements on pages */
+h3 {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Text size for all h4 elements on pages */
+h4 {
+  text-align: center;
+  font-size: 17px;
+}
+
+/* Text size for all h5 elements on pages */
+h5 {
+  text-align: center;
+  font-size: 17px;
+}
+
+/* Text size for all p elements on pages */
+p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  padding: 0;
+  font-family: 'lato', sans-serif;
+}
+
+/* Opening times */
+#opening-times {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Lunch, dinner, dessert, and wine menu navigation */
+#menu-navigation {
+  text-align: center;
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+}
+
+#menu-navigation a {
+  text-decoration: none;
+  word-spacing: 1px;
+  display: inline-block;
+  border: 1px solid #7E7B78;
+  padding: 5px 10px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* All food headers in the menu */
+#menu h5 {
+  font-size: 90%;
+}
+
+/* Lunch menu border and header styling */
+#lunch-menu {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 40px;
+  text-align: center;
+}
+
+#lunch-menu h3 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+/* Dinner menu border and header styling */
+#dinner-menu {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 40px;
+  text-align: center;
+}
+
+#dinner-menu h3 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+/* Dessert menu border and header styling */
+#dessert-menu {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 40px;
+  text-align: center;
+}
+
+#dessert-menu h3 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+/* Wine menu border and header styling */
+#wine-selection {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 40px;
+  text-align: center;
+}
+
+#wine-selection h3,
+#wine-selection h4 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+/* Bookings page */
+#events {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+#dining li {
+  text-align: center;
+}
+
+#dining h3 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+.occasion-list {
+  list-style-type: none;
+}
+
+/* Reservation form layout */
+.enquiry {
+  border: 2px solid #ccc; /* Example border style */
+  padding: 20px; /* Example padding */
+  width: 100%; /* Adjust the width of the box */
+  max-width: 600px; /* Set a maximum width if needed */
+  background-color: #f9f9f9; /* Example background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.enquiry h3 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="dietary_requirements"],
+input[type="special_requests"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#reservations-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-image: url("/assets/images/background-form-image.webp");
+    background-size: cover;
+    background-position: center;
+    z-index: 3;  
+}
+
+.background-image {
+  position: relative;
+  z-index: 2;
+}
+
+/* Footer including social media links */
+#social-media {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: white;
+}
+
+#social-media li {
+  font-size: 160%;
+  padding: 5%;
+  color: #ffffff;
+  display: inline-block;
+}
+
+/* Larger tablets, laptops and monitors with a screen width of 779px and larger */
+@media screen and (min-width: 779px) {
+  .scroll-container img {
     max-width: 750px;
     height: 500px;
-  } 
- }
+  }
+
+/*Lunch menu responsive container */
+  #lunch-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 3; 
+    background-image: url("/assets/images/background-lunch-menu-image.webp");
+  }
+
+/*Lunch menu responsive background-image */
+  .lunch {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /*Dinner menu responsive container */
+  #dinner-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 3; 
+    background-image: url("/assets/images/background-dinner-menu-image.webp");
+  }
+
+/*Dinner menu responsive background-image */
+  .dinner {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Dessert menu responsive container */
+  #dessert-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 3; 
+    background-image: url("/assets/images/background-dessert-menu-image.webp");
+  }
+
+/*Dessert menu responsive background-image */
+  .dessert {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+
+   /* Wine menu responsive container */
+   #wine-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 3; 
+    background-image: url("/assets/images/background-wine-menu-image.webp");
+  }
+
+/*Wine menu responsive background-image */
+  .wine {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+}
