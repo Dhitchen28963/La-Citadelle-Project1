@@ -113,6 +113,7 @@ footer p {
   /* Toggle menu icon */
   .side-menu:checked ~ nav {
     max-height: 85%;
+    z-index: 3;
   }
 
   .scroll-container img {
@@ -156,6 +157,7 @@ footer p {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 5;
   }
 
   /* Logo */
@@ -298,7 +300,7 @@ footer p {
 }
 
 /* Media query for tablets and other devices with a screen width over 773px */
-@media (min-width: 773px) {
+@media (min-width: 774px) {
   .side-menu {
     display: none; /* Hide the checkbox */
   }
@@ -402,6 +404,111 @@ footer p {
     padding: 5px;
     margin: 10px;
     text-align: center;
+  }
+
+  .scroll-container img {
+    max-width: 750px;
+    height: 500px;
+  }
+
+/*Lunch menu responsive container */
+  #lunch-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 1; 
+    background-image: url("/assets/images/background-lunch-menu-image.webp");
+  }
+
+/*Lunch menu responsive background-image */
+  .lunch {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /*Dinner menu responsive container */
+  #dinner-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 1; 
+    background-image: url("/assets/images/background-dinner-menu-image.webp");
+  }
+
+/*Dinner menu responsive background-image */
+  .dinner {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Dessert menu responsive container */
+  #dessert-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 1; 
+    background-image: url("/assets/images/background-dessert-menu-image.webp");
+  }
+
+/*Dessert menu responsive background-image */
+  .dessert {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+   /* Wine menu responsive container */
+   #wine-menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px; /* Adjust the space between the box and page edges */
+    background-size: cover;
+    background-position: 35% 55%;
+    z-index: 1; 
+    background-image: url("/assets/images/background-wine-menu-image.webp");
+  }
+
+/*Wine menu responsive background-image */
+  .wine {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 100%; /* Adjust the width of the box */
+    max-width: 600px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
   }
 }
   
@@ -562,7 +669,7 @@ p {
   flex-direction: column;
   align-items: center;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .enquiry h3 {
@@ -602,12 +709,12 @@ textarea {
     background-image: url("/assets/images/background-form-image.webp");
     background-size: cover;
     background-position: center;
-    z-index: 3;  
+    z-index: 1;  
 }
 
 .background-image {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 /* Footer including social media links */
@@ -624,113 +731,4 @@ textarea {
   padding: 5%;
   color: #ffffff;
   display: inline-block;
-}
-
-/* Larger tablets, laptops and monitors with a screen width of 779px and larger */
-@media screen and (min-width: 779px) {
-  .scroll-container img {
-    max-width: 750px;
-    height: 500px;
-  }
-
-/*Lunch menu responsive container */
-  #lunch-menu {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    margin: 20px; /* Adjust the space between the box and page edges */
-    background-size: cover;
-    background-position: 35% 55%;
-    z-index: 3; 
-    background-image: url("/assets/images/background-lunch-menu-image.webp");
-  }
-
-/*Lunch menu responsive background-image */
-  .lunch {
-    border: 2px solid #ccc;
-    padding: 20px;
-    width: 100%; /* Adjust the width of the box */
-    max-width: 600px;
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-  }
-  
-  /*Dinner menu responsive container */
-  #dinner-menu {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    margin: 20px; /* Adjust the space between the box and page edges */
-    background-size: cover;
-    background-position: 35% 55%;
-    z-index: 3; 
-    background-image: url("/assets/images/background-dinner-menu-image.webp");
-  }
-
-/*Dinner menu responsive background-image */
-  .dinner {
-    border: 2px solid #ccc;
-    padding: 20px;
-    width: 100%; /* Adjust the width of the box */
-    max-width: 600px;
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-  }
-
-  /* Dessert menu responsive container */
-  #dessert-menu {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    margin: 20px; /* Adjust the space between the box and page edges */
-    background-size: cover;
-    background-position: 35% 55%;
-    z-index: 3; 
-    background-image: url("/assets/images/background-dessert-menu-image.webp");
-  }
-
-/*Dessert menu responsive background-image */
-  .dessert {
-    border: 2px solid #ccc;
-    padding: 20px;
-    width: 100%; /* Adjust the width of the box */
-    max-width: 600px;
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-  }
-
-   /* Wine menu responsive container */
-   #wine-menu {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    margin: 20px; /* Adjust the space between the box and page edges */
-    background-size: cover;
-    background-position: 35% 55%;
-    z-index: 3; 
-    background-image: url("/assets/images/background-wine-menu-image.webp");
-  }
-
-/*Wine menu responsive background-image */
-  .wine {
-    border: 2px solid #ccc;
-    padding: 20px;
-    width: 100%; /* Adjust the width of the box */
-    max-width: 600px;
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-  }
-  
 }
