@@ -7,42 +7,39 @@
     margin: 0; 
     padding: 0; 
   } 
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
   
   body {
     background-color: #f5f1eb;
   }
-
-  /* Horizontal flex container */ 
-  header { 
-    display: flex; 
-    justify-content: space-between; 
-    background-color: #3a3a3a;
-    color: #fff;
-    padding: 2px 5px;
-  } 
    
   /* Main header style */ 
   h1 { 
     font-family: 'Italianno', sans-serif;
-  } 
-  
-  /* Style for the h1 element that allows to refresh or go back to main page */
-  header a { 
-    text-decoration: none; 
-    color: #fff;
-  } 
-  
-  /* Style for navigation menu below h1 */
-  nav li { 
-    display: inline; 
-    margin-right: 10px;
-    list-style-type: none; 
-    letter-spacing: 4px;
-    text-decoration: none; 
-    color: #fff;
-    font-weight: bold;
   }
 
+  .scroll-container { 
+    overflow: auto; 
+    white-space: nowrap; 
+    padding: 5px;
+    margin: 0 auto;
+    width: 98%;
+    border: 1px solid #ccc
+  } 
+  
+  .scroll-container img { 
+    max-width: 100%;
+    height: 250px;
+  } 
+  
   /* Color of all h2 elements in addition to background */
   h2 {
     background-color: #3a3a3a;
@@ -50,7 +47,7 @@
   }
 
   /* About us section on the homepage */
-  #about-us {
+  .about-us {
     border: 2px solid #7E7B78; 
     padding: 5px; 
     margin: 10px; 
@@ -58,7 +55,7 @@
   }
 
   /* Contact us regarding bookings and events on the home page */
-  #contact-us {
+  .contact-us {
     border: 2px solid #7E7B78; 
     padding: 5px; 
     margin: 10px; 
@@ -100,44 +97,145 @@
     font-weight: bold;
   }
 
-    /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
-   @media screen and (min-width: 280px) {
-    /* Header */
-    header {
-    padding: 3px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+
+  /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px and up) */ 
+@media screen and (max-width: 773px) {
+  /* Theming */
+  
+  :root{
+      --white: #f9f9f9;
+      --black: #36383F;
+      --gray: #85888C;
+  } /* variables*/
+  
+  /* Reset */
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background-color: var(--white);
   }
 
-  h1 {
-   margin-top: 10px;
-   padding-top: 2px;
-   text-align: center;
-   align-items: center;
-   padding-right: 5px;
-   font-size: 55px;
-   margin-bottom: 2px;
+  a{
+      text-decoration: none;
+  }
+  ul{
+      list-style-type: none;
+  }
+  
+  /* Header */
+  .header{
+      background-color: var(--black);
+      box-shadow: 1px 1px 5px 0px var(--gray);
+      position: sticky;
+      top: 0;
+      width: 100%;
+  }
+  /* Logo */
+  .logo{
+      display: inline-block;
+      color: var(--white);
+      font-size: 60px;
+      margin-left: 10px;
+      margin-top: 7px;
+  }
+  
+  /* Nav menu */
+  .nav{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      background-color: var(--black);
+      overflow: hidden;
+  
+  }
+  .menu a{
+      display: block;
+      padding: 30px;
+      color: var(--white);
+  }
+  .menu a:hover{
+      background-color: var(--gray);
+  }
+  .nav{
+      max-height: 0;
+      transition: max-height .5s ease-out;
+  }
+  
+  /* Menu Icon */
+  .hamb{
+      cursor: pointer;
+      float: right;
+      padding: 25px 20px;
+      z-index: 25;
+  }/* Style label tag */
+  
+  .hamb-line {
+      background: var(--white);
+      display: block;
+      height: 2px;
+      position: relative;
+      width: 24px;
+  
+  } /* Style span tag */
+  
+  .hamb-line::before,
+  .hamb-line::after{
+      background: var(--white);
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%;
+  }
+  .hamb-line::before{
+      top: 5px;
+  }
+  .hamb-line::after{
+      top: -5px;
+  }
+  
+  /* Hide checkbox */
+  .side-menu {
+      display: none;
+  } 
+  
+  /* Toggle menu icon */
+  .side-menu:checked ~ nav{
+      max-height: 50%;
+  }
+  .side-menu:checked ~ .hamb .hamb-line {
+      background: transparent;
+  }
+  .side-menu:checked ~ .hamb .hamb-line::before {
+      transform: rotate(-45deg);
+      top:0;
+  }
+  .side-menu:checked ~ .hamb .hamb-line::after {
+      transform: rotate(45deg);
+      top:0;
   }
 
-  /* Navigation positioning when changing screen sizes */
-  nav { 
-    display: inline; 
-    position: relative; 
-    width: fit-content; 
-    padding: 5px;
-    text-align: center;
-    align-items: center;
-    font-size: 16px;
+  .scroll-container img { 
+    max-width: 750px;
+    height: 500px;
   } 
 
-  /* Navigation menu will alter to vertical list when screen size is reduced */  
-  nav li {
-    display: grid;
-    margin: 0;
-    padding: 5px 5px;
-    border-top: 1px solid #444444;
-    margin-right: 0;
+  /* Anchor class that enables the user to jump to a specific section of a page without the navigation bar overlapping */
+  .anchor {
+    display: block;
+    height: 57px;
+    margin-top: -57px;
+    visibility: hidden;
+  }
+}
+  
+  h1 {
+    font-size: 40px;
   }
 
   /* Text size for contact information on main page under contact us title, to prevent from overlapping border */
@@ -148,28 +246,24 @@
   /* Text size for all h2 elements on pages */
   h2 { 
     text-align: center; 
-    margin-top: 18px;
     font-size: 18px; 
   } 
 
   /* Text size for all h3 elements on pages */
   h3 {
     text-align: center;
-    margin-top: 20px;
     font-size: 18px;
   }
 
   /* Text size for all h4 elements on pages */
   h4 {
     text-align: center;
-    margin-top: 20px;
     font-size: 17px;
   }
 
   /* Text size for all h5 elements on pages */
   h5 {
     text-align: center;
-    margin-top: 20px;
     font-size: 17px;
   }
 
@@ -320,7 +414,6 @@
     margin: 10px; 
     text-align: center; 
   }
-}
   
   /* Footer including social media links */  
   #social-media {  
@@ -338,60 +431,128 @@
   } 
 
   /* Lunch, dinner, dessert and wine navigation menu so it appears as a vertical list when adjusting for screen sizes up to width of 314px */
-  @media screen and (min-width: 280px) and (max-width: 314px) {
+  @media screen and (min-width: 280px) and (max-width: 375px) {
   #menu-navigation a {
     text-decoration: none;
     word-spacing: 1px;
     display: block;
     border: 1px solid #7E7B78;
-    padding: 5px 10px;
     color: #000000;
     background-color: #ffffff;
-    }
   }
 
-  /* Tablets and larger handheld devices 603px and larger screen sizes*/ 
-  @media screen and (min-width: 603px) {
-
-  /* Header */ 
-  h1 {
-    margin-top: 20px;
-    font-size: 5.0em;
-      }
-
-  h2 {
-    font-size: 1.5rem;
+  /* Toggle menu icon */
+  .side-menu:checked ~ nav{
+    max-height: 85%;
   }
 
-  h3 {
-    font-size: 1.25rem;
+  .scroll-container img { 
+    max-width: 375px;
+    height: 250px;
+  } 
   }
 
-  h4 {
-    font-size: 1.125rem;
-  }
-
-  h5 {
-    font-size: 1.0rem;
-  }
-
-  header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+    /* Media query for screens over 660px */
+@media (min-width: 773px) {
   
-  /* Navigation menu spacing to increase depending on the size of the screen */
-  nav li {
-      display: inline-block;
-      margin-right: 30px;
-      padding: 10px 0;
-      border-top: 1px solid #444444;
-      word-spacing: 5px;
-      font-size: 175%;
-      list-style: none;
-    }
+  .side-menu {
+    display: none; /* Hide the checkbox */
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Additional styles for background, padding, etc. */
+  }
+
+  .logo {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 9px;
+    color: #f9f9f9;
+    margin-left: 10px;
+  }
+
+  .nav .menu li a {
+    color: white;
+    margin-right: 20px;
+    font-size: 24px;
+    margin-top: 8px;
+    padding: 10px;
+     /* Set the text color to white */
+    /* Additional styles */
+  }
+
+  .nav .menu li a:last-child {
+    margin-right: 0;
+  }
+  
+  .nav .menu li a:hover {
+    /* Optional: Styles for link hover state */
+    background-color: #eee; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+    /* Additional hover styles */
+  }
+
+  
+
+
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .logo h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .nav {
+    margin-left: auto; /* Pushes nav to the right */
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 15px; /* Adjust spacing between menu items */
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+  }
+
+    /* Horizontal flex container */ 
+    header { 
+      display: block; 
+      justify-content: space-between; 
+      background-color: #36383f;
+      top: 0;
+    } 
+  
+  h1 {
+    margin-top: 10px;
+    padding-top: 2px;
+    text-align: center;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 55px;
+    margin-bottom: 2px;
+   }
+ 
+   /* Navigation positioning when changing screen sizes */
+   nav { 
+     display: inline; 
+     position: relative; 
+     width: fit-content; 
+     padding: 5px;
+     text-align: center;
+     align-items: center;
+     font-size: 16px;
+   } 
 
   /* to ensure last nav item "contact" was not affected by margin right element above */
   nav li:last-child {
@@ -414,25 +575,4 @@
     max-width: 750px;
     height: 500px;
   } 
-
-  h1 {
-    margin-top: 20px;
-    font-size: 7.5em;
-      }
-
-  h2 {
-    font-size: 1.875rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
-  h4 {
-    font-size: 1.125rem;
-  }
-
-  h5 {
-    font-size: 1.0rem;
-  }
  }

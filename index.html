@@ -21,24 +21,27 @@
 <!-- Link to style.css folder -->  
 <link href="assets/css/style.css" rel="stylesheet" type="text/css"> 
   </head> 
+  <body>
+    <!-- Navigation bar -->
+    <header class="header">
+      <!-- Logo -->
+      <a href="index.html" class="logo"><h1>La Citadelle</h1>
+      </a>
+      <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <!-- Menu -->
+      <nav class="nav">
+          <ul class="menu">
+            <li><a href="index.html" aria-label="Return to the homepage">Home</a></li> 
+            <li><a href="index.html#about" aria-label="Go to the about us section">About Us</a></li>
+            <li><a href="bookings.html" aria-label="Go to this section to make a reservation on the bookings page">Bookings</a></li>
+            <li><a href="menu.html" aria-label="View our menu including our wine list on the menu page">Menu</a></li>
+            <li><a href="index.html#contact" aria-label="View our contact information and further information">Contact</a></li> 
+          </ul>
+      </nav>
+  </header>
 
-  <body> 
-    <header> 
-    <a href="index.html"> 
-    <h1 id="home">La Citadelle</h1> 
-    </a>
-
-<!-- Navigation Menu -->
-  <nav> 
-    <ul>
-      <li><a href="index.html" aria-label="Return to the homepage">Home</a></li> 
-      <li><a href="#about" aria-label="Go to the about us section">About Us</a></li>
-      <li><a href="bookings.html" aria-label="Go to this section to make a reservation on the bookings page">Bookings</a></li>
-      <li><a href="menu.html" aria-label="View our menu including our wine list on the menu page">Menu</a></li>
-      <li><a href="#contact" aria-label="View our contact information and further information">Contact</a></li> 
-    </ul> 
-  </nav> 
-    </header>
 
 <!-- Main content -->
   <main>
@@ -63,9 +66,10 @@
     <img src="assets/images/fine-dining.jpg" alt="Fine dining plate of food">
   </div>
 
-<!-- About us section -->  
-  <section id="about-us">  
-    <div id="about">  
+<!-- About us section -->
+<span class="anchor" id="about"></span>
+ <section class="about-us"> 
+      <br>
       <h2>About us</h2>  
       <hr>  
       <h3>Exquisite Elegance in the Heart of London</h3>  
@@ -90,8 +94,8 @@
   </section>
 
   <!-- Make a reservation & contact us section -->
-  <section id="contact-us">
-    <div id="contact"> 
+  <span class="anchor" id="contact"></span>
+  <section class="contact-us">
         <h2>Contact us</h2> 
         <hr> 
         <p>
