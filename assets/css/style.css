@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
 /* Default margin and padding for the header, h1, and ul */
-header, h1, ul {
+header, footer, h1, ul {
   margin: 0;
   padding: 0;
 }
@@ -153,9 +153,10 @@ h5 {
 }
 
 
-/* Footer copyright text */
+/* Footer including copyright text */
 footer {
   background-color: #36383F;
+  bottom: 0;
 }
 
 footer p {
@@ -350,12 +351,11 @@ footer p {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  color: white;
 }
 
 #social-media li {
   font-size: 140%;
-  padding: 5%;
+  padding: 5px;
   color: #ffffff;
   display: inline-block;
 }
@@ -676,7 +676,6 @@ hr {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    z-index: 1; 
     background-image: url("/assets/images/background-wine-menu-image.webp");
   }
 
@@ -874,8 +873,9 @@ input[type="time"] {
 
 #social-media li {
   font-size: 140%;
-  padding: 5%;
+  padding: 5px;
   color: #ffffff;
   display: inline-block;
+  bottom: 0;
 }
 }
