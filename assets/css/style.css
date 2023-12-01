@@ -56,7 +56,7 @@ h1 {
 p {
   font-size: 16px;
   letter-spacing: 1px;
-  margin-top: 5px;
+  margin: 0;
   padding: 0;
   font-family: 'lato', sans-serif;
 }
@@ -154,7 +154,6 @@ h5 {
   font-weight: bold;
   text-transform: uppercase;
 }
-
 
 /* Footer including copyright text */
 footer {
@@ -571,6 +570,14 @@ input[type="time"] {
 
 /* Menu page */
 
+  #menu-anchor {
+    display: block;
+    height: 70px;
+    margin-top: -70px;
+    visibility: hidden;
+  }
+
+/* To ensure that the hr element appears over display flexbox on menu */
   hr {
     width: 100%;
   }
@@ -857,10 +864,9 @@ input[type="time"] {
   }
 
   #social-media li {
-    font-size: 140%;
+    font-size: 160%;
     padding: 5px;
     color: #ffffff;
     display: inline-block;
-    bottom: 0;
   }
 }
