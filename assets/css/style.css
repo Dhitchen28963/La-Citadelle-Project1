@@ -26,7 +26,7 @@ h1 {
   overflow: auto;
   white-space: nowrap;
   padding: 5px;
-  margin: 0 auto;
+  margin: 10px;
   width: 98%;
   border: 1px solid #ccc;
 }
@@ -96,7 +96,6 @@ footer p {
   text-align: center;
   font-weight: bold;
   color: white;
-  font-size: 16px;
 }
 
 /* Lunch, dinner, dessert, and wine navigation menu */
@@ -104,21 +103,31 @@ footer p {
   #menu-navigation a {
     text-decoration: none;
     word-spacing: 1px;
-    display: block;
+    display: grid;
     border: 1px solid #7E7B78;
     color: #000000;
     background-color: #ffffff;
   }
 
+  .menu-options {
+    list-style: none;
+    padding: 0;
+    position: center;
+  }
+
+  .menu-options li {
+    margin-bottom: 5px;
+  }
+
   /* Toggle menu icon */
   .side-menu:checked ~ nav {
-    max-height: 85%;
+    max-height: 100%;
     z-index: 3;
   }
 
   .scroll-container img {
-    max-width: 375px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -164,7 +173,7 @@ footer p {
   .logo {
     display: inline-block;
     color: var(--white);
-    font-size: 60px;
+    font-size: 22px;
     margin-left: 10px;
     margin-top: 7px;
   }
@@ -180,7 +189,7 @@ footer p {
 
   .menu a {
     display: block;
-    padding: 30px;
+    padding: 15px;
     color: var(--white);
   }
 
@@ -237,7 +246,7 @@ footer p {
 
   /* Toggle menu icon */
   .side-menu:checked ~ nav {
-    max-height: 50%;
+    max-height: 60%;
   }
 
   .side-menu:checked ~ .hamb .hamb-line {
@@ -252,11 +261,6 @@ footer p {
   .side-menu:checked ~ .hamb .hamb-line::after {
     transform: rotate(45deg);
     top: 0;
-  }
-
-  .scroll-container img {
-    max-width: 750px;
-    height: 500px;
   }
 
   /* Anchor class that enables the user to jump to a specific section of a page without the navigation bar overlapping */
@@ -294,9 +298,116 @@ footer p {
   #wine-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
-    margin: 0 10px;
+    margin: 0 20px;
     text-align: center;
   }
+
+  /* Footer including social media links */
+#social-media {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: white;
+}
+
+#social-media li {
+  font-size: 140%;
+  padding: 5%;
+  color: #ffffff;
+  display: inline-block;
+}
+
+/* Opening times */
+#opening-times {
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Reservation form layout */
+.enquiry {
+  border: 2px solid #ccc; /* Example border style */
+  padding: 20px; /* Example padding */
+  width: 100%; /* Adjust the width of the box */
+  max-width: 600px; /* Set a maximum width if needed */
+  background-color: #f9f9f9; /* Example background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.enquiry h3 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="dietary_requirements"],
+input[type="special_requests"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#reservations-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 10px; /* Adjust the space between the box and page edges */
+    background-image: url("/assets/images/background-form-image.webp");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;  
+}
+
+menu-options {
+  list-style: none;
+  padding: 0;
+  position: center;
+}
+
+.menu-options li {
+  margin-bottom: 5px;
+}
+
+/* Lunch, dinner, dessert, and wine menu navigation */
+#menu-navigation {
+  text-align: center;
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+}
+
+#menu-navigation li {
+  text-decoration: none;
+  word-spacing: 1px;
+  display: grid;
+  border: 1px solid #7E7B78;
+  padding: 5px 10px;
+  color: #000000;
+  background-color: #ffffff;
+  list-style: none;
+}
 }
 
 /* Media query for tablets and other devices with a screen width over 773px */
@@ -318,6 +429,7 @@ footer p {
     margin-top: 9px;
     color: #f9f9f9;
     margin-left: 10px;
+    font-size: 34px;
   }
 
   .nav .menu li a {
@@ -510,6 +622,9 @@ footer p {
     position: relative;
     z-index: 1;
   }
+
+  footer p {
+    font-size: 16px;
 }
   
 h1 {
@@ -570,14 +685,15 @@ p {
   margin: 10px;
 }
 
-#menu-navigation a {
+#menu-navigation li {
   text-decoration: none;
   word-spacing: 1px;
-  display: inline-block;
+  display: grid;
   border: 1px solid #7E7B78;
   padding: 5px 10px;
   color: #000000;
   background-color: #ffffff;
+  list-style: none;
 }
 
 /* All food headers in the menu */
@@ -589,7 +705,7 @@ p {
 #lunch-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 40px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -602,7 +718,7 @@ p {
 #dinner-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 40px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -615,7 +731,7 @@ p {
 #dessert-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 40px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -625,15 +741,15 @@ p {
 }
 
 /* Wine menu border and header styling */
-#wine-selection {
+#wine-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 40px;
+  margin: 10px;
   text-align: center;
 }
 
-#wine-selection h3,
-#wine-selection h4 {
+#wine-menu h3,
+#wine-menu h4 {
   color: #ffffff;
   background-color: #3a3a3a;
 }
@@ -705,7 +821,7 @@ textarea {
 #reservations-form {
     display: flex;
     justify-content: center; /* Center horizontally */
-    margin: 20px; /* Adjust the space between the box and page edges */
+    margin: 10px; /* Adjust the space between the box and page edges */
     background-image: url("/assets/images/background-form-image.webp");
     background-size: cover;
     background-position: center;
@@ -727,8 +843,9 @@ textarea {
 }
 
 #social-media li {
-  font-size: 160%;
+  font-size: 140%;
   padding: 5%;
   color: #ffffff;
   display: inline-block;
+}
 }
