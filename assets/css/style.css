@@ -22,24 +22,43 @@ h1 {
   font-family: 'Italianno', sans-serif;
 }
 
+/* headers color and background color for each section of the index.html page */
+.about-us h2 {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.contact-us h2 {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+#opening-times h2 {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+/*Image scroll container found below the header this prevents the images from going beyond the width of the screen */
 .scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 5px;
-  margin: 10px;
-  width: 98%;
-  border: 1px solid #ccc;
+  width: 100%;
 }
 
+/* Defined image size */
 .scroll-container img {
   max-width: 100%;
-  height: 250px;
+  height: auto;
 }
 
-/* Color of all h2 elements in addition to background */
-h2 {
-  background-color: #3a3a3a;
-  color: #ffffff;
+/* Text size for all p elements on pages */
+p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  padding: 0;
+  font-family: 'lato', sans-serif;
 }
 
 /* About us section on the homepage */
@@ -50,12 +69,19 @@ h2 {
   text-align: center;
 }
 
-/* Contact us regarding bookings and events on the home page */
+/* Contact us section on the homepage */
 .contact-us {
   border: 2px solid #7E7B78;
   padding: 5px;
   margin: 10px;
   text-align: center;
+}
+
+.contact-us a {
+  color: #C42357;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Opening and closing times table on the homepage */
@@ -73,18 +99,59 @@ th, td {
   padding: 8px;
 }
 
-/* Image/gallery scroller below the header element */
-.scroll-container {
-  overflow: auto;
-  white-space: nowrap;
+/* Book Now page */
+#events {
+  border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 0 auto;
+  margin: 10px;
+  text-align: center;
 }
 
-.scroll-container img {
-  max-width: 375px;
-  height: 250px;
+.enquiry h3 {
+  color: #3a3a3a;
+  text-decoration: underline;
 }
+
+#dining h2 {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+/* Menu page */
+h5 {
+  font-size: 18px;
+}
+
+#lunch-menu a {
+  color: #C42357;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#dinner-menu a {
+  color: #C42357;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+#dessert-menu a {
+  color: #C42357;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+#wine-menu a {
+  color: #C42357;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 
 /* Footer copyright text */
 footer {
@@ -96,39 +163,6 @@ footer p {
   text-align: center;
   font-weight: bold;
   color: white;
-}
-
-/* Lunch, dinner, dessert, and wine navigation menu */
-@media screen and (min-width: 280px) and (max-width: 375px) {
-  #menu-navigation a {
-    text-decoration: none;
-    word-spacing: 1px;
-    display: grid;
-    border: 1px solid #7E7B78;
-    color: #000000;
-    background-color: #ffffff;
-  }
-
-  .menu-options {
-    list-style: none;
-    padding: 0;
-    position: center;
-  }
-
-  .menu-options li {
-    margin-bottom: 5px;
-  }
-
-  /* Toggle menu icon */
-  .side-menu:checked ~ nav {
-    max-height: 100%;
-    z-index: 3;
-  }
-
-  .scroll-container img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
  /* Media query: Foldable phones and smaller screen sizes - landscape and portrait (280px width - 773px) */
@@ -175,7 +209,7 @@ footer p {
     color: var(--white);
     font-size: 22px;
     margin-left: 10px;
-    margin-top: 7px;
+    margin-top: 10px;
   }
 
   /* Nav menu */
@@ -191,6 +225,8 @@ footer p {
     display: block;
     padding: 15px;
     color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .menu a:hover {
@@ -271,6 +307,12 @@ footer p {
     visibility: hidden;
   }
 
+  .lunch h2,
+  .lunch h3,
+  .lunch h4 {
+    text-decoration: underline;
+  }
+
   #lunch-menu {
     border: 2px solid #7E7B78;
     padding: 5px;
@@ -340,11 +382,6 @@ footer p {
   z-index: 1;
 }
 
-.enquiry h3 {
-  color: #ffffff;
-  background-color: #3a3a3a;
-}
-
 label {
   display: block;
   font-weight: bold;
@@ -378,6 +415,16 @@ textarea {
     background-size: cover;
     background-position: center;
     z-index: 1;  
+}
+
+input[type="date"],
+input[type="time"] {
+  text-align: center;
+}
+
+/* Centers text inside the event type selection on the reservations form */
+.centered-text {
+  text-align: center;
 }
 
 menu-options {
@@ -420,7 +467,6 @@ menu-options {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Additional styles for background, padding, etc. */
   }
 
   .logo {
@@ -518,10 +564,23 @@ menu-options {
     text-align: center;
   }
 
-  .scroll-container img {
-    max-width: 750px;
-    height: 500px;
+  /*Image scroll container found below the header this prevents the images from going beyond the width of the screen */
+  .scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    max-width: 100%;
   }
+
+  .scroll-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Menu page */
+
+hr {
+  width: 100%;
+}
 
 /*Lunch menu responsive container */
   #lunch-menu {
@@ -530,14 +589,13 @@ menu-options {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    z-index: 1; 
     background-image: url("/assets/images/background-lunch-menu-image.webp");
   }
 
 /*Lunch menu responsive background-image */
   .lunch {
     border: 2px solid #ccc;
-    padding: 20px;
+    padding: 5px;
     width: 100%; /* Adjust the width of the box */
     max-width: 600px;
     background-color: #f9f9f9;
@@ -545,9 +603,14 @@ menu-options {
     flex-direction: column;
     align-items: center;
     position: relative;
-    z-index: 1;
   }
-  
+
+  .lunch h2,
+  .lunch h3,
+  .lunch h4 {
+    text-decoration: underline;
+  }
+
   /*Dinner menu responsive container */
   #dinner-menu {
     display: flex;
@@ -555,14 +618,13 @@ menu-options {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    z-index: 1; 
     background-image: url("/assets/images/background-dinner-menu-image.webp");
   }
 
 /*Dinner menu responsive background-image */
   .dinner {
     border: 2px solid #ccc;
-    padding: 20px;
+    padding: 5px;
     width: 100%; /* Adjust the width of the box */
     max-width: 600px;
     background-color: #f9f9f9;
@@ -570,7 +632,12 @@ menu-options {
     flex-direction: column;
     align-items: center;
     position: relative;
-    z-index: 1;
+  }
+
+  .dinner h2,
+  .dinner h3,
+  .dinner h4 {
+    text-decoration: underline;
   }
 
   /* Dessert menu responsive container */
@@ -580,14 +647,13 @@ menu-options {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    z-index: 1; 
     background-image: url("/assets/images/background-dessert-menu-image.webp");
   }
 
 /*Dessert menu responsive background-image */
   .dessert {
     border: 2px solid #ccc;
-    padding: 20px;
+    padding: 5px;
     width: 100%; /* Adjust the width of the box */
     max-width: 600px;
     background-color: #f9f9f9;
@@ -595,7 +661,12 @@ menu-options {
     flex-direction: column;
     align-items: center;
     position: relative;
-    z-index: 1;
+  }
+
+  .dessert h2,
+  .dessert h3,
+  .dessert h4 {
+    text-decoration: underline;
   }
 
    /* Wine menu responsive container */
@@ -612,7 +683,7 @@ menu-options {
 /*Wine menu responsive background-image */
   .wine {
     border: 2px solid #ccc;
-    padding: 20px;
+    padding: 5px;
     width: 100%; /* Adjust the width of the box */
     max-width: 600px;
     background-color: #f9f9f9;
@@ -623,6 +694,12 @@ menu-options {
     z-index: 1;
   }
 
+  .wine h2,
+  .wine h3,
+  .wine h4 {
+    text-decoration: underline;
+  }
+
   footer p {
     font-size: 16px;
 }
@@ -631,42 +708,22 @@ h1 {
   font-size: 40px;
 }
 
-/* Text size for contact information on the main page under the contact us title, to prevent overlapping border */
-#contact strong {
-  font-size: 14px;
-}
-
 /* Text size for all h2 elements on pages */
 h2 {
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 /* Text size for all h3 elements on pages */
 h3 {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* Text size for all h4 elements on pages */
 h4 {
   text-align: center;
-  font-size: 17px;
-}
-
-/* Text size for all h5 elements on pages */
-h5 {
-  text-align: center;
-  font-size: 17px;
-}
-
-/* Text size for all p elements on pages */
-p {
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin-top: 15px;
-  padding: 0;
-  font-family: 'lato', sans-serif;
+  font-size: 18px;
 }
 
 /* Opening times */
@@ -696,42 +753,24 @@ p {
   list-style: none;
 }
 
-/* All food headers in the menu */
-#menu h5 {
-  font-size: 90%;
-}
-
 /* Lunch menu border and header styling */
 #lunch-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 10px;
   text-align: center;
-}
-
-#lunch-menu h3 {
-  color: #ffffff;
-  background-color: #3a3a3a;
 }
 
 /* Dinner menu border and header styling */
 #dinner-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 10px;
   text-align: center;
-}
-
-#dinner-menu h3 {
-  color: #ffffff;
-  background-color: #3a3a3a;
 }
 
 /* Dessert menu border and header styling */
 #dessert-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 10px;
   text-align: center;
 }
 
@@ -744,15 +783,9 @@ p {
 #wine-menu {
   border: 2px solid #7E7B78;
   padding: 5px;
-  margin: 10px;
   text-align: center;
 }
 
-#wine-menu h3,
-#wine-menu h4 {
-  color: #ffffff;
-  background-color: #3a3a3a;
-}
 /* Bookings page */
 #events {
   border: 2px solid #7E7B78;
@@ -761,17 +794,9 @@ p {
   text-align: center;
 }
 
-#dining li {
-  text-align: center;
-}
-
 #dining h3 {
   color: #ffffff;
   background-color: #3a3a3a;
-}
-
-.occasion-list {
-  list-style-type: none;
 }
 
 /* Reservation form layout */
@@ -786,11 +811,6 @@ p {
   align-items: center;
   position: relative;
   z-index: 1;
-}
-
-.enquiry h3 {
-  color: #ffffff;
-  background-color: #3a3a3a;
 }
 
 label {
@@ -816,6 +836,16 @@ textarea {
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
+}
+
+input[type="date"],
+input[type="time"] {
+  text-align: center;
+}
+
+/* Centers text inside the event type selection on the reservations form */
+.centered-text {
+  text-align: center;
 }
 
 #reservations-form {

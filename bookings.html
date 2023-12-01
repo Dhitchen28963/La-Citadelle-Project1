@@ -9,9 +9,16 @@
 <!-- Meta tags for search engines -->  
     <meta name="description" content="Fine dining. Restaurant in London, London fine dining, La Citadelle fine dining">  
     <meta name="keywords" content="Fine dining. Restaurant in London, London fine dining, food">  
+ 
+<!-- Link to external resources-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+<!-- Title of the webpage-->
   <title>La Citadelle</title>
 
-<!-- Link to style.css folder -->  
+<!-- Path to style.css folder -->  
 <link href="assets/css/style.css" rel="stylesheet" type="text/css"> 
   </head> 
 
@@ -42,7 +49,7 @@
    <section id ="events">  
         <div id="dining">  
             <h2>Events & Private Dining</h2>  
-            <hr> 
+            <br>
             <p>             
                 Delight your senses with our curated menu featuring exquisite dishes, thoughtfully prepared by our talented chefs using the finest ingredients.
                 Whether it's an anniversary celebration, a romantic date, or an intimate gathering with close friends, 
@@ -50,8 +57,8 @@
                 <br><br>
             </p>
     
-            <h3>The Grand Banquet</h3>
-            <hr>
+            <h2>The Grand Banquet</h2>
+            <br>
             <p>
                 Step into a world of grandeur and opulence with our exquisite grand banquet experience, tailored for those seeking a lavish and memorable affair. 
                 Set amidst our elegant and spacious banquet hall, this experience promises to elevate your celebrations to unparalleled heights.
@@ -62,7 +69,7 @@
         </div> 
     </section> 
 
-    <!-- Reservations enquiry form -->
+    <!-- Reservations form -->
     <section id="reservations-form">
        <div class="background-image">
         <div class="enquiry">
@@ -87,13 +94,14 @@
                     <input type="time" id="time" name="time" required><br><br>
 
                     <label for="event-type">Type of Event:</label>
-                    <select id="event-type" name="event-type">
+                    <select id="event-type" name="event-type" class="centered-text">
                     <option value="wedding">Wedding</option>
                     <option value="corporate-event">Corporate Event</option>
                     <option value="fundraiser">Fundraiser</option>
                     <option value="birthday">Birthday</option>
                     <option value="private dinner">Private Dinner</option>
                     <option value="fundraiser">Fundraiser</option>
+                    <option value="other">Other</option>
                     </select>
                     <br><br>
         
