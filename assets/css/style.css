@@ -125,6 +125,25 @@ h5 {
   font-size: 18px;
 }
 
+ /* Lunch, dinner, dessert, and wine menu navigation */
+ #menu-navigation {
+  text-align: center;
+  border: 2px solid #7E7B78;
+  padding: 5px;
+  margin: 10px;
+}
+
+#menu-navigation a {
+  text-decoration: none;
+  word-spacing: 10px;
+  display: grid;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: #7E7B78;
+  list-style: none;
+}
+
 /* Hyperlinks found under lunch, dinner, dessert and wine menu that enables users to go back to the menu navigation */
 #lunch-menu a {
   color: #C42357;
@@ -421,35 +440,6 @@ input[type="time"] {
 .centered-text {
   text-align: center;
 }
-
-/* Lunch, dinner, dessert, and wine menu navigation */
-#menu-navigation {
-  text-align: center;
-  border: 2px solid #7E7B78;
-  padding: 5px;
-  margin: 10px;
-}
-
-#menu-navigation li {
-  text-decoration: none;
-  word-spacing: 1px;
-  display: grid;
-  border: 1px solid #7E7B78;
-  padding: 5px 10px;
-  color: #000000;
-  background-color: #ffffff;
-  list-style: none;
-}
-
-  menu-options {
-    list-style: none;
-    padding: 0;
-    position: center;
-  }
-  
-  .menu-options li {
-    margin-bottom: 5px;
-  }
 }
 
 /* Media query for tablets and other devices with a screen width over 773px */
@@ -725,25 +715,6 @@ input[type="time"] {
     padding: 5px;
     margin: 10px;
     text-align: center;
-  }
-
-  /* Lunch, dinner, dessert, and wine menu navigation */
-  #menu-navigation {
-    text-align: center;
-    border: 2px solid #7E7B78;
-    padding: 5px;
-    margin: 10px;
-  }
-
-  #menu-navigation li {
-    text-decoration: none;
-    word-spacing: 1px;
-    display: grid;
-    border: 1px solid #7E7B78;
-    padding: 5px 10px;
-    color: #000000;
-    background-color: #ffffff;
-    list-style: none;
   }
 
   /* Lunch menu border and header styling */
