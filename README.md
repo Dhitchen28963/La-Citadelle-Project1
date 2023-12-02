@@ -1,18 +1,22 @@
 # La Citadelle
 ---
+## Link to website
+
+[La Citadelle](https:addyourwebsite here)
 
 ## Table of Contents
-
 <ol>
 <li>Introduction</li>
-<li>About La Citadelle</li>
-<li>Getting Started</li>
 <li>Features</li>
-<li>Menu</li>
-<li>Reservations</li>
-<li>Contact Information</li>
-<li>Feedback and Support</li>
-<li>Legal Information</li>
+<li>Testing</li>
+<li>Validator Testing</li>
+<li>Accessibility</li>
+<li>Browser Testing</li>
+<li>Bugs</li>
+<li>Fixed Bugs</li>
+<li>Deployment</li>
+<li>Credits</li>
+<li>User Experience</li>
 </ol>
 
 ## Introduction
@@ -26,49 +30,50 @@ As you can see from the image below the website is compatible on all device scre
 
 ### Index.html page features
 
-**Navigation**
-#### Navigation menu on devices with a screen width below 774px width
+### Navigation
+
+##### Navigation menu on devices with a screen width below 774px width
 ![Header screenshot showing main header and navigation menu when on mobile](assets/images/readme-images/header-mobile.png)
 
-#### Navigation menu on devices with a screen width above 774px width
+##### Navigation menu on devices with a screen width above 774px width
 ![Header screenshot showing main header and navigation menu when on desktop](assets/images/readme-images/header-desktop.png)
 
 Featured underneath the main header, the navigation menu includes the following links:
 
-    * **Home**, Which will revert back to the main page (index.html).
-    * **About Us**, Which will allow the user to jump to the about us section of the homepage.
-    * **Book Now**, wWich will enable the user to go to the bookings page (bookings.html). Here the user can review the events we can offer in additon to making a reservation.
-    * **Menu**, Should the user which to view the lunch, dinner, dessert or wine menu they can do so.
-    * **Contact**, This will enable the user the view our contact informaton for making a reservation.
+**Home**, Which will revert back to the main page (index.html).
+**About Us**, Which will allow the user to jump to the about us section of the homepage.
+**Book Now**, wWich will enable the user to go to the bookings page (bookings.html). Here the user can review the events we can offer in additon to making a reservation.
+**Menu**, Should the user which to view the lunch, dinner, dessert or wine menu they can do so.
+**Contact**, This will enable the user the view our contact informaton for making a reservation.
 
 * The navigation will respond to the users screen width as shown in the image above three horizontal lines will appear to decrease realestate occupation on the screen.
 * The navigation menu lists are easy to understand and allow the user to understand the different sections of the website which allows for a greater user experience.
 
-**The Header**
+### The Header
 Featured at the top of the page, the header contains the main header on the far left of the screen which allows the user to reverts back to the homepage if clicked and the menu navigation (or menu icon) on the far right.
 
-**Image Scroller**
+### Image Scroller
 Underneath the header the user can scroll through various images which expand depending on the screen size, this is compatible with touch screens, keyboard and mouse (using the scroller found below the image container).
 ![Image scroller which allows user to scroll through various images of the chefs, dinner and interior of the restaurant](assets/images/readme-images/image-scroll-container.png)
 
-**The About Us Section**
+### The About Us Section
 The About us section provides brief but concise details regarding the fine dining restaurant.
 ![About Us section - which outlines what the restaurant offers](assets/images/readme-images/about-us.png)
 
-**Contact Us**
+### Contact Us
 The Contact us section provides an address, email and business telephone number in addition to a anchor/hyper link which directs the user to the reservations form should they wish to make a reservation.
 ![The Contact Us section which provides contact details and a link to the reservations form](assets/images/readme-images/contact-us.png)
 ![Anchor link that takes user back to the lunch, dinner, dessert and wine menu navigation](assets/images/readme-images/menu-navigation-anchor.png)
 
-**Opening Times**
+### Opening Times
 This provides opening and closing times should the user wish to book a table or visit the restaurant.
 ![Opening times of the restaurant](assets/images/readme-images/opening-times.png)
 
-**Social Media Links**
+### Social Media Links
 The links at the bottom of the page direct the user to their chosen link
 ![Footer image which details address, contact information and links to social media pages](assets/images/readme-images/footer-with-social-media-links.png)
 
-**Footer Address, Telephone & Email of La Citadelle**
+### Footer Address, Telephone & Email of La Citadelle
 The footer contains information of the business address including telephone and email details.
 
 
@@ -96,27 +101,28 @@ If the user makes an incorrect input the a pop up message will be illustrated an
 ![Screenshot to illustrate a unsuccessful or incorrect reservations form submission](assets/images/readme-images/incorrect-form-submission.png)
         
 
-## Menu.html page (Menu page)
+### Menu.html page (Menu page)
 The Menu page has a quick navigation anchor link for all four sections of the menu including lunch, dinner, dessert and wine menus.
 ![Lunch, dinner, desserts and wine menu](assets/images/readme-images/menu-navigation-for-menu.png)
 
 In addition to the above there is also an anchor element found at the bottom of the lunch, dinner, dessert and wine menu that will allow the user to quickly scroll back up to the menu navigation as the menu is enlongated when on smaller screens.
+
 ![Anchor link found at the bottom of each menu to revert back to the menu navigation](assets/images/readme-images/menu-navigation-anchor.png)
 
-**Lunch Menu**
+### Lunch Menu
 The lunch menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. Its important to note the allergy and intolerance advice is shown at the bottom of the lunch, dinner and dessert menu. The description of the items are also available.
 ![Lunch, starters and mains menu](assets/images/readme-images/lunch-menu-starters-and-mains.png)
 
-**Dinner Menu**
+### Dinner Menu
 The dinner menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
 ![Dinner, starters menu](assets/images/readme-images/dinner-menu-starters-and-mains.png)
 
-**Dessert Menu**
+### Dessert Menu 
 The dessert menu contains starters, mains in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
 ![Dessert menu (1 of 2)](assets/images/readme-images/dessert-menu-part-1.png)
 ![Dessert menu (2 of 2)](assets/images/readme-images/dessert-menu-part-2.png)
 
-**Wine Menu**
+### Wine Menu
 The wine menu showcases all the wines available to compliment the customers meals, ranging from white, red, Italian and Spanish including the origin of some but more importantly the price. The description of the items are also available.
 ![Wine menu - White wines](assets/images/readme-images/wine-menu-white-wine.png)
 ![Wine menu - Red wines](assets/images/readme-images/wine-menu-red-wine.png)
@@ -127,7 +133,7 @@ The wine menu showcases all the wines available to compliment the customers meal
 
 Below is a table showing various actions performed on the website including the expected/desired outcome with the result on the final column.
 
-| Action                                                                                    |Expected                                                                                           | Result                                                 |
+| Action                                                                                    |Expected Result                                                                                    | Result                                                 |
 | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------- |
 | Load index.html page                                                                      | The Homepage should load                                                                          | Homepage loaded                                        |
 | Load menu-html page                                                                       | The Menu page should load                                                                         | Menu page loaded                                       |
@@ -155,39 +161,44 @@ Below is a table showing various actions performed on the website including the 
 | Click the BACK TO TOP anchor at the bottom of the desserts menu                           | The user should be directed to the top of the menu back to the menu navigation                    | Scrolled back up to menu navigation on top of the menu |
 | Click the BACK TO TOP anchor at the bottom of the wine menu                               | The user should be directed to the top of the menu back to the menu navigation                    | Scrolled back up to menu navigation on top of the menu |
 | Expand screen size bookings page                                                          | The background image should be revealed                                                           | Background image revealed                              |
-| Expand screen size menu page                                                              | The background images should be revealed (1 for each menu - four in total                         | Background image revealed                              |
+| Expand screen size menu page                                                              | The background images should be revealed (1 for each menu - four in total)                        | Background image revealed                              |
 
 ## Validator Testing
 
-**HTML**
+### HTML
 * No erros were report when passing through the official W3C HTML validator.
-* index.html
+**index.html**
 ![Screenshot showing html validator for the index.html page - no errors found](assets/images/readme-images/html-validator-index.html.png)
-* menu.html
+
+**menu.html**
 ![Screenshot showing html validator for the menu.html page - no errors found](assets/images/readme-images/html-validator-menu.html.png)
-*bookings.html
+
+**bookings.html**
 ![Screenshot showing html validator for the bookings.html page - no errors found](assets/images/readme-images/html-validator-bookings.html.png)
 
-**CSS**
+### CSS
 * No erros were report when passing through the official W3C CSS validator.
 ![Screenshot showing css validator for the style.css page - no errors found](assets/images/readme-images/css-validator-style.css.png)
 
-**Accessibility**
+## Accessibility
 * I confirmed that the colors and fonts chosen are easy to read and accessible by performing analysis using Lighthouse in Devtools. I conduct a scan on each page and the results of both the mobile and desktop scans are below:
 
-**index.html desktop results**
+#### index.html desktop results
 ![Screenshot from lighthouse report using developer tools for desktop version of index.html](assets/images/readme-images/lighthouse-index.html-desktop.png)
-**index.html mobile results**
+
+#### index.html mobile results
 ![Screenshot from lighthouse report using developer tools for mobile version of index.html](assets/images/readme-images/lighthouse-index.html-mobile.png)
 
-**menu.html desktop results**
+#### menu.html desktop results
 ![Screenshot from lighthouse report using developer tools for mobile version of menu.html](assets/images/readme-images/lighthouse-menu.html-mobile.png)
-**menu.html mobile results**
+
+#### menu.html mobile results
 ![Screenshot from lighthouse report using developer tools for desktop version of menu.html](assets/images/readme-images/lighthouse-menu.html-desktop.png)
 
-**bookings.html desktop results**
+#### bookings.html desktop results
 ![Screenshot from lighthouse report using developer tools for mobile version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-mobile.png)
-**bookings.html mobile results**
+
+#### bookings.html mobile results
 ![Screenshot from lighthouse report using developer tools for desktop version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-desktop.png)
 
 ## Browser Testing
@@ -220,7 +231,7 @@ Below is a table showing various actions performed on the website including the 
     *From the source section drop-down menu, select the Master Branch.
     *Once the master branch has been selected, the page provided the link to the completed website.
 
-The link can be found here - [title](https://pixabay.com/)
+The link can be found here - [La Citadelle](https:addyourwebsite here)
 
 ## Credits
 
@@ -232,18 +243,20 @@ The link can be found here - [title](https://pixabay.com/)
 * All chef images in the scroll container were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (6 in total).
 * The remaining 9 images in the scroll container were downloaded from [Pixabay](https://pixabay.com/)and our licensed for use.
 
-## 5trategy Plane
+## User Experience
+
+### 5trategy Plane
     Aiming to achieve and for whom?
 
-## Scope Plane
+### Scope Plane
     Features
 
-## Structure Plane
+### Structure Plane
 How is the information structured and how is it loigcally grouped
 
-## Skeleton Plane
+### Skeleton Plane
     How will our information be presented and how will the information be featured
 
-## Surface Plane
+### Surface Plane
     What will the finished product look like
 
