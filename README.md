@@ -56,8 +56,36 @@ Replace current images with new screen shots
 
 
 ## Testing
-    Add 3 columns to show Action, Expected result and result
-    i.e. type URL - Home page should load - Home page loaded
+| Action                                                                                    |Expected                                                                                           | Result                                                 |
+| :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------- |
+| Load index.html page                                                                      | The Homepage should load                                                                          | Homepage loaded                                        |
+| Load menu-html page                                                                       | The Menu page should load                                                                         | Menu page loaded                                       |
+| Load bookins.html                                                                         | The Book now page should load                                                                     | Book now page loaded                                   |
+| Click on the h1 logo                                                                      | The page should refresh if currently on the home page or divert user to the homepage if not       | Home page loaded                                       |
+| Click on menu icon (hamburg) when on screens less than 774px width                        | The nav drop down menu should reveal all the nav options Home, About Us, Book Now, Menu, Contact  | Navigation menu dropped                                |
+| Scroll images on scroll.container found underneath the header                             | The imagess move left to right with touch, keyboard or using scroller                             | Images scrolled - left to right                        |
+| Click the CLICK HERE on the contact us section of the homepage                            | The bookings page should load where the user can complete the reservations form                   | Bookings page loaded                                   |
+| Click the Facebook social media link found in the footer at the bottom of all html pages  | Facebook site should load                                                                         | Facebook loaded                                        |
+| Click the X (formally known as Twitter) social media link found in the footer             | Twitter (X) site should load                                                                      | Twitter (X) loaded                                     |
+| Click the Youtube social media link found in the footer at the bottom of all html pages   | Youtube site should load                                                                          | Youtube loaded                                         |
+| Click the Instagram social media link found in the footer at the bottom of all html pages | Instagram siteshould load                                                                         | Instragram loaded                                      |
+| Click About Us on the header (both desktop and mobile device)                             | The user should be directed to the About us section found on the homepage                         | Page scrolled to About us section                      |
+| Click Book Now on the header (both desktop and mobile device)                             | The user should be directed to the Book Now page (bookings.html)                                  | Book now page loaded                                   |
+| Click Menu on the header (both desktop and mobile device)                                 | The user should be directed to the Menu page (menu.html)                                          | Menu page loaded                                       |
+| Click Contact on the header (both desktop and mobile device)                              | The user should be directed to the Contact us section found on the homepage                       | Page scrolled to Contact us section                    |
+| Fill in the reservations form on the bookings.html                                        | The user will receive a confirmation of receipt and the details inputted                          | Received confirmation of receipt with details          |
+| Fill in the reservations form on the bookings.html with invalid input                     | The user will receive a pop up notification to confirm error with input                           | Pop up message shown with prompt                       |
+| Click the Lunch anchor at the top of the menu.html page                                   | The user will be redirected to the top of the Lunch Menu                                          | Redirected to Lunch menu                               |
+| Click the Dinner anchor at the top of the menu.html page                                  | The user will be redirected to the top of the Dinner Menu                                         | Redirected to dinner menu                              |
+| Click the Desserts anchor at the top of the menu.html page                                | The user will be redirected to the top of the Desserts Menu                                       | Redirected to dessert menu                             |
+| Click the Wine anchor at the top of the menu.html page                                    | The user will be redirected to the top of the Wine Menu                                           | Redirected to wine menu                                |
+| Click the BACK TO TOP anchor at the bottom of the lunch menu                              | The user should be directed to the top of the menu back to the menu navigation                    | Scrolled back up to menu navigation on top of the menu |
+| Click the BACK TO TOP anchor at the bottom of the dinner menu                             | The user should be directed to the top of the menu back to the menu navigation                    | Scrolled back up to menu navigation on top of the menu |
+| Click the BACK TO TOP anchor at the bottom of the desserts menu                           | The user should be directed to the top of the menu back to the menu navigation                    | Scrolled back up to menu navigation on top of the menu |
+| Click the BACK TO TOP anchor at the bottom of the wine menu                               | The user should be directed to the top of the menu back to the menu navigation                    | Scrolled back up to menu navigation on top of the menu |
+| Expand screen size bookings page                                                          | The background image should be revealed                                                           | Background image revealed                              |
+| Expand screen size menu page                                                              | The background images should be revealed (1 for each menu - four in total                         | Background image revealed                              |
+
 
 ## Bugs
 
