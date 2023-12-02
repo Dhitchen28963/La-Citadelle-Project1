@@ -113,8 +113,8 @@ How is the information structured and how is it loigcally grouped
 
 ![Dinner, starters menu](assets/images/readme-images/dinner-menu-starters-and-mains.png)
 
-![Dessert menu (1 of 2)](assets/images/readme-images/desserts-menu-part-1.png)
-![Dessert menu (2 of 2)](assets/images/readme-images/desserts-menu-part-2.png)
+![Dessert menu (1 of 2)](assets/images/readme-images/dessert-menu-part-1.png)
+![Dessert menu (2 of 2)](assets/images/readme-images/dessert-menu-part-2.png)
 ![Wine menu - White wines](assets/images/readme-images/wine-menu-white-wine.png)
 ![Wine menu - Red wines](assets/images/readme-images/wine-menu-red-wine.png)
 ![Wine menu - Italian wines](assets/images/readme-images/wine-menu-italian-wine.png)
