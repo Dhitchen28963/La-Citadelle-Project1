@@ -6,7 +6,7 @@
 
 ## Table of Contents
 <ol>
-<li>Introduction</li>
+<li>User Experience</li>
 <li>Features</li>
 <li>Testing</li>
 <li>Validator Testing</li>
@@ -14,19 +14,35 @@
 <li>Browser Testing</li>
 <li>Bugs</li>
 <li>Fixed Bugs</li>
+<li>Technology</li>
 <li>Deployment</li>
 <li>Credits</li>
-<li>User Experience</li>
 </ol>
 
-## Introduction
+## User Experience
+
+### 5trategy Plane
+    Aiming to achieve and for whom?
+
+### Scope Plane
+    Features
+
+### Structure Plane
+How is the information structured and how is it loigcally grouped
+
+### Skeleton Plane
+    How will our information be presented and how will the information be featured
+
+### Surface Plane
+    What will the finished product look like
+
+## Features
+
 The website for La Citadelle was created to provide an online presence for a fine dining restaurant.
 Users will be able to view La Citadelles opening times, book a table or arrange a private dining/event specific to thier needs. Its intended purpose was to build on a brand and attract and engage customers. The website is compatible on all devices and is easy to navigate with a minimalist approach. In addition they can view the restaurants social media pages and the menus before they visit the restaurant.
 
 As you can see from the image below the website is compatible on all device screen sizes from the Galaxy Fold (280px screen width) and above.
 ![Amiresponsive image which shows website on different screen sizes](assets/images/readme-images/amiresponsive-image.png)
-
-## Features
 
 ### Index.html page features
 
@@ -167,13 +183,14 @@ Below is a table showing various actions performed on the website including the 
 
 ### HTML
 * No erros were report when passing through the official W3C HTML validator.
-**index.html**
+
+#### index.html
 ![Screenshot showing html validator for the index.html page - no errors found](assets/images/readme-images/html-validator-index.html.png)
 
-**menu.html**
+#### menu.html
 ![Screenshot showing html validator for the menu.html page - no errors found](assets/images/readme-images/html-validator-menu.html.png)
 
-**bookings.html**
+#### bookings.html
 ![Screenshot showing html validator for the bookings.html page - no errors found](assets/images/readme-images/html-validator-bookings.html.png)
 
 ### CSS
@@ -205,25 +222,43 @@ Below is a table showing various actions performed on the website including the 
 * I conducted browser testing on various devices and web browsers and they are listed below:
         
 ### Browsers
-*Google Chrome
-*Safari
-*Brave
-*Microsoft Edge
-*Mozilla Firefox
-*Internet Explorer
+**Google Chrome**
+**Safari**
+**Brave**
+**Microsoft Edge**
+**Mozilla Firefox**
+**Internet Explorer**
 
 ### Devices
-*Android
-*Iphone
-*Dell laptop
-*Asus Chromebook
-*Apple Imac
+**Android**
+**Iphone**
+**Dell laptop**
+**Asus Chromebook**
+**Apple Imac**
 
 ## Bugs
 * No bugs found.
 
 ## Unfixed Bugs
 * No unfixed bugs.
+
+## Technologies
+
+### Tools
+
+[Googlefonts](https://fonts.google.com/) 
+[DevTools](https://developer.chrome.com/docs/devtools/)
+[Font Awesome](https://fontawesome.com/)
+[ChatGPT 3.5](https://chat.openai.com/)
+[HTML Validation Service](https://validator.w3.org/) 
+[CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+[Pixabay](https://pixabay.com/)
+[Shutterstock](https://www.shutterstock.com/)
+
+### Languages
+
+**HTML**
+**CSS**
 
 ## Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -242,21 +277,4 @@ The link can be found here - [La Citadelle](https:addyourwebsite here)
 * All backgrounds images were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (4 in total).
 * All chef images in the scroll container were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (6 in total).
 * The remaining 9 images in the scroll container were downloaded from [Pixabay](https://pixabay.com/)and our licensed for use.
-
-## User Experience
-
-### 5trategy Plane
-    Aiming to achieve and for whom?
-
-### Scope Plane
-    Features
-
-### Structure Plane
-How is the information structured and how is it loigcally grouped
-
-### Skeleton Plane
-    How will our information be presented and how will the information be featured
-
-### Surface Plane
-    What will the finished product look like
 
