@@ -6,8 +6,15 @@
 
 ## Table of Contents
 <ol>
-<li>User Experience</li>
-<li>Features</li>
+<li>User Experience
+    <ul>
+        <li>5trategy Plane</li>
+        <li>Scope Plane</li>
+        <li>Structure Plane</li>
+        <li>Skeleton Plane</li>
+        <li>Surface Plane</li>
+    </ul>
+    </li>
 <li>Testing</li>
 <li>Validator Testing</li>
 <li>Accessibility</li>
@@ -19,25 +26,24 @@
 <li>Credits</li>
 </ol>
 
+<!-- Resize images and complete 5 planes - Update direct link on page 5 and 286 -->
+
 ## User Experience
 
 ### 5trategy Plane
-    Aiming to achieve and for whom?
+The strategy plan for La Citadelle's website aims to create a captivating online presence, drive reservations, engage customers, and ultimately enhance the restaurant's reputation and profitability by showcasing the restaurant's cuisine and promoting the dining experience and quality of service, in addition to:
+* Crafting a visually appealing, elegant, and user-friendly website design that reflects La Citadelle's ambiance and sophistication.
+* Online Reservation System: Implement a seamless reservation system allowing users to book tables easily.
+* Menu Display: Display the menu in an attractive and easy-to-navigate format with descriptions and prices.
+* Contact Information: Ensure easy access to contact details, location, and operating hours.
+* Build a responsive web design that works well on desktops, tablets, and mobile devices.
+* Ensure intuitive navigation and a seamless user journey throughout the website.
+* Prioritize accessibility features for users with disabilities, 
+* Link social media profiles to the website for increased engagement and sharing and enable the continuating development of social media marketing to promote the website, share specials, events, and engage with customers.
 
 ### Scope Plane
-    Features
 
-### Structure Plane
-How is the information structured and how is it loigcally grouped
-
-### Skeleton Plane
-    How will our information be presented and how will the information be featured
-
-### Surface Plane
-    What will the finished product look like
-
-## Features
-
+#### Features 
 The website for La Citadelle was created to provide an online presence for a fine dining restaurant.
 Users will be able to view La Citadelles opening times, book a table or arrange a private dining/event specific to thier needs. Its intended purpose was to build on a brand and attract and engage customers. The website is compatible on all devices and is easy to navigate with a minimalist approach. In addition they can view the restaurants social media pages and the menus before they visit the restaurant.
 
@@ -92,7 +98,6 @@ The links at the bottom of the page direct the user to their chosen link
 ### Footer Address, Telephone & Email of La Citadelle
 The footer contains information of the business address including telephone and email details.
 
-
 ### Bookings.html page (Book Now Page)
 **Events & Private Dining**
 The events and private dining section detail various events that are on offer at the restaurant.
@@ -144,6 +149,108 @@ The wine menu showcases all the wines available to compliment the customers meal
 ![Wine menu - Red wines](assets/images/readme-images/wine-menu-red-wine.png)
 ![Wine menu - Italian wines](assets/images/readme-images/wine-menu-italian-wine.png)
 ![Wine menu - Spanish wines](assets/images/readme-images/wine-menu-spanish-wine.png)  
+
+
+### Structure Plane
+#### Home Page:
+**Welcome Section:** Introduction to La Citadelle, showcasing its ambiance and specialty with capivating images.
+**About Section:** Brief overview highlighting the restaurants qualities.
+**Reservation Call-to-Action:** Prominent button or section for easy access to make reservations.
+**Opening times:** Details opening and closing times of the restaurant.
+
+
+#### Gallery Page:
+**Photo Gallery:** Showcasing high-quality images of the restaurant's interior, dishes, and ambiance.
+
+#### Menu Page:
+**Featured Menu Section:** Displaying select dishes or seasonal specials.
+**Detailed Dish Listings:** Individual pages or sections for each dish with descriptions, images, and pricing.
+**Allergy and intolerance disclaimers:** Disclaimer for allergy and intolerances
+
+#### Reservations Page:
+**Reservation Form:** User-friendly form to book tables with date, time, party size, and contact details.
+**Reservation Policies:** Clear information regarding reservation charges and VAT, etc.
+**Special Dietary Options:** Ability to allow user to indicate special requests or dietary preferences.
+
+#### Contact Information:
+**Location and Hours:** Address, map, and operating hours of the restaurant.
+**Contact Details:** A form for general inquiries or feedback.
+**Contact Information:** Phone number, email, and links to social media profiles.
+
+#### Footer Section:
+**Social media links:** Links to La Citadelle's social media profiles.
+**Contact & address information:** Physical address in addition to telephone and email.
+**Copyright Information:** Statement about the website's ownership and rights.
+
+#### Additional Functionalities:
+**Responsive Design:** Ensuring the website works seamlessly across various devices (desktop, tablet, mobile).
+**Navigation Menu:** Quick access to important pages.
+
+
+### Skeleton Plane
+#### Home Page:
+
+**Header Section:**
+Logo of La Citadelle and navigation menu for easy access to different pages.
+
+**Image:**
+Captivating images showcasing the restaurant's ambiance.
+
+**About Section:**
+Brief overview text about the restaurant's history.
+Narrative about La Citadelle's amd the head chef chef.
+
+**Contact Us Section:** 
+Concise welcome message with a call-to-action button for reservations.
+Contact information including address.
+
+**Opening times**
+The opening and closing times are clearly displayed.
+
+**Menu Page:** 
+Menu Categories with clearly labeled sections for starters, main courses, desserts, and drinks.
+Each section displaying descriptions of dishes with names and prices and ingredients.
+
+**Menu Section:**
+Highlighting select dishes with appealing images and brief descriptions including prices and allergy and intolerance disclaimer
+
+**Reservations Page:**
+Reservation Form: User-friendly form to select date, time, party size, and contact details.
+
+**Navigation Links:**
+Quick access to essential pages.
+
+**Social Media Links:**
+Icons or links to La Citadelle's social media profiles.
+Copyright Information:
+
+**Responsive Design:**
+**User friendly** Ensuring the layout adjusts seamlessly for various screen sizes (desktop, tablet, mobile).
+**Consistent Design Elements:** Maintaining a cohesive visual style, typography, and color scheme across all pages.
+**Clear Hierarchy and Visual Hints:** Using visual cues like buttons, icons, and colors to guide users through the site.
+
+### Surface Plane
+
+Visual Design:
+Color Palette: Neutral colors of white, black and grey were selected to complement the restaurant's ambiance.
+Typography: Ensured readability across different devices and screen sizes by selecting readable and elegant fonts for headings, body text, and other elements that match the restaurant's style. 
+Imagery and Graphics: Used high-quality images that showcase the restaurant's interior, cuisine, and ambiance. Incorporate visuals that evoke a sense of luxury and culinary excellence including images of the chefs.
+Iconography: Employ icons or graphical elements to enhance visual appeal and aid in navigation.
+
+Layout and Structure:
+Hierarchical Structure Implemented a consistent layout that is user friendly whilst providing clear and concise information.
+Whitespace: Used ample whitespace for a clean and uncluttered appearance, allowing content to breathe and enhancing readability.
+Responsive Design: Ensured the website is mobile-friendly, adapting seamlessly to different screen sizes without compromising aesthetics or functionality.
+
+User Interface (UI) Elements:
+Navigation Menu: Desiged an intuitive and user-friendly navigation menu that is easy to locate and use. Used hamburger menu for mobile devices.
+Buttons and Call-to-Actions: Used visually appealing buttons that stand out and encourage users to take action, such as making reservations or exploring the menu.
+Forms and Input Fields: Designed clear and user-friendly forms for reservations or inquiries, with easily identifiable input fields and appropriate feedback upon submission.
+
+Interactive Elements:
+Hover Effects: Implemented subtle hover effects on buttons, links, or images to provide visual feedback and enhance user interaction.
+Animations and Transitions: Incorporate smooth and purposeful animations or transitions to improve user experience and engagement without being overwhelming.
+
 
 ## Testing
 
@@ -247,13 +354,28 @@ Below is a table showing various actions performed on the website including the 
 ### Tools
 
 [Googlefonts](https://fonts.google.com/) 
+For Font styles of header.
+
 [DevTools](https://developer.chrome.com/docs/devtools/)
+For improvement and use of device eumulators.
+
 [Font Awesome](https://fontawesome.com/)
+For Font styles including icons in footer.
+
 [ChatGPT 3.5](https://chat.openai.com/)
-[HTML Validation Service](https://validator.w3.org/) 
+For swiftly reviewing code to find discrepancies including spell checking.
+
+[HTML Validation Service](https://validator.w3.org/)
+For the validation of the index.html, bookings.html, and the menu.html.
+
 [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+For the validation of the style.css
+
 [Pixabay](https://pixabay.com/)
+For the use of images
+
 [Shutterstock](https://www.shutterstock.com/)
+For the use of images
 
 ### Languages
 
@@ -271,7 +393,7 @@ The link can be found here - [La Citadelle](https:addyourwebsite here)
 ## Credits
 
 **Content**
-* The code to make the social media links was extracted from the Code Institutes Love Running Project - credits provided here and within the page as a comment under the relevant sections.
+* The code to make the social media links was extracted from the Code Institutes Love Running Project (Special thanks to Jo Heyndels) - credits provided here and within the page as a comment under the relevant sections.
 
 **Media**
 * All backgrounds images were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (4 in total).
