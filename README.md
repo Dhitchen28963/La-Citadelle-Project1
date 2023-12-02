@@ -86,17 +86,17 @@ If the users input is successful then they will receive a confirmation of receip
 
 If the user makes an incorrect input the a pop up message will be illustrated and will prompt the user regarding the error (refer to the image below). It's important to note the following inputs are required in order to successfully make a submission:
 
-*Name,
-*Mobile,
-*Email,
-*Guests,
-*Date,
-*Time,
+**Name**
+**Mobile**
+**Email**
+**Guests**
+**Date**
+**Time**
 
 ![Screenshot to illustrate a unsuccessful or incorrect reservations form submission](assets/images/readme-images/incorrect-form-submission.png)
         
 
-### Menu.html page (Menu page)
+## Menu.html page (Menu page)
 The Menu page has a quick navigation anchor link for all four sections of the menu including lunch, dinner, dessert and wine menus.
 ![Lunch, dinner, desserts and wine menu](assets/images/readme-images/menu-navigation-for-menu.png)
 
@@ -123,7 +123,7 @@ The wine menu showcases all the wines available to compliment the customers meal
 ![Wine menu - Italian wines](assets/images/readme-images/wine-menu-italian-wine.png)
 ![Wine menu - Spanish wines](assets/images/readme-images/wine-menu-spanish-wine.png)  
 
-### Testing
+## Testing
 
 Below is a table showing various actions performed on the website including the expected/desired outcome with the result on the final column.
 
@@ -175,19 +175,19 @@ Below is a table showing various actions performed on the website including the 
 **Accessibility**
 * I confirmed that the colors and fonts chosen are easy to read and accessible by performing analysis using Lighthouse in Devtools. I conduct a scan on each page and the results of both the mobile and desktop scans are below:
 
-##### index.html desktop results
+**index.html desktop results**
 ![Screenshot from lighthouse report using developer tools for desktop version of index.html](assets/images/readme-images/lighthouse-index.html-desktop.png)
-##### index.html mobile results
+**index.html mobile results**
 ![Screenshot from lighthouse report using developer tools for mobile version of index.html](assets/images/readme-images/lighthouse-index.html-mobile.png)
 
-##### menu.html desktop results
+**menu.html desktop results**
 ![Screenshot from lighthouse report using developer tools for mobile version of menu.html](assets/images/readme-images/lighthouse-menu.html-mobile.png)
-##### menu.html mobile results
+**menu.html mobile results**
 ![Screenshot from lighthouse report using developer tools for desktop version of menu.html](assets/images/readme-images/lighthouse-menu.html-desktop.png)
 
-##### bookings.html desktop results
+**bookings.html desktop results**
 ![Screenshot from lighthouse report using developer tools for mobile version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-mobile.png)
-##### bookings.html mobile results
+**bookings.html mobile results**
 ![Screenshot from lighthouse report using developer tools for desktop version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-desktop.png)
 
 ## Browser Testing
