@@ -1,5 +1,21 @@
 # La Citadelle
 ---
+
+## Table of Contents
+
+<ol>
+<li>Introduction</li>
+<li>About La Citadelle</li>
+<li>Getting Started</li>
+<li>Features</li>
+<li>Menu</li>
+<li>Reservations</li>
+<li>Contact Information</li>
+<li>Feedback and Support</li>
+<li>Legal Information</li>
+</ol>
+
+## Introduction
 The website for La Citadelle was created to provide an online presence for a fine dining restaurant.
 Users will be able to view La Citadelles opening times, book a table or arrange a private dining/event specific to thier needs. Its intended purpose was to build on a brand and attract and engage customers. The website is compatible on all devices and is easy to navigate with a minimalist approach. In addition they can view the restaurants social media pages and the menus before they visit the restaurant.
 
@@ -17,7 +33,7 @@ As you can see from the image below the website is compatible on all device scre
 #### Navigation menu on devices with a screen width above 774px width
 ![Header screenshot showing main header and navigation menu when on desktop](assets/images/readme-images/header-desktop.png)
 
- * Featured underneath the main header, the navigation menu includes the following links:
+Featured underneath the main header, the navigation menu includes the following links:
 
     * **Home**, Which will revert back to the main page (index.html).
     * **About Us**, Which will allow the user to jump to the about us section of the homepage.
@@ -29,87 +45,87 @@ As you can see from the image below the website is compatible on all device scre
 * The navigation menu lists are easy to understand and allow the user to understand the different sections of the website which allows for a greater user experience.
 
 **The Header**
-* Featured at the top of the page, the header contains the main header on the far left of the screen which allows the user to reverts back to the homepage if clicked and the menu navigation (or menu icon) on the far right.
+Featured at the top of the page, the header contains the main header on the far left of the screen which allows the user to reverts back to the homepage if clicked and the menu navigation (or menu icon) on the far right.
 
 **Image Scroller**
-* Underneath the header the user can scroll through various images which expand depending on the screen size, this is compatible with touch screens, keyboard and mouse (using the scroller found below the image container).
+Underneath the header the user can scroll through various images which expand depending on the screen size, this is compatible with touch screens, keyboard and mouse (using the scroller found below the image container).
 ![Image scroller which allows user to scroll through various images of the chefs, dinner and interior of the restaurant](assets/images/readme-images/image-scroll-container.png)
 
 **The About Us Section**
-* The About us section provides brief but concise details regarding the fine dining restaurant.
+The About us section provides brief but concise details regarding the fine dining restaurant.
 ![About Us section - which outlines what the restaurant offers](assets/images/readme-images/about-us.png)
 
 **Contact Us**
-* The Contact us section provides an address, email and business telephone number in addition to a anchor/hyper link which directs the user to the reservations form should they wish to make a reservation.
+The Contact us section provides an address, email and business telephone number in addition to a anchor/hyper link which directs the user to the reservations form should they wish to make a reservation.
 ![The Contact Us section which provides contact details and a link to the reservations form](assets/images/readme-images/contact-us.png)
 ![Anchor link that takes user back to the lunch, dinner, dessert and wine menu navigation](assets/images/readme-images/menu-navigation-anchor.png)
 
 **Opening Times**
-* This provides opening and closing times should the user wish to book a table or visit the restaurant.
+This provides opening and closing times should the user wish to book a table or visit the restaurant.
 ![Opening times of the restaurant](assets/images/readme-images/opening-times.png)
 
 **Social Media Links**
-* The links at the bottom of the page direct the user to their chosen link
+The links at the bottom of the page direct the user to their chosen link
 ![Footer image which details address, contact information and links to social media pages](assets/images/readme-images/footer-with-social-media-links.png)
 
 **Footer Address, Telephone & Email of La Citadelle**
-* The footer contains information of the business address including telephone and email details.
+The footer contains information of the business address including telephone and email details.
 
 
 ### Bookings.html page (Book Now Page)
 **Events & Private Dining**
-* The events and private dining section detail various events that are on offer at the restaurant.
+The events and private dining section detail various events that are on offer at the restaurant.
 ![Events and private dining section which details various events that the restaurant can accommodate including customized menus and special occassions](assets/images/readme-images/reservations-section-events-and-private-dining.png)
 
 **Reservations Form**
-* The reservations form allow customers to enquire about hosting an event or booking a table for their occasion by inputting the following information: Name, Mobile, Email, Number of guests, Date, Time, Type of event, dietary requirements and special requests.
+The reservations form allow customers to enquire about hosting an event or booking a table for their occasion by inputting the following information: Name, Mobile, Email, Number of guests, Date, Time, Type of event, dietary requirements and special requests.
 ![The reservation form allows user to book a table or an event](assets/images/readme-images/book-now-reservations-form-desktop-view.png)
 
-*If the users input is successful then they will receive a confirmation of receipt which will also include the details they submitted as shown below:
+If the users input is successful then they will receive a confirmation of receipt which will also include the details they submitted as shown below:
 ![Screenshot to illustrate a successful reservations form submission](assets/images/readme-images/form-submission.png)
 
-*If the user makes an incorrect input the a pop up message will be illustrated and will prompt the user regarding the error (refer to the image below). It's important to note the following inputs are required in order to successfully make a submission:
+If the user makes an incorrect input the a pop up message will be illustrated and will prompt the user regarding the error (refer to the image below). It's important to note the following inputs are required in order to successfully make a submission:
 
-            *Name,
-            *Mobile,
-            *Email,
-            *Guests,
-            *Date,
-            *Time,
+*Name,
+*Mobile,
+*Email,
+*Guests,
+*Date,
+*Time,
 
 ![Screenshot to illustrate a unsuccessful or incorrect reservations form submission](assets/images/readme-images/incorrect-form-submission.png)
         
 
 ### Menu.html page (Menu page)
-* The Menu page has a quick navigation anchor link for all four sections of the menu including lunch, dinner, dessert and wine menus.
+The Menu page has a quick navigation anchor link for all four sections of the menu including lunch, dinner, dessert and wine menus.
 ![Lunch, dinner, desserts and wine menu](assets/images/readme-images/menu-navigation-for-menu.png)
-* In addition to the above there is also an anchor element found at the bottom of the lunch, dinner, dessert and wine menu that will allow the user to quickly scroll back up to the menu navigation as the menu is enlongated when on smaller screens.
+
+In addition to the above there is also an anchor element found at the bottom of the lunch, dinner, dessert and wine menu that will allow the user to quickly scroll back up to the menu navigation as the menu is enlongated when on smaller screens.
 ![Anchor link found at the bottom of each menu to revert back to the menu navigation](assets/images/readme-images/menu-navigation-anchor.png)
 
 **Lunch Menu**
-* The lunch menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. Its important to note the allergy and intolerance advice is shown at the bottom of the lunch, dinner and dessert menu. The description of the items are also available.
+The lunch menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. Its important to note the allergy and intolerance advice is shown at the bottom of the lunch, dinner and dessert menu. The description of the items are also available.
 ![Lunch, starters and mains menu](assets/images/readme-images/lunch-menu-starters-and-mains.png)
 
 **Dinner Menu**
-* The dinner menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
+The dinner menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
 ![Dinner, starters menu](assets/images/readme-images/dinner-menu-starters-and-mains.png)
 
 **Dessert Menu**
-* The dessert menu contains starters, mains in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
+The dessert menu contains starters, mains in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
 ![Dessert menu (1 of 2)](assets/images/readme-images/dessert-menu-part-1.png)
 ![Dessert menu (2 of 2)](assets/images/readme-images/dessert-menu-part-2.png)
 
 **Wine Menu**
-* The wine menu showcases all the wines available to compliment the customers meals, ranging from white, red, Italian and Spanish including the origin of some but more importantly the price. The description of the items are also available.
+The wine menu showcases all the wines available to compliment the customers meals, ranging from white, red, Italian and Spanish including the origin of some but more importantly the price. The description of the items are also available.
 ![Wine menu - White wines](assets/images/readme-images/wine-menu-white-wine.png)
 ![Wine menu - Red wines](assets/images/readme-images/wine-menu-red-wine.png)
 ![Wine menu - Italian wines](assets/images/readme-images/wine-menu-italian-wine.png)
 ![Wine menu - Spanish wines](assets/images/readme-images/wine-menu-spanish-wine.png)  
 
-
 ### Testing
 
-*Below is a table showing various actions performed on the website including the expected/desired outcome with the result on the final column.
+Below is a table showing various actions performed on the website including the expected/desired outcome with the result on the final column.
 
 | Action                                                                                    |Expected                                                                                           | Result                                                 |
 | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------- |
@@ -158,19 +174,20 @@ As you can see from the image below the website is compatible on all device scre
 
 **Accessibility**
 * I confirmed that the colors and fonts chosen are easy to read and accessible by performing analysis using Lighthouse in Devtools. I conduct a scan on each page and the results of both the mobile and desktop scans are below:
-*index.html desktop results
+
+##### index.html desktop results
 ![Screenshot from lighthouse report using developer tools for desktop version of index.html](assets/images/readme-images/lighthouse-index.html-desktop.png)
-*index.html mobile results
+##### index.html mobile results
 ![Screenshot from lighthouse report using developer tools for mobile version of index.html](assets/images/readme-images/lighthouse-index.html-mobile.png)
 
-*menu.html desktop results
+##### menu.html desktop results
 ![Screenshot from lighthouse report using developer tools for mobile version of menu.html](assets/images/readme-images/lighthouse-menu.html-mobile.png)
-*menu.html mobile results
+##### menu.html mobile results
 ![Screenshot from lighthouse report using developer tools for desktop version of menu.html](assets/images/readme-images/lighthouse-menu.html-desktop.png)
 
-*bookings.html desktop results
+##### bookings.html desktop results
 ![Screenshot from lighthouse report using developer tools for mobile version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-mobile.png)
-*bookings.html mobile results
+##### bookings.html mobile results
 ![Screenshot from lighthouse report using developer tools for desktop version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-desktop.png)
 
 ## Browser Testing
@@ -181,8 +198,8 @@ As you can see from the image below the website is compatible on all device scre
 *Safari
 *Brave
 *Microsoft Edge
-Mozilla Firefox
-Internet Explorer
+*Mozilla Firefox
+*Internet Explorer
 
 ### Devices
 *Android
@@ -195,7 +212,7 @@ Internet Explorer
 * No bugs found.
 
 ## Unfixed Bugs
-    * No unfixed bugs.
+* No unfixed bugs.
 
 ## Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -211,9 +228,9 @@ The link can be found here - [title](https://pixabay.com/)
 * The code to make the social media links was extracted from the Code Institutes Love Running Project - credits provided here and within the page as a comment under the relevant sections.
 
 **Media**
-* All backgrounds images were downloaded from [title](https://www.shutterstock.com/) and our licensed for use (4 in total).
-* All chef images in the scroll container were downloaded from [title](https://www.shutterstock.com/) and our licensed for use (6 in total).
-* The remaining 9 images in the scroll container were downloaded from [title](https://pixabay.com/)and our licensed for use.
+* All backgrounds images were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (4 in total).
+* All chef images in the scroll container were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (6 in total).
+* The remaining 9 images in the scroll container were downloaded from [Pixabay](https://pixabay.com/)and our licensed for use.
 
 ## 5trategy Plane
     Aiming to achieve and for whom?
@@ -230,84 +247,3 @@ How is the information structured and how is it loigcally grouped
 ## Surface Plane
     What will the finished product look like
 
-
-<!-- Images to add -->
-<!-- index.html hompage -->
-
-
-
-
-
-
-<h2>Table of Contents</h2>
-
-<ol>
-<li>Introduction</li>
-<li>About La Citadelle</li>
-<li>Getting Started</li>
-<li>Features</li>
-<li>Menu</li>
-<li>Reservations</li>
-<li>Contact Information</li>
-<li>Feedback and Support</li>
-<li>Legal Information</li>
-</ol>
-
-<h3>1. Introduction</h3>
-
-Welcome to La Citadelle Fine Dining Restaurant in London! This readme file provides essential information about our establishment, making reservations, and accessing our menu.
-
-<h3>2. About La Citadelle</h3>
-
-La Citadelle is a prestigious fine dining restaurant located in the heart of London. We are committed to delivering an exquisite culinary experience in an opulent and inviting setting. Our menu showcases a wide array of the finest dishes, skillfully prepared by our world-class chefs using the freshest, locally-sourced ingredients.
-
-<h3>3. Getting Started</h3>
-
-To start your journey with La Citadelle, you have several options:
-Visit us: We are conveniently located at [Carlos Pl, London W1K 2AL].
-Visit our website: LaCitadelle.co.uk
-Make reservations: Contact us by phone at: [+44 20 4513 5208]
-
-<h3>5. Features</h3>
-
-La Citadelle offers an array of features and services, including:
-
-<h3>Elegant dining rooms with a refined atmosphere</h3>
-
-An extensive wine list curated by expert sommeliers
-A private dining area for special occasions and events
-Attentive and knowledgeable staff to cater to your needs
-An array of delectable desserts and aperitifs
-Seasonal and special tasting menus
-
-<h3>5. Menu</h3>
-
-Our ever-evolving menu is available on our website. It is regularly updated to reflect seasonal and chef's special creations. Whether you have a penchant for seafood or are a vegetarian, our menu caters to every palate, promising a memorable dining experience.
-
-<h3>6. Reservations</h3>
-
-We highly recommend making reservations in advance to secure your table at La Citadelle. You can reserve a table through the following channels:
-<ul>
-<li>Online reservation system on our website</li>
-<li>By phone at [+44 20 4513 5208]</li>
-<li>In person at our restaurant</li>
-</ul>
-  
-<h3>7. Contact Information</h3>
-
-For any inquiries or further information, please do not hesitate to get in touch with us:
-<ul>
-<li>Address: Carlos Pl, London W1K 2AL</li>
-<li>Phone: +44 20 4513 5208</li>
-<li>Email: Reservations@LaCitadelle.co.uk</li>
-</ul>
-  
-<h3>8. Feedback and Support</h3>
-
-We genuinely value your feedback and are dedicated to providing you with an exceptional dining experience. If you have any comments, suggestions, or require support, please feel free to reach out to us via email at Reservations@LaCitadelle.co.uk. Your input is invaluable, and we are committed to continuously enhancing our services.
-
-<h3>9. Legal Information</h3>
-
-Terms of Service: Please refer to our terms of service on our website.
-Privacy Policy: For insights into our privacy practices, consult our privacy policy on our website.
-Thank you for selecting La Citadelle Fine Dining Restaurant in London. We eagerly await the opportunity to serve you and create a memorable dining experience!
