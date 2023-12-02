@@ -1,8 +1,8 @@
 # La Citadelle
 ---
-## Link to website
+## Live link to website
 
-[La Citadelle](https:addyourwebsite here)
+[La Citadelle](https://dhitchen28963.github.io/La-Citadelle-Project1/)
 
 ## Table of Contents
 <ol>
@@ -289,7 +289,7 @@ Below is a table showing various actions performed on the website including the 
 ## Validator Testing
 
 ### HTML
-* No erros were report when passing through the official W3C HTML validator.
+No erros were report when passing through the official W3C HTML validator.
 
 #### index.html
 ![Screenshot showing html validator for the index.html page - no errors found](assets/images/readme-images/html-validator-index.html.png)
@@ -388,7 +388,7 @@ For the use of images
     *From the source section drop-down menu, select the Master Branch.
     *Once the master branch has been selected, the page provided the link to the completed website.
 
-The link can be found here - [La Citadelle](https:addyourwebsite here)
+The link can be found here - [La Citadelle](https://dhitchen28963.github.io/La-Citadelle-Project1/)
 
 ## Credits
 
