@@ -426,7 +426,7 @@ footer p {
     display: flex;
     justify-content: center; /* Center horizontally */
     margin: 10px; /* Adjust the space between the box and page edges */
-    background-image: url("/assets/images/background-form-image.webp");
+    background-image: url("../images/background-form-image.webp");
     background-size: cover;
     background-position: center;
   }
@@ -574,7 +574,7 @@ input[type="time"] {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    background-image: url("/assets/images/background-lunch-menu-image.webp");
+    background-image: url("../images/background-lunch-menu-image.webp");
   }
 
   /*Lunch menu responsive background-image */
@@ -589,7 +589,7 @@ input[type="time"] {
     align-items: center;
     position: relative;
   }
-
+  
   .lunch h2,
   .lunch h3,
   .lunch h4 {
@@ -603,7 +603,7 @@ input[type="time"] {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    background-image: url("/assets/images/background-dinner-menu-image.webp");
+    background-image: url("../images/background-dinner-menu-image.webp");
   }
 
   /*Dinner menu responsive background-image */
@@ -632,7 +632,7 @@ input[type="time"] {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    background-image: url("/assets/images/background-dessert-menu-image.webp");
+    background-image: url("../images/background-dessert-menu-image.webp");
   }
 
   /*Dessert menu responsive background-image */
@@ -661,7 +661,7 @@ input[type="time"] {
     margin: 20px; /* Adjust the space between the box and page edges */
     background-size: cover;
     background-position: 35% 55%;
-    background-image: url("/assets/images/background-wine-menu-image.webp");
+    background-image: url("../images/background-wine-menu-image.webp");
   }
 
 /*Wine menu responsive background-image */
@@ -809,15 +809,6 @@ input[type="time"] {
   /* Centers text inside the event type selection on the reservations form */
   .centered-text {
     text-align: center;
-  }
-
-  #reservations-form {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    margin: 10px; /* Adjust the space between the box and page edges */
-    background-image: url("/assets/images/background-form-image.webp");
-    background-size: cover;
-    background-position: center;
   }
 
   /* Footer including social media links */
