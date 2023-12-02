@@ -1,61 +1,93 @@
 # La Citadelle
 ---
 The website for La Citadelle was created to provide an online presence for a fine dining restaurant.
-Users will be able to view La Citadelles opening times, book a table or arrange a private dining/event specific to thier needs. Its tended purpose was to build on a brand and attract and engage customers. The website is compatible on all devices and is easy to navigate with a minimalist approach. In addition they can view the restaurants social media pages and the menus before they visit the restaurant.
+Users will be able to view La Citadelles opening times, book a table or arrange a private dining/event specific to thier needs. Its intended purpose was to build on a brand and attract and engage customers. The website is compatible on all devices and is easy to navigate with a minimalist approach. In addition they can view the restaurants social media pages and the menus before they visit the restaurant.
 
+As you can see from the image below the website is compatible on all device screen sizes from the Galaxy Fold (280px screen width) and above.
 ![Amiresponsive image which shows website on different screen sizes](assets/images/readme-images/amiresponsive-image.png)
 
 ## Features
 
-### Index.html page
+### Index.html page features
 
 * **Navigation**
+#### Navigation menu on devices with a screen width below 774px width
+![Header screenshot showing main header and navigation menu when on mobile](assets/images/readme-images/header-mobile.png)
+
+#### Navigation menu on devices with a screen width above 774px width
+![Header screenshot showing main header and navigation menu when on desktop](assets/images/readme-images/header-desktop.png)
+
  * Featured underneath the main header, the navigation menu includes the following links:
 
     * **Home**, Which will revert back to the main page (index.html).
-    * **About**, Which will allow the user to jump to the about us section of the homepage.
-    * **Bookings**, wWich will enable the user to go to the bookings page (bookings.html). Here the user can review the events we can offer in additon to making a reservation.
+    * **About Us**, Which will allow the user to jump to the about us section of the homepage.
+    * **Book Now**, wWich will enable the user to go to the bookings page (bookings.html). Here the user can review the events we can offer in additon to making a reservation.
     * **Menu**, Should the user which to view the lunch, dinner, dessert or wine menu they can do so.
     * **Contact**, This will enable the user the view our contact informaton for making a reservation.
 
-* The navigation was small enough to not need a drop down menu and the text color makes it stand out from the background colour applied.
+* The navigation will respond to the users screen width as shown in the image above three horizontal lines will appear to decrease realestate occupation on the screen.
 * The navigation menu lists are easy to understand and allow the user to understand the different sections of the website which allows for a greater user experience.
 
-    ![Header screenshot showing main header and navigation menu in desktop view](assets/images/readme-images/header-desktop.png)
-
 * **The Header**
-* Featured at the top of the page, the header contains the main header at the center of the page which allows the user to reverts back to the homepage if clicked. 
+* Featured at the top of the page, the header contains the main header on the far left of the screen which allows the user to reverts back to the homepage if clicked and the menu navigation (or menu icon) on the far right.
 
-* **The About Us Section
-* The About us section provides details regarding the fine dining restaurant including various events they can accommodate.
+* **Image Scroller**
+* Underneath the header the user can scroll through various images which expand depending on the screen size, this is compatible with touch screens, keyboard and mouse (using the scroller found below the image container).
+![Image scroller which allows user to scroll through various images of the chefs, dinner and interior of the restaurant](assets/images/readme-images/image-scroll-container.png)
+
+* **The About Us Section**
+* The About us section provides brief but concise details regarding the fine dining restaurant.
+![About Us section - which outlines what the restaurant offers](assets/images/readme-images/about-us.png)
 
 * **Contact Us**
-* The Contact us section provides contact details including address, contact telephone and email address for reservations and highlights the reservations form found
-on the bookings page. It also makes reference to the opening times (I did not provide a separate link to this in the navigation bar as it was unnecessary and due to the testing with different screen sizes it shows when on the contact us page).
+* The Contact us section provides an address, email and business telephone number in addition to a anchor/hyper link which directs the user to the reservations form should they wish to make a reservation.
+![The Contact Us section which provides contact details and a link to the reservations form](assets/images/readme-images/contact-us.png)
+![Anchor link that takes user back to the lunch, dinner, dessert and wine menu navigation](assets/images/readme-images/menu-navigation-anchor.png)
 
 * **Opening Times**
-* This provides opening and closing times should the user wish to book a table
+* This provides opening and closing times should the user wish to book a table or visit the restaurant.
+![Opening times of the restaurant](assets/images/readme-images/opening-times.png)
+
+* **Social Media Links**
+* The links at the bottom of the page direct the user to their chosen link
+![Footer image which details address, contact information and links to social media pages](assets/images/readme-images/footer-with-social-media-links.png)
+
+* **Footer Address, Telephone & Email of La Citadelle**
+* The footer contains information of the business address including telephone and email details.
+
 
 ### Bookings.html page
 * **Events & Private Dining**
 * **Reservations Form**
 
-
-
 ### Menu.html page
+    * The Menu page has a quick navigation anchor link for all four sections of the menu including lunch, dinner, dessert and wine menus.
+![Lunch, dinner, desserts and wine menu](assets/images/readme-images/menu-navigation-for-menu.png)
+    * In addition to the above there is also an anchor element found at the bottom of the lunch, dinner, dessert and wine menu that will allow the user to quickly scroll back up to the menu navigation as the menu is enlongated when on smaller screens.
+![Anchor link found at the bottom of each menu to revert back to the menu navigation](assets/images/readme-images/menu-navigation-anchor.png)
+
 * **Lunch Menu**
+    * The lunch menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. Its important to note the allergy and intolerance advice is shown at the bottom of the lunch, dinner and dessert menu. The description of the items are also available.
+![Lunch, starters and mains menu](assets/images/readme-images/lunch-menu-starters-and-mains.png)
+
 * **Dinner Menu**
+    * The dinner menu contains starters, mains, three course details in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
+![Dinner, starters menu](assets/images/readme-images/dinner-menu-starters-and-mains.png)
+
 * **Dessert Menu**
-* **Wine Selection**
+    * The dessert menu contains starters, mains in addition to allergy and intolerance advice. Furthermore infromation regarding VAT can be found. The description of the items are also available.
+![Dessert menu (1 of 2)](assets/images/readme-images/dessert-menu-part-1.png)
+![Dessert menu (2 of 2)](assets/images/readme-images/dessert-menu-part-2.png)
 
-Retake screen shots for main nav menu
-reservations form
-Footer
-Contact us section
-Replace current images with new screen shots
+* **Wine Menu**
+    * The wine menu showcases all the wines available to compliment the customers meals, ranging from white, red, Italian and Spanish including the origin of some but more importantly the price. The description of the items are also available.
+![Wine menu - White wines](assets/images/readme-images/wine-menu-white-wine.png)
+![Wine menu - Red wines](assets/images/readme-images/wine-menu-red-wine.png)
+![Wine menu - Italian wines](assets/images/readme-images/wine-menu-italian-wine.png)
+![Wine menu - Spanish wines](assets/images/readme-images/wine-menu-spanish-wine.png)  
 
-
-## Testing
+*Below is a table showing various actions performed on the website including the expected/desired outcome with the result on the final column.
+### Testing
 | Action                                                                                    |Expected                                                                                           | Result                                                 |
 | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------- |
 | Load index.html page                                                                      | The Homepage should load                                                                          | Homepage loaded                                        |
@@ -122,31 +154,14 @@ How is the information structured and how is it loigcally grouped
 
 <!-- Images to add -->
 <!-- index.html hompage -->
-![Image scroller which allows user to scroll through various images of the chefs, dinner and interior of the restaurant](assets/images/readme-images/image-scroll-container.png)
-![About Us section - which outlines what the restaurant offers](assets/images/readme-images/about-us.png)
-![The Contact Us section which provides a brief overview of what the restaurant offers in addition to the contact methods](assets/images/readme-images/contact-us.png)
-![Opening times of the restaurant](assets/images/readme-images/opening-times.png)
-![Footer image which details address, contact information and links to social media pages](assets/images/readme-images/footer-with-social-media-links.png)
+
 
 <!-- bookings.html page -->
 ![Events and private dining section which details various events that the restaurant can accommodate including customized menus and special occassions](assets/images/readme-images/reservations-section-events-and-private-dining.png)
 ![The reservation form allows user to book a table or an event](assets/images/readme-images/book-now-reservations-form-desktop-view.png)
 
 <!-- menu.html page -->
-![Lunch, dinner, desserts and wine menu](assets/images/readme-images/menu-navigation-for-menu.png)
-![Anchor link that takes user back to the lunch, dinner, dessert and wine menu navigation](assets/images/readme-images/menu-navigation-anchor.png)
-![Lunch, starters and mains menu](assets/images/readme-images/lunch-menu-starters-and-mains.png)
-![Anchor link that takes user back to the lunch, dinner, dessert and wine menu navigation](assets/images/readme-images/anchor-link-to-book-now-page.png)
 
-
-![Dinner, starters menu](assets/images/readme-images/dinner-menu-starters-and-mains.png)
-
-![Dessert menu (1 of 2)](assets/images/readme-images/dessert-menu-part-1.png)
-![Dessert menu (2 of 2)](assets/images/readme-images/dessert-menu-part-2.png)
-![Wine menu - White wines](assets/images/readme-images/wine-menu-white-wine.png)
-![Wine menu - Red wines](assets/images/readme-images/wine-menu-red-wine.png)
-![Wine menu - Italian wines](assets/images/readme-images/wine-menu-italian-wine.png)
-![Wine menu - Spanish wines](assets/images/readme-images/wine-menu-spanish-wine.png)  
 
 <!-- testing -->
 ![Screenshot to illustrate a successful reservations form submission](assets/images/readme-images/form-submission.png)
@@ -164,8 +179,7 @@ How is the information structured and how is it loigcally grouped
 ![Screenshot from lighthouse report using developer tools for mobile version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-mobile.png)
 ![Screenshot from lighthouse report using developer tools for desktop version of bookings.html](assets/images/readme-images/lighthouse-bookings.html-desktop.png)
 
-![Header screenshot showing main header and navigation menu when on mobile](assets/images/readme-images/header-mobile.png)
-![Header screenshot showing main header and navigation menu when on desktop](assets/images/readme-images/header-desktop.png)
+
 
 
 <h2>Table of Contents</h2>
