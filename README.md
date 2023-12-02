@@ -344,7 +344,15 @@ No erros were report when passing through the official W3C HTML validator.
 **Apple Imac**
 
 ## Bugs
-* No bugs found.
+* While deploying my site to GitHub pages the background images did not load. After reviewing the code it was established that the URL needed to be amended from:
+
+assets/images/background-dinner-menu-image.webp to ../images/background-dinner-menu-image.webp
+assets/images/background-dessert-menu-image.webp to ../images/background-dinner-menu-image.webp
+assets/images/background-form-image.webp to ../images/background-dinner-menu-image.webp
+assets/images/background-lunch-menu-image.webp to ../images/background-dinner-menu-image.webp
+assets/images/background-wine-menu-image.webp to ../images/background-dinner-menu-image.webp
+ to
+
 
 ## Unfixed Bugs
 * No unfixed bugs.
@@ -396,7 +404,7 @@ The link can be found here - [La Citadelle](https://dhitchen28963.github.io/La-C
 * The code to make the social media links was extracted from the Code Institutes Love Running Project (Special thanks to Jo Heyndels) - credits provided here and within the page as a comment under the relevant sections.
 
 **Media**
-* All backgrounds images were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (4 in total).
+* All backgrounds images were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (5 in total).
 * All chef images in the scroll container were downloaded from [Shutterstock](https://www.shutterstock.com/) and our licensed for use (6 in total).
 * The remaining 9 images in the scroll container were downloaded from [Pixabay](https://pixabay.com/)and our licensed for use.
 
