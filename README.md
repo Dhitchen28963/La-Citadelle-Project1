@@ -3,7 +3,7 @@
 The website for La Citadelle was created to provide an online presence for a fine dining restaurant.
 Users will be able to view La Citadelles opening times, book a table or arrange a private dining/event specific to thier needs. Its tended purpose was to build on a brand and attract and engage customers. The website is compatible on all devices and is easy to navigate with a minimalist approach. In addition they can view the restaurants social media pages and the menus before they visit the restaurant.
 
-![Amiresponsive image which shows website on different screen sizes](assets/images/readme-images/amiresponsive.png)
+![Amiresponsive image which shows website on different screen sizes](assets/images/readme-images/amiresponsive-image.png)
 
 ## Features
 
