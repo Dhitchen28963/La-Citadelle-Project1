@@ -422,6 +422,15 @@ footer p {
     box-sizing: border-box;
   }
 
+  #reservations-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 10px; /* Adjust the space between the box and page edges */
+    background-image: url("../images/background-form-image.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
 input[type="date"],
 input[type="time"] {
     text-align: center;
@@ -550,7 +559,6 @@ input[type="time"] {
   }
 
 /* Menu page */
-
 /* To ensure that the hr element appears over display flexbox on menu */
   hr {
     width: 100%;
@@ -765,15 +773,6 @@ input[type="time"] {
     position: relative;
   }
 
-  #reservations-form {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    margin: 10px; /* Adjust the space between the box and page edges */
-    background-image: url("../images/background-form-image.webp");
-    background-size: cover;
-    background-position: center;
-  }
-
   label {
     display: block;
     font-weight: bold;
@@ -807,6 +806,15 @@ input[type="time"] {
   /* Centers text inside the event type selection on the reservations form */
   .centered-text {
     text-align: center;
+  }
+
+  #reservations-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 10px; /* Adjust the space between the box and page edges */
+    background-image: url("../images/background-form-image.webp");
+    background-size: cover;
+    background-position: center;
   }
 
   /* Footer including social media links */
